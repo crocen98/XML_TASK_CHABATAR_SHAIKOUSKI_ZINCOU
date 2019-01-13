@@ -1,0 +1,38 @@
+<flowers xmlns="http://xml.zinkov.com/schema/flowers">
+  <!--Zero or more repetitions:-->
+  <flower id="id1" photophilous="false">
+    <name>string</name>
+    <soil>podzolic</soil>
+    <!--1 to 5 repetitions:-->
+    <origin>Europ</origin>
+    <origin>Asia</origin>
+    <generation>cuttings</generation>
+    <visualParametrs>
+      <stemColor>string</stemColor>
+      <colorLeaves>string</colorLeaves>
+      <averageSize>201</averageSize>
+    </visualParametrs>
+    <growingTips>
+      <temperature>1.03</temperature>
+      <watering>201</watering>
+    </growingTips>
+  </flower>
+
+  <flower id="id2" photophilous="false">
+    <name>string</name>
+    <soil>podzolic</soil>
+    <!--1 to 5 repetitions:-->
+    <origin>Europ</origin>
+    <origin>Asia</origin>
+    <generation>cuttings</generation>
+    <visualParametrs>
+      <stemColor>string</stemColor>
+      <colorLeaves>string</colorLeaves>
+      <averageSize>201</averageSize>
+    </visualParametrs>
+    <growingTips>
+      <temperature>1.03</temperature>
+      <watering>201</watering>
+    </growingTips>
+  </flower>
+</flowers>
