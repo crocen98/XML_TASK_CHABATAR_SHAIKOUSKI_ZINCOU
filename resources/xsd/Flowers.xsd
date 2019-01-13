@@ -14,8 +14,8 @@
             <element type="tns:Soil" name="soil"/>
             <element type="string" name="origin"  maxOccurs="5"/>
             <element type="tns:Generation" name="generation"/>
-            <element type="tns:visualParametrsType" name="visualParametrs"/>
-            <element type="tns:growingTipsType" name="growingTips"/>
+            <element type="tns:visualParametrsType" name="visualparametrs"/>
+            <element type="tns:growingTipsType" name="growingtips"/>
         </sequence>
         <attribute type="ID" name="id" use="required"/>
         <attribute type="boolean" name="photophilous"/>
@@ -23,7 +23,7 @@
 
     <complexType name="visualParametrsType">
         <sequence>
-            <element type="string" name="stemColor" />
+            <element type="string" name="stemcolor" />
             <element type="string" name="colorLeaves"/>
             <element type="positiveInteger" name="averageSize"/>
         </sequence>
@@ -47,7 +47,7 @@
         <restriction base="string">
             <enumeration value="groundwater"/>
             <enumeration value="podzolic"/>
-            <enumeration value="sod-podzol"/>
+            <enumeration value="sod_podzol"/>
         </restriction>
     </simpleType>
 

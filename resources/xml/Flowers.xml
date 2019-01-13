@@ -7,15 +7,15 @@
     <origin>Europ</origin>
     <origin>Asia</origin>
     <generation>cuttings</generation>
-    <visualParametrs>
-      <stemColor>string</stemColor>
+    <visualparametrs>
+      <stemcolor>string</stemcolor>
       <colorLeaves>string</colorLeaves>
       <averageSize>201</averageSize>
-    </visualParametrs>
-    <growingTips>
+    </visualparametrs>
+    <growingtips>
       <temperature>1.03</temperature>
       <watering>201</watering>
-    </growingTips>
+    </growingtips>
   </flower>
 
   <flower id="id2" photophilous="false">
@@ -25,14 +25,14 @@
     <origin>Europ</origin>
     <origin>Asia</origin>
     <generation>cuttings</generation>
-    <visualParametrs>
-      <stemColor>string</stemColor>
+    <visualparametrs>
+      <stemcolor>string</stemcolor>
       <colorLeaves>string</colorLeaves>
       <averageSize>201</averageSize>
-    </visualParametrs>
-    <growingTips>
+    </visualparametrs>
+    <growingtips>
       <temperature>1.03</temperature>
       <watering>201</watering>
-    </growingTips>
+    </growingtips>
   </flower>
 </flowers>

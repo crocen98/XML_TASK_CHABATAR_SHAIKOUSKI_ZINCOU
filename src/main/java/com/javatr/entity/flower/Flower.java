@@ -9,7 +9,7 @@ public class Flower implements Serializable {
 
     private String id;
     private String name;
-    private Set<String> origin = new HashSet<>();
+    private Set<String> origins = new HashSet<>();
     private Generation generation;
     private Soil soil;
 
@@ -29,8 +29,8 @@ public class Flower implements Serializable {
         this.name = name;
     }
 
-    public void setOrigin(Set<String> origin) {
-        this.origin = origin;
+    public void setOrigin(String origin) {
+        this.origins.add(origin);
     }
 
     public void setGeneration(Generation generation) {
@@ -70,13 +70,13 @@ public class Flower implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Flower flower = (Flower) o;
-        return id == flower.id &&
+        return Objects.equals(id,flower.id) &&
                 averageSize == flower.averageSize &&
                 Double.compare(flower.temperature, temperature) == 0 &&
                 photophilous == flower.photophilous &&
                 watering == flower.watering &&
                 Objects.equals(name, flower.name) &&
-                Objects.equals(origin, flower.origin) &&
+                Objects.equals(origins, flower.origins) &&
                 generation == flower.generation &&
                 soil == flower.soil &&
                 Objects.equals(stemColor, flower.stemColor) &&
@@ -85,7 +85,7 @@ public class Flower implements Serializable {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, origin, generation, soil, stemColor, colorLeaves, averageSize, temperature, photophilous, watering);
+        return Objects.hash(id, name, origins, generation, soil, stemColor, colorLeaves, averageSize, temperature, photophilous, watering);
     }
 
 
@@ -94,7 +94,7 @@ public class Flower implements Serializable {
         return "Flower{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", origin=" + origin +
+                ", origin=" + origins +
                 ", generation=" + generation +
                 ", soil=" + soil +
                 ", stemColor='" + stemColor + '\'' +
