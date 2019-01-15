@@ -70,11 +70,11 @@ public class Flower implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Flower flower = (Flower) o;
-        return Objects.equals(id,flower.id) &&
-                averageSize == flower.averageSize &&
+        return averageSize == flower.averageSize &&
                 Double.compare(flower.temperature, temperature) == 0 &&
                 photophilous == flower.photophilous &&
                 watering == flower.watering &&
+                Objects.equals(id, flower.id) &&
                 Objects.equals(name, flower.name) &&
                 Objects.equals(origins, flower.origins) &&
                 generation == flower.generation &&
@@ -87,7 +87,6 @@ public class Flower implements Serializable {
     public int hashCode() {
         return Objects.hash(id, name, origins, generation, soil, stemColor, colorLeaves, averageSize, temperature, photophilous, watering);
     }
-
 
     @Override
     public String toString() {

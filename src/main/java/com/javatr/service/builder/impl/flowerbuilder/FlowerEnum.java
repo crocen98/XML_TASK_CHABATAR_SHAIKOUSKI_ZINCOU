@@ -9,7 +9,7 @@ public enum FlowerEnum {
     ORIGIN("origin"),
     GENERATION("generation"),
     SOIL("soil"),
-    STEMCOLOR("stemColor"),
+    STEMCOLOR("stemcolor"),
     COLORLEAVES("colorLeaves"),
     AVERAGESIZE("averageSize"),
     TEMPERATURE("temperature"),
@@ -18,7 +18,7 @@ public enum FlowerEnum {
     WATERING("watering");
 
 
-    String tagName;
+    private final String tagName;
 
     FlowerEnum(String tagName){
         this.tagName = tagName;

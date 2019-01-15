@@ -9,7 +9,7 @@ import org.xml.sax.helpers.DefaultHandler;
 public class XMLErrorHandler extends DefaultHandler {
     private static final Logger LOGGER = LogManager.getLogger(XMLErrorHandler.class);
 
-    private static XMLErrorHandler ourInstance = new XMLErrorHandler();
+    private static final XMLErrorHandler ourInstance = new XMLErrorHandler();
 
     public static XMLErrorHandler getInstance() {
         return ourInstance;

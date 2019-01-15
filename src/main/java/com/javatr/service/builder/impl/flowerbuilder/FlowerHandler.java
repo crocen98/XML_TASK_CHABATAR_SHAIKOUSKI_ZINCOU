@@ -4,7 +4,6 @@ import com.javatr.entity.flower.Flower;
 import com.javatr.entity.flower.Generation;
 import com.javatr.entity.flower.Soil;
 import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import java.util.ArrayList;
@@ -12,7 +11,7 @@ import java.util.EnumSet;
 import java.util.List;
 
 public class FlowerHandler  extends DefaultHandler {
-    private List<Flower> flowers = new ArrayList<>();
+    private List<Flower> flowers;
     private Flower current;
     private FlowerEnum currentEnum;
     private EnumSet<FlowerEnum> flowerEnumEnumSet = EnumSet.range(FlowerEnum.NAME,FlowerEnum.WATERING);
@@ -25,18 +24,13 @@ public class FlowerHandler  extends DefaultHandler {
     @Override
     public void startDocument()  {
         flowers = new ArrayList<>();
-        current = null;
-        currentEnum = null;
     }
 
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) {
-        if(FlowerEnum.FLOWER.tagName.equals(localName)){
+        if(FlowerEnum.FLOWER.getTagName().equals(localName)){
             current = new Flower();
-            current.setId(attributes.getValue(0));
-            String photophilousInString = attributes.getValue(1);
-            boolean isPhotophilous = Boolean.parseBoolean(photophilousInString);
-            current.setPhotophilous(isPhotophilous);
+            initAttributes(attributes);
         } else {
             FlowerEnum temp = FlowerEnum.valueOf(localName.toUpperCase());
             if(flowerEnumEnumSet.contains(temp)){
@@ -45,9 +39,18 @@ public class FlowerHandler  extends DefaultHandler {
         }
     }
 
+    private void initAttributes(Attributes attributes){
+        current.setId(attributes.getValue(0));
+        if(attributes.getLength() ==2) {
+            String photophilousInString = attributes.getValue(1);
+            boolean isPhotophilous = Boolean.parseBoolean(photophilousInString);
+            current.setPhotophilous(isPhotophilous);
+        }
+    }
+
     @Override
     public void endElement(String uri, String localName, String qName) {
-        if(FlowerEnum.FLOWER.tagName.equals(localName)){
+        if(FlowerEnum.FLOWER.getTagName().equals(localName)){
             flowers.add(current);
         }
     }
@@ -66,10 +69,12 @@ public class FlowerHandler  extends DefaultHandler {
                     current.setOrigin(tagContent);
                     break;
                 case GENERATION:
-                    current.setGeneration(Generation.valueOf(tagContent.toUpperCase()));
+                    Generation generation = Generation.valueOf(tagContent.toUpperCase());
+                    current.setGeneration(generation);
                     break;
                 case SOIL:
-                    current.setSoil(Soil.valueOf(tagContent.toUpperCase()));
+                    Soil soil = Soil.valueOf(tagContent.toUpperCase());
+                    current.setSoil(soil);
                     break;
                 case STEMCOLOR:
                     current.setStemColor(tagContent);

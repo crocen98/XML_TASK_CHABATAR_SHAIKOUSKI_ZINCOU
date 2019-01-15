@@ -5,27 +5,22 @@ import com.javatr.service.builder.Builder;
 import com.javatr.service.builder.impl.flowerbuilder.DOMFlowerBuilder;
 import com.javatr.service.builder.impl.flowerbuilder.SAXFlowerBuilder;
 import com.javatr.service.builder.impl.flowerbuilder.StAxFlowerBuilder;
-import org.xml.sax.SAXException;
+
 
 public final class FlowerBuilderFactory {
-    private static FlowerBuilderFactory ourInstance;
 
-    static {
-        try {
-            ourInstance = new FlowerBuilderFactory();
-        } catch (SAXException e) {
-            e.printStackTrace();
-        }
-    }
+
+    private static final   FlowerBuilderFactory INSTANCE = new FlowerBuilderFactory();
+
 
     public static FlowerBuilderFactory getInstance() {
-        return ourInstance;
+        return INSTANCE;
     }
 
     private final Builder<Flower> domBuilder = new DOMFlowerBuilder();
     private final Builder<Flower> saxBuilder = new SAXFlowerBuilder();
-   private final Builder<Flower> stAXBuilder = new StAxFlowerBuilder();
-    private FlowerBuilderFactory() throws SAXException {
+    private final Builder<Flower> stAXBuilder = new StAxFlowerBuilder();
+    private FlowerBuilderFactory() {
     }
 
     public Builder<Flower> getDomBuilder(){

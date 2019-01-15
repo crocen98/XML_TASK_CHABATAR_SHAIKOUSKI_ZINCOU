@@ -1,6 +1,6 @@
 <flowers xmlns="http://xml.zinkov.com/schema/flowers">
   <!--Zero or more repetitions:-->
-  <flower id="id1" photophilous="false">
+  <flower id="id1" photophilous="true">
     <name>string</name>
     <soil>podzolic</soil>
     <!--1 to 5 repetitions:-->
