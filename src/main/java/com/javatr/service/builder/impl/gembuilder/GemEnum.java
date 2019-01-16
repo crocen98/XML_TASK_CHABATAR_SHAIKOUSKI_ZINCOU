@@ -1,6 +1,7 @@
 package com.javatr.service.builder.impl.gembuilder;
 
 public enum GemEnum {
+    ID("id"),
     GEMS("gems"),
     GEM("gem"),
     NAME("name"),

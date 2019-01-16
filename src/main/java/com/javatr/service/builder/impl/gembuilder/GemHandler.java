@@ -73,7 +73,7 @@ public class GemHandler extends DefaultHandler {
                     visualParameters.setColor(s);
                     break;
                 case TRANSPARENCY:
-                    visualParameters.setTransparency(Integer.parseInt(s));
+                    visualParameters.setTransparency(Double.parseDouble(s));
                     break;
                 case CUTTINGMETHOD:
                     visualParameters.setCuttingMethod(Integer.parseInt(s));

@@ -15,7 +15,6 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -31,9 +30,7 @@ public class StAXGemBuilder implements Builder<Gem> {
 
             XMLStreamReader reader = inputFactory.createXMLStreamReader(inputStream);
             addAllGemToList(reader,gems);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }  catch (IOException e) {
+        } catch (IOException e) {
             throw new IOServiceException(e);
         } catch (XMLStreamException e) {
             throw new XMLParserServiceException(e);
@@ -58,8 +55,8 @@ public class StAXGemBuilder implements Builder<Gem> {
 
     private Gem buildGem(XMLStreamReader reader) throws XMLStreamException {
         Gem gem = new Gem();
-        String attributeName = reader.getAttributeValue(null, GemEnum.NAME.getValue());
-        gem.setName(attributeName);
+        String id = reader.getAttributeValue(null, GemEnum.ID.getValue());
+        gem.setName(id);
 
         String name;
         while (reader.hasNext()) {
@@ -70,6 +67,9 @@ public class StAXGemBuilder implements Builder<Gem> {
                     name = reader.getLocalName();
                     switch (GemEnum.valueOf(name.toUpperCase())) {
                         case VALUE:
+                            gem.setValue(Double.parseDouble(getXMLText(reader)));
+                            break;
+                        case NAME:
                             gem.setName(getXMLText(reader));
                             break;
 
@@ -117,7 +117,7 @@ public class StAXGemBuilder implements Builder<Gem> {
                             break;
                         case TRANSPARENCY:
                             name = getXMLText(reader);
-                            int transparency = Integer.parseInt(name);
+                            double transparency = Double.parseDouble(name);
                             visualParameters.setTransparency(transparency);
                             break;
                         case CUTTINGMETHOD:
@@ -137,6 +137,7 @@ public class StAXGemBuilder implements Builder<Gem> {
                 default:
             }
         }
+        gem.setVisualParameters(visualParameters);
     }
 
     private boolean isStringEqualsGemEnum(String name, GemEnum gemEnum) {
@@ -154,8 +155,8 @@ public class StAXGemBuilder implements Builder<Gem> {
     }
     public static void main(String ... args) throws IOException, XMLParserServiceException {
         StAXGemBuilder builder = new StAXGemBuilder();
-        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Gem.xsd"),"resources/xml/flowers_one.xml"));
-        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Gem.xsd"),"resources/xml/flowers_five.xml"));
+        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/gem.xsd"),"resources/xml/gem_one.xml"));
+        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/gem.xsd"),"resources/xml/gem_five.xml"));
         System.out.println(2147483647);
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Double.MAX_VALUE);

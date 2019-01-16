@@ -65,7 +65,7 @@ public class VisualParameters {
 
     @XmlElement(required = true)
     private String color;
-    private int transparency;
+    private double transparency;
     @XmlElement(name = "cutting_method")
     private int cuttingMethod;
 
@@ -97,7 +97,7 @@ public class VisualParameters {
      * Gets the value of the transparency property.
      * 
      */
-    public int getTransparency() {
+    public double getTransparency() {
         return transparency;
     }
 
@@ -105,7 +105,7 @@ public class VisualParameters {
      * Sets the value of the transparency property.
      * 
      */
-    public void setTransparency(int value) {
+    public void setTransparency(double value) {
         this.transparency = value;
     }
 

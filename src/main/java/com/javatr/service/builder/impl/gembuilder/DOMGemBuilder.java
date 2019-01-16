@@ -7,6 +7,7 @@ import com.javatr.service.builder.Builder;
 import com.javatr.service.exception.IOServiceException;
 import com.javatr.service.exception.XMLParserServiceException;
 import com.javatr.service.validation.XMLValidator;
+import com.javatr.service.validation.impl.XMLValidatorByXSD;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Element;
@@ -43,19 +44,22 @@ public class DOMGemBuilder implements Builder<Gem> {
         }
 
 
-        return null;
+        return gems;
     }
 
     private Gem buildGem(Element gemElement) {
         Gem gem = new Gem();
 
-        gem.setName(gemElement.getAttribute("name"));
+        gem.setId(gemElement.getAttribute("id"));
 
         Preciousness preciousness = Preciousness.fromValue(getElementTextContent(gemElement,GemEnum.PRECIOUSNESS));
         gem.setPreciousness(preciousness);
 
         String value = getElementTextContent(gemElement, GemEnum.VALUE);
         gem.setValue(Double.parseDouble(value));
+
+        String name = getElementTextContent(gemElement, GemEnum.NAME);
+        gem.setName(name);
 
         NodeList origin = gemElement.getElementsByTagName(GemEnum.ORIGIN.getValue());
         initOrigins(origin,gem);
@@ -79,7 +83,7 @@ public class DOMGemBuilder implements Builder<Gem> {
         visualParameters.setColor(color);
 
         String transparency = getElementTextContent(visualParametrsElement,GemEnum.COLOR);
-        visualParameters.setTransparency(Integer.parseInt(transparency));
+        visualParameters.setTransparency(Double.parseDouble(transparency));
 
         String cuttingMethod = getElementTextContent(visualParametrsElement,GemEnum.COLOR);
         visualParameters.setCuttingMethod(Integer.parseInt(cuttingMethod));
@@ -91,6 +95,13 @@ public class DOMGemBuilder implements Builder<Gem> {
         Node node = nList.item(0);
         return node.getTextContent();
     }
-
+    public static void main(String ... args) throws IOException, XMLParserServiceException {
+        DOMGemBuilder builder = new DOMGemBuilder();
+        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/gem.xsd"),"resources/xml/gem_one.xml"));
+        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/gem.xsd"),"resources/xml/gem_five.xml"));
+        System.out.println(2147483647);
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Double.MAX_VALUE);
+    }
 
 }
