@@ -34,8 +34,8 @@ public List<Flower> build(XMLValidator validator, String pathToFile) throws XMLP
 
         public static void main(String ... args) throws XMLParserServiceException, IOServiceException {
                 SAXFlowerBuilder builder = new SAXFlowerBuilder();
-                System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/Flowers.xml"));
-                System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/Flowers.xml"));
+                System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/flowers_five.xml").size());
+                System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/flowers_one.xml").size());
 
         }
 

@@ -1,63 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema  elementFormDefault="qualified"  xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://xml.zinkov.com/schema/flowers" targetNamespace="http://xml.zinkov.com/schema/flowers">
-    <element name="flowers" type="tns:flowersType"/>
+<element name="flowers" type="tns:flowersType"/>
 
-    <complexType name="flowersType">
-        <sequence>
-            <element type="tns:flowerType" name="flower" maxOccurs="unbounded" minOccurs="0"/>
-        </sequence>
-    </complexType>
+<complexType name="flowersType">
+    <sequence>
+        <element type="tns:flowerType" name="flower" maxOccurs="unbounded" minOccurs="0"/>
+    </sequence>
+</complexType>
 
-    <complexType name="flowerType">
-        <sequence>
-            <element type="string" name="name"/>
-            <element type="tns:Soil" name="soil"/>
-            <element type="string" name="origin"  maxOccurs="5"/>
-            <element type="tns:Generation" name="generation"/>
-            <element type="tns:visualParametrsType" name="visualparametrs"/>
-            <element type="tns:growingTipsType" name="growingtips"/>
-        </sequence>
-        <attribute type="ID" name="id" use="required"/>
-        <attribute type="boolean" name="photophilous"/>
-    </complexType>
+<complexType name="flowerType">
+    <sequence>
+        <element type="string" name="name"/>
+        <element type="tns:Soil" name="soil"/>
+        <element type="string" name="origin"  maxOccurs="5"/>
+        <element type="tns:Generation" name="generation"/>
+        <element type="tns:visualParametrsType" name="visualparametrs"/>
+        <element type="tns:growingTipsType" name="growingtips"/>
+    </sequence>
+    <attribute type="ID" name="id" use="required"/>
+    <attribute type="boolean" name="photophilous"/>
+</complexType>
 
-    <complexType name="visualParametrsType">
-        <sequence>
-            <element type="string" name="stemcolor" />
-            <element type="string" name="colorLeaves"/>
-            <element type="positiveInteger" name="averageSize"/>
-        </sequence>
-    </complexType>
-
-
-    <complexType name="growingTipsType" >
-        <sequence>
-            <element type="tns:Temperature" name="temperature" />
-            <element type="positiveInteger" name="watering"/>
-        </sequence>
-    </complexType>
-
-    <simpleType name="Temperature">
-        <restriction base="double">
-            <pattern value="\d+\.?\d+"/>
-        </restriction>
-    </simpleType>
-
-    <simpleType name="Soil" >
-        <restriction base="string">
-            <enumeration value="groundwater"/>
-            <enumeration value="podzolic"/>
-            <enumeration value="sod_podzol"/>
-        </restriction>
-    </simpleType>
+<complexType name="visualParametrsType">
+    <sequence>
+        <element type="string" name="stemcolor" />
+        <element type="string" name="colorLeaves"/>
+        <element type="tns:AverageSize" name="averageSize"/>
+    </sequence>
+</complexType>
 
 
-    <simpleType name="Generation">
-        <restriction base="string">
-            <enumeration value="leaves"/>
-            <enumeration value="cuttings"/>
-            <enumeration value="seeds"/>
-        </restriction>
-    </simpleType>
+
+<simpleType name="AverageSize">
+    <restriction base="positiveInteger">
+        <maxInclusive value="2147483647"/>
+    </restriction>
+</simpleType>
+
+
+
+
+
+
+
+<complexType name="growingTipsType" >
+    <sequence>
+        <element type="tns:Temperature" name="temperature" />
+        <element type="tns:Watering" name="watering"/>
+    </sequence>
+</complexType>
+
+
+<simpleType name="Watering">
+    <restriction base="positiveInteger">
+        <maxInclusive value="2147483647"/>
+    </restriction>
+</simpleType>
+
+<simpleType name="Temperature">
+    <restriction base="double">
+        <minInclusive value="0"/>
+        <maxInclusive value="200"/>
+    </restriction>
+</simpleType>
+
+<simpleType name="Soil" >
+    <restriction base="string">
+        <enumeration value="groundwater"/>
+        <enumeration value="podzolic"/>
+        <enumeration value="sod_podzol"/>
+    </restriction>
+</simpleType>
+
+
+<simpleType name="Generation">
+    <restriction base="string">
+        <enumeration value="leaves"/>
+        <enumeration value="cuttings"/>
+        <enumeration value="seeds"/>
+    </restriction>
+</simpleType>
 
 </schema>

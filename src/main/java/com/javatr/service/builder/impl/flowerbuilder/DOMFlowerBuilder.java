@@ -125,10 +125,10 @@ public class DOMFlowerBuilder implements Builder<Flower> {
 
     public static void main(String ... args) throws IOException, XMLParserServiceException {
         DOMFlowerBuilder builder = new DOMFlowerBuilder();
-        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/Flowers.xml"));
+        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"), "resources/xml/flowers_one.xml"));
 
 
-        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/Flowers.xml"));
+        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"), "resources/xml/flowers_one.xml"));
 
     }
 

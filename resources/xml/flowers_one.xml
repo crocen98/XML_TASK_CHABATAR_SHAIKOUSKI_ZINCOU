@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowers xmlns="http://xml.zinkov.com/schema/flowers">
+  <flower  photophilous="true" id="id1">
+    <name>dandelion</name>
+    <soil>sod_podzol</soil>
+    <origin>Europ</origin>
+    <origin>Asia</origin>
+    <generation>cuttings</generation>
+    <visualparametrs>
+      <stemcolor>yellow</stemcolor>
+      <colorLeaves>green</colorLeaves>
+      <averageSize>200</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>15.7</temperature>
+      <watering>2016553454</watering>
+    </growingtips>
+  </flower>
+
+  <flower id="id2" photophilous="true" >
+  <name>Rose</name>
+  <soil>groundwater</soil>
+  <origin>Europ</origin>
+  <origin>Asia</origin>
+  <origin>South America</origin>
+  <origin>Australia</origin>
+  <origin>North America</origin>
+  <generation>cuttings</generation>
+  <visualparametrs>
+    <stemcolor>light green</stemcolor>
+    <colorLeaves>dark green</colorLeaves>
+    <averageSize>3000</averageSize>
+  </visualparametrs>
+  <growingtips>
+    <temperature>24.0</temperature>
+    <watering>2500</watering>
+  </growingtips>
+</flower>
+  <flower id="id3" photophilous="true">
+    <name>Вероника</name>
+    <soil>groundwater</soil>
+    <origin>Asia</origin>
+    <origin>Australia</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>40000000</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>45.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+
+  <flower id="id4" photophilous="false">
+    <name>Loosestrife</name>
+    <soil>podzolic</soil>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>2000</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>500</watering>
+    </growingtips>
+  </flower>
+  <flower id="id5" photophilous="false">
+    <name>Marigold</name>
+    <soil>groundwater</soil>
+    <origin>West Belarus</origin>
+    <origin>Poland</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>300</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+
+  <flower id="id6" photophilous="false">
+    <name>Astra annual</name>
+    <soil>podzolic</soil>
+    <origin>Europ</origin>
+    <origin>South America</origin>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>red</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>300</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+
+
+  <flower id="id7" photophilous="true">
+    <name>Arabis</name>
+    <soil>podzolic</soil>
+    <origin>Europ</origin>
+    <origin>South America</origin>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>black</colorLeaves>
+      <averageSize>300</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+
+
+  <flower id="id8" photophilous="false">
+    <name>lily</name>
+    <soil>podzolic</soil>
+    <origin>Europ</origin>
+    <origin>Asia</origin>
+    <origin>South America</origin>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>300</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+
+  <flower id="id9">
+    <name>chrysanthemum</name>
+    <soil>sod_podzol</soil>
+    <origin>Europ</origin>
+    <origin>Asia</origin>
+    <origin>South America</origin>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>300</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+
+
+  <flower id="id10">
+    <name>Rose</name>
+    <soil>sod_podzol</soil>
+    <origin>Europ</origin>
+    <origin>South America</origin>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>450</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+
+  <flower id="id11" photophilous="false">
+    <name>cactus</name>
+    <soil>podzolic</soil>
+    <origin>Europ</origin>
+    <origin>Asia</origin>
+    <origin>South America</origin>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>300</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+  <flower id="id12" photophilous="true">
+    <name>chamomile</name>
+    <soil>podzolic</soil>
+    <origin>Europ</origin>
+    <origin>Asia</origin>
+    <origin>South America</origin>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>300</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+  <flower id="id13" photophilous="false">
+    <name>cornflower</name>
+    <soil>podzolic</soil>
+    <origin>Europ</origin>
+    <origin>Asia</origin>
+    <origin>South America</origin>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>300</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+
+  <flower id="id14" photophilous="false">
+    <name>daisy</name>
+    <soil>podzolic</soil>
+    <origin>Europ</origin>
+    <origin>Asia</origin>
+    <origin>South America</origin>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>300</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+
+  <flower photophilous="false" id="id15">
+    <name>ardedea</name>
+    <soil>podzolic</soil>
+    <origin>Europ</origin>
+    <origin>Asia</origin>
+    <origin>South America</origin>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>300</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>24.0</temperature>
+      <watering>250</watering>
+    </growingtips>
+  </flower>
+
+  <flower id="id16" photophilous="false">
+    <name>tulip</name>
+    <soil>podzolic</soil>
+    <origin>Europ</origin>
+    <origin>Asia</origin>
+    <origin>South America</origin>
+    <origin>Australia</origin>
+    <origin>North America</origin>
+    <generation>seeds</generation>
+    <visualparametrs>
+      <stemcolor>light green</stemcolor>
+      <colorLeaves>dark green</colorLeaves>
+      <averageSize>300</averageSize>
+    </visualparametrs>
+    <growingtips>
+      <temperature>30.5</temperature>
+      <watering>500</watering>
+    </growingtips>
+  </flower>
+</flowers>
