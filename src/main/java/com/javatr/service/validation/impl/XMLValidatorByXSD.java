@@ -1,5 +1,7 @@
 package com.javatr.service.validation.impl;
 
+import com.javatr.service.exception.IOServiceException;
+import com.javatr.service.exception.XMLParserServiceException;
 import com.javatr.service.validation.XMLErrorHandler;
 import com.javatr.service.validation.XMLValidator;
 import org.xml.sax.SAXException;
@@ -17,25 +19,31 @@ import java.io.IOException;
 
 public class XMLValidatorByXSD implements XMLValidator {
 
-    private final String language = XMLConstants.W3C_XML_SCHEMA_NS_URI;
-    private final SchemaFactory factory = SchemaFactory.newInstance(language);
+    private static final String LANGUAGE = XMLConstants.W3C_XML_SCHEMA_NS_URI;
+    private final SchemaFactory factory = SchemaFactory.newInstance(LANGUAGE);
 
-    private String pathToXSDScheme;
+    private final String pathToXSDScheme;
     public XMLValidatorByXSD(String pathToXSDScheme) {
-      this.pathToXSDScheme = pathToXSDScheme;
+        this.pathToXSDScheme = pathToXSDScheme;
     }
 
     @Override
-    public void validate(String fileName) throws SAXException, IOException {
+    public void validate(String fileName) throws XMLParserServiceException, IOServiceException {
         Source source = new StreamSource(fileName);
 
         File schemaLocation = new File(pathToXSDScheme);
-        Schema schema = factory.newSchema(schemaLocation);
-        Validator validator = schema.newValidator();
+        try{
+            Schema schema = factory.newSchema(schemaLocation);
+            Validator validator = schema.newValidator();
 
-        DefaultHandler errorHandler = XMLErrorHandler.getInstance();
-        validator.setErrorHandler(errorHandler);
-        validator.validate(source);
+            DefaultHandler errorHandler = XMLErrorHandler.getInstance();
+            validator.setErrorHandler(errorHandler);
+            validator.validate(source);
+        } catch (IOException e){
+            throw new IOServiceException(e);
+        } catch (SAXException e){
+            throw  new XMLParserServiceException(e);
+        }
     }
 
 }

@@ -9,7 +9,7 @@ import org.xml.sax.helpers.DefaultHandler;
 public class XMLErrorHandler extends DefaultHandler {
     private static final Logger LOGGER = LogManager.getLogger(XMLErrorHandler.class);
 
-    private static XMLErrorHandler ourInstance = new XMLErrorHandler();
+    private static final XMLErrorHandler ourInstance = new XMLErrorHandler();
 
     public static XMLErrorHandler getInstance() {
         return ourInstance;
@@ -19,20 +19,17 @@ public class XMLErrorHandler extends DefaultHandler {
     }
 
     @Override
-    public void warning(SAXParseException e) throws SAXException {
+    public void warning(SAXParseException e)  {
         LOGGER.warn(e);
-        throw e;
     }
 
     @Override
     public void error(SAXParseException e) throws SAXException {
-        LOGGER.error(e);
         throw e;
     }
 
     @Override
     public void fatalError(SAXParseException e) throws SAXException {
-        LOGGER.fatal(e);
         throw e;
     }
 }
