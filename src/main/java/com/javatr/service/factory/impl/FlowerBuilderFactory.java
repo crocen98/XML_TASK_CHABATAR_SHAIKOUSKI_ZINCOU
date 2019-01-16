@@ -1,14 +1,15 @@
-package com.javatr.service.factory;
+package com.javatr.service.factory.impl;
 
 import com.javatr.entity.flower.Flower;
 import com.javatr.service.builder.Builder;
 import com.javatr.service.builder.impl.flowerbuilder.DOMFlowerBuilder;
 import com.javatr.service.builder.impl.flowerbuilder.SAXFlowerBuilder;
 import com.javatr.service.builder.impl.flowerbuilder.StAxFlowerBuilder;
+import com.javatr.service.factory.BuilderTypeFactory;
+import com.javatr.service.factory.ParserType;
 
 
-public final class FlowerBuilderFactory {
-
+public final class FlowerBuilderFactory implements BuilderTypeFactory<Flower> {
 
     private static final   FlowerBuilderFactory INSTANCE = new FlowerBuilderFactory();
 
@@ -23,18 +24,18 @@ public final class FlowerBuilderFactory {
     private FlowerBuilderFactory() {
     }
 
-    public Builder<Flower> getDomBuilder(){
-        return domBuilder;
+    @Override
+    public Builder<Flower> getBuilder(ParserType type) {
+        switch (type){
+            case DOM:
+                return domBuilder;
+            case SAX:
+                return saxBuilder;
+            case STAX:
+                return stAXBuilder;
+                default:
+                    throw new UnsupportedOperationException();
+        }
     }
-
-    public Builder<Flower> getStAXBuilder(){
-        return stAXBuilder;
-    }
-
-    public Builder<Flower> getSAXBuilder(){
-        return saxBuilder;
-    }
-
-
 
 }

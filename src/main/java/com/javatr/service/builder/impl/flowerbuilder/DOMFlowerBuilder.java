@@ -1,25 +1,25 @@
 package com.javatr.service.builder.impl.flowerbuilder;
 
-        import com.javatr.entity.flower.Flower;
-        import com.javatr.entity.flower.Generation;
-        import com.javatr.entity.flower.Soil;
-        import com.javatr.service.builder.Builder;
-        import com.javatr.service.exception.IOServiceException;
-        import com.javatr.service.exception.XMLParserServiceException;
-        import com.javatr.service.validation.XMLValidator;
-        import com.javatr.service.validation.impl.XMLValidatorByXSD;
-        import org.w3c.dom.Document;
-        import org.w3c.dom.Element;
-        import org.w3c.dom.Node;
-        import org.w3c.dom.NodeList;
-        import org.xml.sax.SAXException;
+import com.javatr.entity.flower.Flower;
+import com.javatr.entity.flower.Generation;
+import com.javatr.entity.flower.Soil;
+import com.javatr.service.builder.Builder;
+import com.javatr.service.exception.IOServiceException;
+import com.javatr.service.exception.XMLParserServiceException;
+import com.javatr.service.validation.XMLValidator;
+import com.javatr.service.validation.impl.XMLValidatorByXSD;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
-        import javax.xml.parsers.DocumentBuilder;
-        import javax.xml.parsers.DocumentBuilderFactory;
-        import javax.xml.parsers.ParserConfigurationException;
-        import java.io.IOException;
-        import java.util.ArrayList;
-        import java.util.List;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DOMFlowerBuilder implements Builder<Flower> {
     private final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -123,7 +123,7 @@ public class DOMFlowerBuilder implements Builder<Flower> {
         return node.getTextContent();
     }
 
-    public static void main(String ... args) throws SAXException, IOException, ParserConfigurationException, XMLParserServiceException {
+    public static void main(String ... args) throws IOException, XMLParserServiceException {
         DOMFlowerBuilder builder = new DOMFlowerBuilder();
         System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/Flowers.xml"));
 
