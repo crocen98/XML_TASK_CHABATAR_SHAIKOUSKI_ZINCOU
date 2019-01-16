@@ -23,7 +23,7 @@
     </complexType>
     <simpleType name="Name">
         <restriction base="string">
-            <pattern value="([A-Z])[a-zA-Z0-9]{1,20}|([А-Я])[а-яА-Я0-9]{1,20}"/>
+            <pattern value="([A-Z])[a-zA-Z0-9]{1,20}"/>
         </restriction>
     </simpleType>
     <simpleType name="Preciousness">
@@ -34,7 +34,7 @@
     </simpleType>
     <simpleType name="Origin">
         <restriction base="string">
-            <pattern value="([A-Z])[a-zA-Z]{1,20}|([А-Я])[а-яА-Я]{1,20}"/>
+            <pattern value="([A-Z])[a-zA-Z]{1,20}"/>
         </restriction>
     </simpleType>
     <complexType name="VisualParameters">
@@ -42,13 +42,13 @@
             <element name="color">
                 <simpleType>
                     <restriction base="string">
-                        <pattern value="([A-Za-z])[a-z]{2,15}|([А-Яа-я])[а-я]{2,15}" />
+                        <pattern value="([A-Za-z])[a-z]{2,15}" />
                     </restriction>
                 </simpleType>
             </element>
             <element name="transparency">
                 <simpleType>
-                    <restriction base="int">
+                    <restriction base="double">
                         <minExclusive value="0"/>
                         <maxExclusive value="100"/>
                     </restriction>
