@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tariffs>
+<tariffs xmlns="http://xml.chebotar.com/schema/tariffs">
   <tariff id="id0" preciousness="true">
     <name>string</name>
     <operatorname>mts</operatorname>
-    <payroll>123</payroll>
+    <billing>twelve_second</billing>
+    <payroll>200</payroll>
+  </tariff>
+  <tariff id="id1" preciousness="false">
+    <name>line</name>
+    <operatorname>mts</operatorname>
     <billing>minute</billing>
+    <payroll>200</payroll>
+  </tariff>
+  <tariff id="id2" preciousness="true">
+    <name>name</name>
+    <operatorname>velcom</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>200</payroll>
   </tariff>
 </tariffs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema  elementFormDefault="qualified"  xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://xml.chebotar.com/schema/tariffs" targetNamespace="http://xml.chebotar.com/schema/tariffs">
+  <element name="tariffs" type="tns:tariffsType"/>
+
+    <complexType name="tariffsType">
+      <sequence>
+        <element type="tns:tariffType" name="tariff" maxOccurs="unbounded" minOccurs="0"/>
+      </sequence>
+    </complexType>
+
+    <complexType name="tariffType">
+      <sequence>
+        <element type="string" name="name"/>
+        <element type="string" name="operatorname"/>
+        <element type="tns:Billing" name="billing"/>
+        <element type="tns:payroll" name="payroll"/>
+      </sequence>
+      <attribute type="ID" name="id" use="required"/>
+      <attribute type="boolean" name="preciousness"/>
+    </complexType>
+
+  <simpleType name="Billing">
+    <restriction base="string">
+      <enumeration value="minute"/>
+      <enumeration value="twelve_second"/>
+    </restriction>
+  </simpleType>
+  
+  <simpleType name="payroll">
+    <restriction base="positiveInteger">
+      <minInclusive value="1"/>
+      <maxInclusive value="200"/>
+    </restriction>
+  </simpleType>
+</schema>
