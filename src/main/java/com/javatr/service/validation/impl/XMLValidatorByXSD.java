@@ -33,12 +33,13 @@ public class XMLValidatorByXSD implements XMLValidator {
 
         File schemaLocation = new File(pathToXSDScheme);
         try{
-            Schema schema = factory.newSchema(schemaLocation);
-            Validator validator = schema.newValidator();
 
-            DefaultHandler errorHandler = XMLErrorHandler.getInstance();
-            validator.setErrorHandler(errorHandler);
-            validator.validate(source);
+        Schema schema = factory.newSchema(schemaLocation);
+        Validator validator = schema.newValidator();
+
+        DefaultHandler errorHandler = XMLErrorHandler.getInstance();
+        validator.setErrorHandler(errorHandler);
+        validator.validate(source);
         } catch (IOException e){
             throw new IOServiceException(e);
         } catch (SAXException e){
