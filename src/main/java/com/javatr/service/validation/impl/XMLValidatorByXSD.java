@@ -5,7 +5,6 @@ import com.javatr.service.exception.XMLParserServiceException;
 import com.javatr.service.validation.XMLErrorHandler;
 import com.javatr.service.validation.XMLValidator;
 import org.xml.sax.SAXException;
-import org.xml.sax.helpers.DefaultHandler;
 
 import javax.xml.XMLConstants;
 import javax.xml.transform.Source;
@@ -15,14 +14,15 @@ import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
 import java.io.File;
 import java.io.IOException;
+import org.xml.sax.helpers.DefaultHandler;
 
 
 public class XMLValidatorByXSD implements XMLValidator {
 
     private static final String LANGUAGE = XMLConstants.W3C_XML_SCHEMA_NS_URI;
     private final SchemaFactory factory = SchemaFactory.newInstance(LANGUAGE);
-
     private final String pathToXSDScheme;
+
     public XMLValidatorByXSD(String pathToXSDScheme) {
         this.pathToXSDScheme = pathToXSDScheme;
     }
