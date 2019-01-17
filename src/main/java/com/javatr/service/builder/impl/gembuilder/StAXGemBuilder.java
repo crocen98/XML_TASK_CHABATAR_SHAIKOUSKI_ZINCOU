@@ -7,7 +7,6 @@ import com.javatr.service.builder.Builder;
 import com.javatr.service.exception.IOServiceException;
 import com.javatr.service.exception.XMLParserServiceException;
 import com.javatr.service.validation.XMLValidator;
-import com.javatr.service.validation.impl.XMLValidatorByXSD;
 
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
@@ -64,7 +63,7 @@ public class StAXGemBuilder implements Builder<Gem> {
 
             switch (type) {
                 case XMLStreamConstants.START_ELEMENT:
-                    name = reader.getLocalName();
+                    name = reader.getLocalName().replace("_","");
                     switch (GemEnum.valueOf(name.toUpperCase())) {
                         case VALUE:
                             gem.setValue(Double.parseDouble(getXMLText(reader)));
@@ -109,7 +108,7 @@ public class StAXGemBuilder implements Builder<Gem> {
             type = reader.next();
             switch (type) {
                 case XMLStreamConstants.START_ELEMENT:
-                    name = reader.getLocalName();
+                    name = reader.getLocalName().replace("_","");
                     switch (GemEnum.valueOf(name.toUpperCase())) {
                         case COLOR:
                             name = getXMLText(reader);
@@ -129,15 +128,16 @@ public class StAXGemBuilder implements Builder<Gem> {
                     }
                     break;
                 case XMLStreamConstants.END_ELEMENT:
-                    name = reader.getLocalName();
+                    name = reader.getLocalName().replace("_","");
                     if (isStringEqualsGemEnum(name,GemEnum.VISUALPARAMETERS)) {
+                        gem.setVisualParameters(visualParameters);
                         return;
                     }
                     break;
                 default:
             }
         }
-        gem.setVisualParameters(visualParameters);
+
     }
 
     private boolean isStringEqualsGemEnum(String name, GemEnum gemEnum) {
@@ -152,13 +152,5 @@ public class StAXGemBuilder implements Builder<Gem> {
             text = reader.getText();
         }
         return text;
-    }
-    public static void main(String[] args) throws IOServiceException, XMLParserServiceException {
-        StAXGemBuilder saxGemBuilder = new StAXGemBuilder();
-        XMLValidator validator = new XMLValidatorByXSD("resources/xsd/gems.xsd");
-        List<Gem> gems = saxGemBuilder.build(validator,"resources/xml/gems_one.xml");
-        for(Gem gem : gems){
-            System.out.println(gem.getName());
-        }
     }
 }

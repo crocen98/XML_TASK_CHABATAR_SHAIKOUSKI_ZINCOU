@@ -5,7 +5,6 @@ import com.javatr.service.builder.Builder;
 import com.javatr.service.exception.IOServiceException;
 import com.javatr.service.exception.XMLParserServiceException;
 import com.javatr.service.validation.XMLValidator;
-import com.javatr.service.validation.impl.XMLValidatorByXSD;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 
@@ -34,12 +33,4 @@ public class SAXGemBuilder implements Builder<Gem> {
         return gemHandler.getGems();
     }
 
-    public static void main(String[] args) throws IOServiceException, XMLParserServiceException {
-        SAXGemBuilder saxGemBuilder = new SAXGemBuilder();
-        XMLValidator validator = new XMLValidatorByXSD("resources/xsd/gems.xsd");
-        List<Gem> gems = saxGemBuilder.build(validator,"resources/xml/gems_one.xml");
-        for(Gem gem : gems){
-            System.out.println(gem.getName());
-        }
-    }
 }
