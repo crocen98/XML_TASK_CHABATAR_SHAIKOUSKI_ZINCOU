@@ -32,12 +32,6 @@ public class SAXGemBuilder implements Builder<Gem> {
         }
         return gemHandler.getGems();
     }
-    public static void main(String ... args) throws IOException, XMLParserServiceException {
-        StAXGemBuilder builder = new StAXGemBuilder();
-        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/gem.xsd"),"resources/xml/gem_one.xml"));
-        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/gem.xsd"),"resources/xml/gem_five.xml"));
-        System.out.println(2147483647);
-        System.out.println(Integer.MAX_VALUE);
-        System.out.println(Double.MAX_VALUE);
-    }
+
+
 }

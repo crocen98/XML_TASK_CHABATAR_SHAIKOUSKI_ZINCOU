@@ -23,13 +23,13 @@ public class StAXGemBuilder implements Builder<Gem> {
     private XMLInputFactory inputFactory = XMLInputFactory.newInstance();
     @Override
     public List<Gem> build(XMLValidator validator, String pathToFile)  throws IOServiceException, XMLParserServiceException {
-        List<Gem> gems = new ArrayList<>();
+        List<Gem> gems = new ArrayList<Gem>();
         validator.validate(pathToFile);
 
-        try (FileInputStream inputStream = new FileInputStream(new File(pathToFile))){
+        try (FileInputStream inputStream = new FileInputStream(new File(pathToFile))) {
 
             XMLStreamReader reader = inputFactory.createXMLStreamReader(inputStream);
-            addAllGemToList(reader,gems);
+            addAllGemToList(reader, gems);
         } catch (IOException e) {
             throw new IOServiceException(e);
         } catch (XMLStreamException e) {
@@ -154,7 +154,7 @@ public class StAXGemBuilder implements Builder<Gem> {
         return text;
     }
     public static void main(String ... args) throws IOException, XMLParserServiceException {
-        StAXGemBuilder builder = new StAXGemBuilder();
+        Builder builder = new SAXGemBuilder();
         System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/gem.xsd"),"resources/xml/gem_one.xml"));
         System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/gem.xsd"),"resources/xml/gem_five.xml"));
         System.out.println(2147483647);

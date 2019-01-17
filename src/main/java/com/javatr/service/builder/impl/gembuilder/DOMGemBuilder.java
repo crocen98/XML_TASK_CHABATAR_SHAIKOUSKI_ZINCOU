@@ -8,6 +8,7 @@ import com.javatr.service.exception.IOServiceException;
 import com.javatr.service.exception.XMLParserServiceException;
 import com.javatr.service.validation.XMLValidator;
 import com.javatr.service.validation.impl.XMLValidatorByXSD;
+import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Element;
@@ -25,7 +26,7 @@ public class DOMGemBuilder implements Builder<Gem> {
     @Override
     public List<Gem> build(XMLValidator validator, String pathToFile)  throws IOServiceException, XMLParserServiceException {
         List<Gem> gems = new ArrayList<>();
-        org.w3c.dom.Document document;
+        Document document;
         DocumentBuilder docBuilder;
         validator.validate(pathToFile);
         try {
