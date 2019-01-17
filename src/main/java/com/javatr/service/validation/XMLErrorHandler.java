@@ -19,7 +19,7 @@ public class XMLErrorHandler extends DefaultHandler {
     }
 
     @Override
-    public void warning(SAXParseException e) throws SAXException {
+    public void warning(SAXParseException e)  {
         LOGGER.warn(e);
     }
 

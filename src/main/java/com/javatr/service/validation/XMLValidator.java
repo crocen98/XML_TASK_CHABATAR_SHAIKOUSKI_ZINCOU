@@ -7,4 +7,8 @@ import com.javatr.service.exception.XMLParserServiceException;
 public interface XMLValidator {
 
     void validate(String pathToFile) throws IOServiceException, XMLParserServiceException;
+
 }
+
+
+

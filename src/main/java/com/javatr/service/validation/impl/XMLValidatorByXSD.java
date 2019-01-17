@@ -24,7 +24,7 @@ public class XMLValidatorByXSD implements XMLValidator {
 
     private final String pathToXSDScheme;
     public XMLValidatorByXSD(String pathToXSDScheme) {
-      this.pathToXSDScheme = pathToXSDScheme;
+        this.pathToXSDScheme = pathToXSDScheme;
     }
 
     @Override
@@ -33,6 +33,7 @@ public class XMLValidatorByXSD implements XMLValidator {
 
         File schemaLocation = new File(pathToXSDScheme);
         try{
+
         Schema schema = factory.newSchema(schemaLocation);
         Validator validator = schema.newValidator();
 
