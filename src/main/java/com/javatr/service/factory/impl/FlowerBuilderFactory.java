@@ -11,18 +11,12 @@ import com.javatr.service.factory.ParserType;
 
 public final class FlowerBuilderFactory implements BuilderTypeFactory<Flower> {
 
-    private static final   FlowerBuilderFactory INSTANCE = new FlowerBuilderFactory();
 
 
-    public static FlowerBuilderFactory getInstance() {
-        return INSTANCE;
-    }
 
     private final Builder<Flower> domBuilder = new DOMFlowerBuilder();
     private final Builder<Flower> saxBuilder = new SAXFlowerBuilder();
     private final Builder<Flower> stAXBuilder = new StAxFlowerBuilder();
-    private FlowerBuilderFactory() {
-    }
 
     @Override
     public Builder<Flower> getBuilder(ParserType type) {

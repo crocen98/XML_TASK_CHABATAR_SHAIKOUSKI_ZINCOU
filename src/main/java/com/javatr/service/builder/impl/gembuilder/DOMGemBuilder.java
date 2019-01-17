@@ -7,7 +7,6 @@ import com.javatr.service.builder.Builder;
 import com.javatr.service.exception.IOServiceException;
 import com.javatr.service.exception.XMLParserServiceException;
 import com.javatr.service.validation.XMLValidator;
-import com.javatr.service.validation.impl.XMLValidatorByXSD;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -95,14 +94,6 @@ public class DOMGemBuilder implements Builder<Gem> {
         NodeList nList = element.getElementsByTagName(gemEnum.getValue());
         Node node = nList.item(0);
         return node.getTextContent();
-    }
-    public static void main(String[] args) throws IOServiceException, XMLParserServiceException {
-        DOMGemBuilder saxGemBuilder = new DOMGemBuilder();
-        XMLValidator validator = new XMLValidatorByXSD("resources/xsd/gems.xsd");
-        List<Gem> gems = saxGemBuilder.build(validator,"resources/xml/gems_one.xml");
-        for(Gem gem : gems){
-            System.out.println(gem.getName());
-        }
     }
 
 }
