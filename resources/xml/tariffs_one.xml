@@ -49,7 +49,70 @@
     <payroll>98</payroll>
     <smsprice>45</smsprice>
   </tariff>
-  <tariff id="id7">
+  <tariff id="id8">
+    <name>anyNewName</name>
+    <operatorname>life</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="id9">
+    <name>anyNewName</name>
+    <operatorname>life</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="id10">
+    <name>anyNewName</name>
+    <operatorname>life</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="id11">
+    <name>anyNewName</name>
+    <operatorname>life</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="id12">
+    <name>anyNewName</name>
+    <operatorname>life</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="id13">
+    <name>anyNewName</name>
+    <operatorname>life</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="id14">
+    <name>anyNewName</name>
+    <operatorname>life</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="id15">
+    <name>anyNewName</name>
+    <operatorname>life</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="id16">
+    <name>anyNewName</name>
+    <operatorname>life</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="id17">
     <name>anyNewName</name>
     <operatorname>life</operatorname>
     <billing>twelve_second</billing>

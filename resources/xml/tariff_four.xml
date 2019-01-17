@@ -1,0 +1,7032 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<tariffs xmlns="http://xml.chebotar.com/schema/tariffs" xsi:schemaLocation="http://xml.chebotar.com/schema/tariffs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tariff id="AAAAA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>84</payroll>
+    <smsprice>95</smsprice>
+  </tariff>
+  <tariff id="AAAAB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>171</payroll>
+    <smsprice>151</smsprice>
+  </tariff>
+  <tariff id="AAAAC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>186</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="AAAAD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>187</payroll>
+    <smsprice>104</smsprice>
+  </tariff>
+  <tariff id="AAAAE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>164</payroll>
+    <smsprice>112</smsprice>
+  </tariff>
+  <tariff id="AAAAF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>132</payroll>
+    <smsprice>102</smsprice>
+  </tariff>
+  <tariff id="AAAAG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>91</payroll>
+    <smsprice>185</smsprice>
+  </tariff>
+  <tariff id="AAAAH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>182</payroll>
+    <smsprice>68</smsprice>
+  </tariff>
+  <tariff id="AAAAI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>117</payroll>
+    <smsprice>70</smsprice>
+  </tariff>
+  <tariff id="AAAAJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>83</payroll>
+    <smsprice>93</smsprice>
+  </tariff>
+  <tariff id="AAABA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>83</payroll>
+    <smsprice>172</smsprice>
+  </tariff>
+  <tariff id="AAABB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>16</payroll>
+    <smsprice>149</smsprice>
+  </tariff>
+  <tariff id="AAABC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>58</payroll>
+    <smsprice>174</smsprice>
+  </tariff>
+  <tariff id="AAABD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>35</payroll>
+    <smsprice>195</smsprice>
+  </tariff>
+  <tariff id="AAABE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>87</payroll>
+    <smsprice>24</smsprice>
+  </tariff>
+  <tariff id="AAABF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>131</payroll>
+    <smsprice>51</smsprice>
+  </tariff>
+  <tariff id="AAABG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>189</payroll>
+    <smsprice>33</smsprice>
+  </tariff>
+  <tariff id="AAABH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>136</payroll>
+    <smsprice>149</smsprice>
+  </tariff>
+  <tariff id="AAABI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>134</payroll>
+    <smsprice>88</smsprice>
+  </tariff>
+  <tariff id="AAABJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>167</payroll>
+    <smsprice>100</smsprice>
+  </tariff>
+  <tariff id="AAACA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>151</payroll>
+    <smsprice>63</smsprice>
+  </tariff>
+  <tariff id="AAACB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>182</payroll>
+    <smsprice>122</smsprice>
+  </tariff>
+  <tariff id="AAACC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>69</payroll>
+    <smsprice>103</smsprice>
+  </tariff>
+  <tariff id="AAACD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>86</payroll>
+    <smsprice>32</smsprice>
+  </tariff>
+  <tariff id="AAACE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>114</payroll>
+    <smsprice>75</smsprice>
+  </tariff>
+  <tariff id="AAACF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>126</payroll>
+    <smsprice>154</smsprice>
+  </tariff>
+  <tariff id="AAACG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>160</payroll>
+    <smsprice>68</smsprice>
+  </tariff>
+  <tariff id="AAACH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>159</payroll>
+    <smsprice>48</smsprice>
+  </tariff>
+  <tariff id="AAACI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>113</payroll>
+    <smsprice>181</smsprice>
+  </tariff>
+  <tariff id="AAACJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>23</payroll>
+    <smsprice>152</smsprice>
+  </tariff>
+  <tariff id="AAADA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>49</payroll>
+    <smsprice>126</smsprice>
+  </tariff>
+  <tariff id="AAADB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>87</payroll>
+    <smsprice>81</smsprice>
+  </tariff>
+  <tariff id="AAADC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>10</payroll>
+    <smsprice>67</smsprice>
+  </tariff>
+  <tariff id="AAADD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>57</payroll>
+    <smsprice>168</smsprice>
+  </tariff>
+  <tariff id="AAADE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>109</payroll>
+    <smsprice>90</smsprice>
+  </tariff>
+  <tariff id="AAADF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>132</payroll>
+    <smsprice>30</smsprice>
+  </tariff>
+  <tariff id="AAADG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>195</payroll>
+    <smsprice>46</smsprice>
+  </tariff>
+  <tariff id="AAADH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>33</payroll>
+    <smsprice>193</smsprice>
+  </tariff>
+  <tariff id="AAADI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>120</payroll>
+    <smsprice>13</smsprice>
+  </tariff>
+  <tariff id="AAADJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>196</payroll>
+    <smsprice>192</smsprice>
+  </tariff>
+  <tariff id="AAAEA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>126</payroll>
+    <smsprice>181</smsprice>
+  </tariff>
+  <tariff id="AAAEB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>105</payroll>
+    <smsprice>150</smsprice>
+  </tariff>
+  <tariff id="AAAEC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>44</payroll>
+    <smsprice>13</smsprice>
+  </tariff>
+  <tariff id="AAAED">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>162</payroll>
+    <smsprice>145</smsprice>
+  </tariff>
+  <tariff id="AAAEE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>66</payroll>
+    <smsprice>8</smsprice>
+  </tariff>
+  <tariff id="AAAEF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>63</payroll>
+    <smsprice>178</smsprice>
+  </tariff>
+  <tariff id="AAAEG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>24</payroll>
+    <smsprice>74</smsprice>
+  </tariff>
+  <tariff id="AAAEH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>121</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AAAEI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>118</payroll>
+    <smsprice>91</smsprice>
+  </tariff>
+  <tariff id="AAAEJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>198</payroll>
+    <smsprice>170</smsprice>
+  </tariff>
+  <tariff id="AAAFA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>117</payroll>
+    <smsprice>99</smsprice>
+  </tariff>
+  <tariff id="AAAFB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>37</payroll>
+    <smsprice>141</smsprice>
+  </tariff>
+  <tariff id="AAAFC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>195</payroll>
+    <smsprice>138</smsprice>
+  </tariff>
+  <tariff id="AAAFD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>101</payroll>
+    <smsprice>158</smsprice>
+  </tariff>
+  <tariff id="AAAFE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>180</payroll>
+    <smsprice>98</smsprice>
+  </tariff>
+  <tariff id="AAAFF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>163</payroll>
+    <smsprice>121</smsprice>
+  </tariff>
+  <tariff id="AAAFG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>108</payroll>
+    <smsprice>5</smsprice>
+  </tariff>
+  <tariff id="AAAFH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>40</payroll>
+    <smsprice>16</smsprice>
+  </tariff>
+  <tariff id="AAAFI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>118</payroll>
+    <smsprice>47</smsprice>
+  </tariff>
+  <tariff id="AAAFJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>130</payroll>
+    <smsprice>43</smsprice>
+  </tariff>
+  <tariff id="AAAGA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>76</payroll>
+    <smsprice>44</smsprice>
+  </tariff>
+  <tariff id="AAAGB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>70</payroll>
+    <smsprice>165</smsprice>
+  </tariff>
+  <tariff id="AAAGC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>197</payroll>
+    <smsprice>8</smsprice>
+  </tariff>
+  <tariff id="AAAGD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>55</payroll>
+    <smsprice>3</smsprice>
+  </tariff>
+  <tariff id="AAAGE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>17</payroll>
+    <smsprice>117</smsprice>
+  </tariff>
+  <tariff id="AAAGF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>185</payroll>
+    <smsprice>96</smsprice>
+  </tariff>
+  <tariff id="AAAGG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>198</payroll>
+    <smsprice>139</smsprice>
+  </tariff>
+  <tariff id="AAAGH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>109</payroll>
+    <smsprice>132</smsprice>
+  </tariff>
+  <tariff id="AAAGI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>38</payroll>
+    <smsprice>158</smsprice>
+  </tariff>
+  <tariff id="AAAGJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>95</payroll>
+    <smsprice>63</smsprice>
+  </tariff>
+  <tariff id="AAAHA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>13</payroll>
+    <smsprice>152</smsprice>
+  </tariff>
+  <tariff id="AAAHB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>65</payroll>
+    <smsprice>97</smsprice>
+  </tariff>
+  <tariff id="AAAHC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>187</payroll>
+    <smsprice>141</smsprice>
+  </tariff>
+  <tariff id="AAAHD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>181</payroll>
+    <smsprice>110</smsprice>
+  </tariff>
+  <tariff id="AAAHE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>110</payroll>
+    <smsprice>40</smsprice>
+  </tariff>
+  <tariff id="AAAHF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>128</payroll>
+    <smsprice>57</smsprice>
+  </tariff>
+  <tariff id="AAAHG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>105</payroll>
+    <smsprice>102</smsprice>
+  </tariff>
+  <tariff id="AAAHH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>127</payroll>
+    <smsprice>73</smsprice>
+  </tariff>
+  <tariff id="AAAHI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>135</payroll>
+    <smsprice>157</smsprice>
+  </tariff>
+  <tariff id="AAAHJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>56</payroll>
+    <smsprice>100</smsprice>
+  </tariff>
+  <tariff id="AAAIA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>166</payroll>
+    <smsprice>174</smsprice>
+  </tariff>
+  <tariff id="AAAIB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>136</payroll>
+    <smsprice>141</smsprice>
+  </tariff>
+  <tariff id="AAAIC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>7</payroll>
+    <smsprice>48</smsprice>
+  </tariff>
+  <tariff id="AAAID">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>33</payroll>
+    <smsprice>136</smsprice>
+  </tariff>
+  <tariff id="AAAIE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>187</payroll>
+    <smsprice>108</smsprice>
+  </tariff>
+  <tariff id="AAAIF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>160</payroll>
+    <smsprice>42</smsprice>
+  </tariff>
+  <tariff id="AAAIG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>3</payroll>
+    <smsprice>20</smsprice>
+  </tariff>
+  <tariff id="AAAIH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>175</payroll>
+    <smsprice>78</smsprice>
+  </tariff>
+  <tariff id="AAAII">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>22</payroll>
+    <smsprice>57</smsprice>
+  </tariff>
+  <tariff id="AAAIJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>159</payroll>
+    <smsprice>30</smsprice>
+  </tariff>
+  <tariff id="AAAJA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>138</payroll>
+    <smsprice>163</smsprice>
+  </tariff>
+  <tariff id="AAAJB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>161</payroll>
+    <smsprice>173</smsprice>
+  </tariff>
+  <tariff id="AAAJC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>199</payroll>
+    <smsprice>77</smsprice>
+  </tariff>
+  <tariff id="AAAJD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>25</payroll>
+    <smsprice>147</smsprice>
+  </tariff>
+  <tariff id="AAAJE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>85</payroll>
+    <smsprice>55</smsprice>
+  </tariff>
+  <tariff id="AAAJF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>58</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AAAJG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>131</payroll>
+    <smsprice>185</smsprice>
+  </tariff>
+  <tariff id="AAAJH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>188</payroll>
+    <smsprice>45</smsprice>
+  </tariff>
+  <tariff id="AAAJI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>106</payroll>
+    <smsprice>126</smsprice>
+  </tariff>
+  <tariff id="AAAJJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>45</payroll>
+    <smsprice>186</smsprice>
+  </tariff>
+  <tariff id="AABAA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>174</payroll>
+    <smsprice>183</smsprice>
+  </tariff>
+  <tariff id="AABAB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>47</payroll>
+    <smsprice>184</smsprice>
+  </tariff>
+  <tariff id="AABAC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>128</payroll>
+    <smsprice>158</smsprice>
+  </tariff>
+  <tariff id="AABAD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>10</payroll>
+    <smsprice>194</smsprice>
+  </tariff>
+  <tariff id="AABAE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>23</payroll>
+    <smsprice>95</smsprice>
+  </tariff>
+  <tariff id="AABAF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>118</payroll>
+    <smsprice>149</smsprice>
+  </tariff>
+  <tariff id="AABAG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>200</payroll>
+    <smsprice>10</smsprice>
+  </tariff>
+  <tariff id="AABAH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>141</payroll>
+    <smsprice>23</smsprice>
+  </tariff>
+  <tariff id="AABAI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>127</payroll>
+    <smsprice>93</smsprice>
+  </tariff>
+  <tariff id="AABAJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>112</payroll>
+    <smsprice>150</smsprice>
+  </tariff>
+  <tariff id="AABBA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>131</payroll>
+    <smsprice>11</smsprice>
+  </tariff>
+  <tariff id="AABBB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>178</payroll>
+    <smsprice>35</smsprice>
+  </tariff>
+  <tariff id="AABBC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>61</payroll>
+    <smsprice>51</smsprice>
+  </tariff>
+  <tariff id="AABBD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>131</payroll>
+    <smsprice>40</smsprice>
+  </tariff>
+  <tariff id="AABBE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>29</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AABBF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>6</payroll>
+    <smsprice>86</smsprice>
+  </tariff>
+  <tariff id="AABBG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>16</payroll>
+    <smsprice>147</smsprice>
+  </tariff>
+  <tariff id="AABBH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>90</payroll>
+    <smsprice>59</smsprice>
+  </tariff>
+  <tariff id="AABBI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>111</payroll>
+    <smsprice>155</smsprice>
+  </tariff>
+  <tariff id="AABBJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>50</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AABCA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>149</payroll>
+    <smsprice>123</smsprice>
+  </tariff>
+  <tariff id="AABCB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>37</payroll>
+    <smsprice>51</smsprice>
+  </tariff>
+  <tariff id="AABCC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>104</payroll>
+    <smsprice>184</smsprice>
+  </tariff>
+  <tariff id="AABCD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>198</payroll>
+    <smsprice>46</smsprice>
+  </tariff>
+  <tariff id="AABCE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>20</payroll>
+    <smsprice>28</smsprice>
+  </tariff>
+  <tariff id="AABCF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>188</payroll>
+    <smsprice>98</smsprice>
+  </tariff>
+  <tariff id="AABCG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>9</payroll>
+    <smsprice>141</smsprice>
+  </tariff>
+  <tariff id="AABCH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>191</payroll>
+    <smsprice>8</smsprice>
+  </tariff>
+  <tariff id="AABCI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>160</payroll>
+    <smsprice>172</smsprice>
+  </tariff>
+  <tariff id="AABCJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>80</payroll>
+    <smsprice>4</smsprice>
+  </tariff>
+  <tariff id="AABDA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>35</payroll>
+    <smsprice>197</smsprice>
+  </tariff>
+  <tariff id="AABDB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>91</payroll>
+    <smsprice>16</smsprice>
+  </tariff>
+  <tariff id="AABDC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>138</payroll>
+    <smsprice>146</smsprice>
+  </tariff>
+  <tariff id="AABDD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>150</payroll>
+    <smsprice>9</smsprice>
+  </tariff>
+  <tariff id="AABDE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>107</payroll>
+    <smsprice>101</smsprice>
+  </tariff>
+  <tariff id="AABDF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>38</payroll>
+    <smsprice>50</smsprice>
+  </tariff>
+  <tariff id="AABDG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>65</payroll>
+    <smsprice>40</smsprice>
+  </tariff>
+  <tariff id="AABDH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>99</payroll>
+    <smsprice>11</smsprice>
+  </tariff>
+  <tariff id="AABDI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>50</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="AABDJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>184</payroll>
+    <smsprice>121</smsprice>
+  </tariff>
+  <tariff id="AABEA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>152</payroll>
+    <smsprice>64</smsprice>
+  </tariff>
+  <tariff id="AABEB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>147</payroll>
+    <smsprice>146</smsprice>
+  </tariff>
+  <tariff id="AABEC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>175</payroll>
+    <smsprice>129</smsprice>
+  </tariff>
+  <tariff id="AABED">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>1</payroll>
+    <smsprice>170</smsprice>
+  </tariff>
+  <tariff id="AABEE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>198</payroll>
+    <smsprice>7</smsprice>
+  </tariff>
+  <tariff id="AABEF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>177</payroll>
+    <smsprice>151</smsprice>
+  </tariff>
+  <tariff id="AABEG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>193</payroll>
+    <smsprice>176</smsprice>
+  </tariff>
+  <tariff id="AABEH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>27</payroll>
+    <smsprice>70</smsprice>
+  </tariff>
+  <tariff id="AABEI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>83</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AABEJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>76</payroll>
+    <smsprice>158</smsprice>
+  </tariff>
+  <tariff id="AABFA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>108</payroll>
+    <smsprice>76</smsprice>
+  </tariff>
+  <tariff id="AABFB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>27</payroll>
+    <smsprice>47</smsprice>
+  </tariff>
+  <tariff id="AABFC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>175</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="AABFD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>188</payroll>
+    <smsprice>63</smsprice>
+  </tariff>
+  <tariff id="AABFE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>19</payroll>
+    <smsprice>12</smsprice>
+  </tariff>
+  <tariff id="AABFF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>112</payroll>
+    <smsprice>4</smsprice>
+  </tariff>
+  <tariff id="AABFG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>195</payroll>
+    <smsprice>86</smsprice>
+  </tariff>
+  <tariff id="AABFH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>57</payroll>
+    <smsprice>24</smsprice>
+  </tariff>
+  <tariff id="AABFI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>147</payroll>
+    <smsprice>102</smsprice>
+  </tariff>
+  <tariff id="AABFJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>78</payroll>
+    <smsprice>153</smsprice>
+  </tariff>
+  <tariff id="AABGA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>116</payroll>
+    <smsprice>144</smsprice>
+  </tariff>
+  <tariff id="AABGB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>29</payroll>
+    <smsprice>181</smsprice>
+  </tariff>
+  <tariff id="AABGC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>178</payroll>
+    <smsprice>139</smsprice>
+  </tariff>
+  <tariff id="AABGD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>38</payroll>
+    <smsprice>54</smsprice>
+  </tariff>
+  <tariff id="AABGE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>17</payroll>
+    <smsprice>26</smsprice>
+  </tariff>
+  <tariff id="AABGF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>120</payroll>
+    <smsprice>165</smsprice>
+  </tariff>
+  <tariff id="AABGG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>149</payroll>
+    <smsprice>141</smsprice>
+  </tariff>
+  <tariff id="AABGH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>88</payroll>
+    <smsprice>59</smsprice>
+  </tariff>
+  <tariff id="AABGI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>163</payroll>
+    <smsprice>63</smsprice>
+  </tariff>
+  <tariff id="AABGJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>137</payroll>
+    <smsprice>151</smsprice>
+  </tariff>
+  <tariff id="AABHA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>78</payroll>
+    <smsprice>60</smsprice>
+  </tariff>
+  <tariff id="AABHB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>56</payroll>
+    <smsprice>23</smsprice>
+  </tariff>
+  <tariff id="AABHC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>58</payroll>
+    <smsprice>93</smsprice>
+  </tariff>
+  <tariff id="AABHD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>81</payroll>
+    <smsprice>104</smsprice>
+  </tariff>
+  <tariff id="AABHE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>93</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="AABHF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>43</payroll>
+    <smsprice>113</smsprice>
+  </tariff>
+  <tariff id="AABHG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>192</payroll>
+    <smsprice>176</smsprice>
+  </tariff>
+  <tariff id="AABHH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>126</payroll>
+    <smsprice>32</smsprice>
+  </tariff>
+  <tariff id="AABHI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>76</payroll>
+    <smsprice>192</smsprice>
+  </tariff>
+  <tariff id="AABHJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>26</payroll>
+    <smsprice>36</smsprice>
+  </tariff>
+  <tariff id="AABIA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>112</payroll>
+    <smsprice>109</smsprice>
+  </tariff>
+  <tariff id="AABIB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>192</payroll>
+    <smsprice>127</smsprice>
+  </tariff>
+  <tariff id="AABIC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>133</payroll>
+    <smsprice>6</smsprice>
+  </tariff>
+  <tariff id="AABID">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>128</payroll>
+    <smsprice>19</smsprice>
+  </tariff>
+  <tariff id="AABIE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>46</payroll>
+    <smsprice>66</smsprice>
+  </tariff>
+  <tariff id="AABIF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>136</payroll>
+    <smsprice>122</smsprice>
+  </tariff>
+  <tariff id="AABIG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>101</payroll>
+    <smsprice>14</smsprice>
+  </tariff>
+  <tariff id="AABIH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>178</payroll>
+    <smsprice>94</smsprice>
+  </tariff>
+  <tariff id="AABII">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>22</payroll>
+    <smsprice>57</smsprice>
+  </tariff>
+  <tariff id="AABIJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>197</payroll>
+    <smsprice>13</smsprice>
+  </tariff>
+  <tariff id="AABJA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>153</payroll>
+    <smsprice>32</smsprice>
+  </tariff>
+  <tariff id="AABJB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>53</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AABJC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>199</payroll>
+    <smsprice>68</smsprice>
+  </tariff>
+  <tariff id="AABJD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>97</payroll>
+    <smsprice>21</smsprice>
+  </tariff>
+  <tariff id="AABJE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>131</payroll>
+    <smsprice>72</smsprice>
+  </tariff>
+  <tariff id="AABJF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>152</payroll>
+    <smsprice>117</smsprice>
+  </tariff>
+  <tariff id="AABJG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>146</payroll>
+    <smsprice>38</smsprice>
+  </tariff>
+  <tariff id="AABJH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>15</payroll>
+    <smsprice>100</smsprice>
+  </tariff>
+  <tariff id="AABJI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>153</payroll>
+    <smsprice>82</smsprice>
+  </tariff>
+  <tariff id="AABJJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>123</payroll>
+    <smsprice>123</smsprice>
+  </tariff>
+  <tariff id="AACAA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>83</payroll>
+    <smsprice>4</smsprice>
+  </tariff>
+  <tariff id="AACAB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>101</payroll>
+    <smsprice>43</smsprice>
+  </tariff>
+  <tariff id="AACAC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>141</payroll>
+    <smsprice>118</smsprice>
+  </tariff>
+  <tariff id="AACAD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>197</payroll>
+    <smsprice>124</smsprice>
+  </tariff>
+  <tariff id="AACAE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>129</payroll>
+    <smsprice>106</smsprice>
+  </tariff>
+  <tariff id="AACAF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>12</payroll>
+    <smsprice>108</smsprice>
+  </tariff>
+  <tariff id="AACAG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>13</payroll>
+    <smsprice>182</smsprice>
+  </tariff>
+  <tariff id="AACAH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>176</payroll>
+    <smsprice>117</smsprice>
+  </tariff>
+  <tariff id="AACAI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>198</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AACAJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>68</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AACBA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>26</payroll>
+    <smsprice>132</smsprice>
+  </tariff>
+  <tariff id="AACBB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>46</payroll>
+    <smsprice>154</smsprice>
+  </tariff>
+  <tariff id="AACBC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>166</payroll>
+    <smsprice>7</smsprice>
+  </tariff>
+  <tariff id="AACBD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>190</payroll>
+    <smsprice>123</smsprice>
+  </tariff>
+  <tariff id="AACBE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>35</payroll>
+    <smsprice>178</smsprice>
+  </tariff>
+  <tariff id="AACBF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>62</payroll>
+    <smsprice>88</smsprice>
+  </tariff>
+  <tariff id="AACBG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>95</payroll>
+    <smsprice>29</smsprice>
+  </tariff>
+  <tariff id="AACBH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>191</payroll>
+    <smsprice>36</smsprice>
+  </tariff>
+  <tariff id="AACBI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>4</payroll>
+    <smsprice>26</smsprice>
+  </tariff>
+  <tariff id="AACBJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>83</payroll>
+    <smsprice>191</smsprice>
+  </tariff>
+  <tariff id="AACCA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>161</payroll>
+    <smsprice>62</smsprice>
+  </tariff>
+  <tariff id="AACCB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>144</payroll>
+    <smsprice>28</smsprice>
+  </tariff>
+  <tariff id="AACCC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>159</payroll>
+    <smsprice>69</smsprice>
+  </tariff>
+  <tariff id="AACCD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>97</payroll>
+    <smsprice>51</smsprice>
+  </tariff>
+  <tariff id="AACCE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>73</payroll>
+    <smsprice>129</smsprice>
+  </tariff>
+  <tariff id="AACCF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>169</payroll>
+    <smsprice>172</smsprice>
+  </tariff>
+  <tariff id="AACCG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>194</payroll>
+    <smsprice>91</smsprice>
+  </tariff>
+  <tariff id="AACCH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>79</payroll>
+    <smsprice>80</smsprice>
+  </tariff>
+  <tariff id="AACCI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>153</payroll>
+    <smsprice>148</smsprice>
+  </tariff>
+  <tariff id="AACCJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>103</payroll>
+    <smsprice>90</smsprice>
+  </tariff>
+  <tariff id="AACDA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>45</payroll>
+    <smsprice>128</smsprice>
+  </tariff>
+  <tariff id="AACDB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>147</payroll>
+    <smsprice>165</smsprice>
+  </tariff>
+  <tariff id="AACDC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>86</payroll>
+    <smsprice>31</smsprice>
+  </tariff>
+  <tariff id="AACDD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>29</payroll>
+    <smsprice>121</smsprice>
+  </tariff>
+  <tariff id="AACDE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>62</payroll>
+    <smsprice>18</smsprice>
+  </tariff>
+  <tariff id="AACDF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>39</payroll>
+    <smsprice>42</smsprice>
+  </tariff>
+  <tariff id="AACDG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>67</payroll>
+    <smsprice>184</smsprice>
+  </tariff>
+  <tariff id="AACDH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>114</payroll>
+    <smsprice>144</smsprice>
+  </tariff>
+  <tariff id="AACDI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>79</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AACDJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>10</payroll>
+    <smsprice>142</smsprice>
+  </tariff>
+  <tariff id="AACEA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>122</payroll>
+    <smsprice>66</smsprice>
+  </tariff>
+  <tariff id="AACEB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>93</payroll>
+    <smsprice>153</smsprice>
+  </tariff>
+  <tariff id="AACEC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>22</payroll>
+    <smsprice>142</smsprice>
+  </tariff>
+  <tariff id="AACED">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>89</payroll>
+    <smsprice>37</smsprice>
+  </tariff>
+  <tariff id="AACEE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>199</payroll>
+    <smsprice>126</smsprice>
+  </tariff>
+  <tariff id="AACEF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>170</payroll>
+    <smsprice>95</smsprice>
+  </tariff>
+  <tariff id="AACEG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>120</payroll>
+    <smsprice>180</smsprice>
+  </tariff>
+  <tariff id="AACEH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>89</payroll>
+    <smsprice>114</smsprice>
+  </tariff>
+  <tariff id="AACEI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>80</payroll>
+    <smsprice>189</smsprice>
+  </tariff>
+  <tariff id="AACEJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>72</payroll>
+    <smsprice>143</smsprice>
+  </tariff>
+  <tariff id="AACFA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>154</payroll>
+    <smsprice>17</smsprice>
+  </tariff>
+  <tariff id="AACFB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>177</payroll>
+    <smsprice>10</smsprice>
+  </tariff>
+  <tariff id="AACFC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>36</payroll>
+    <smsprice>124</smsprice>
+  </tariff>
+  <tariff id="AACFD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>123</payroll>
+    <smsprice>36</smsprice>
+  </tariff>
+  <tariff id="AACFE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>141</payroll>
+    <smsprice>189</smsprice>
+  </tariff>
+  <tariff id="AACFF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>145</payroll>
+    <smsprice>181</smsprice>
+  </tariff>
+  <tariff id="AACFG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>122</payroll>
+    <smsprice>145</smsprice>
+  </tariff>
+  <tariff id="AACFH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>127</payroll>
+    <smsprice>53</smsprice>
+  </tariff>
+  <tariff id="AACFI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>125</payroll>
+    <smsprice>188</smsprice>
+  </tariff>
+  <tariff id="AACFJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>69</payroll>
+    <smsprice>112</smsprice>
+  </tariff>
+  <tariff id="AACGA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>178</payroll>
+    <smsprice>194</smsprice>
+  </tariff>
+  <tariff id="AACGB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>46</payroll>
+    <smsprice>120</smsprice>
+  </tariff>
+  <tariff id="AACGC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>159</payroll>
+    <smsprice>100</smsprice>
+  </tariff>
+  <tariff id="AACGD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>57</payroll>
+    <smsprice>144</smsprice>
+  </tariff>
+  <tariff id="AACGE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>106</payroll>
+    <smsprice>169</smsprice>
+  </tariff>
+  <tariff id="AACGF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>50</payroll>
+    <smsprice>173</smsprice>
+  </tariff>
+  <tariff id="AACGG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>77</payroll>
+    <smsprice>34</smsprice>
+  </tariff>
+  <tariff id="AACGH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>171</payroll>
+    <smsprice>31</smsprice>
+  </tariff>
+  <tariff id="AACGI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>176</payroll>
+    <smsprice>120</smsprice>
+  </tariff>
+  <tariff id="AACGJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>196</payroll>
+    <smsprice>142</smsprice>
+  </tariff>
+  <tariff id="AACHA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>167</payroll>
+    <smsprice>196</smsprice>
+  </tariff>
+  <tariff id="AACHB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>53</payroll>
+    <smsprice>96</smsprice>
+  </tariff>
+  <tariff id="AACHC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>182</payroll>
+    <smsprice>46</smsprice>
+  </tariff>
+  <tariff id="AACHD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>82</payroll>
+    <smsprice>139</smsprice>
+  </tariff>
+  <tariff id="AACHE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>167</payroll>
+    <smsprice>192</smsprice>
+  </tariff>
+  <tariff id="AACHF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>176</payroll>
+    <smsprice>111</smsprice>
+  </tariff>
+  <tariff id="AACHG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>150</payroll>
+    <smsprice>35</smsprice>
+  </tariff>
+  <tariff id="AACHH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>94</payroll>
+    <smsprice>124</smsprice>
+  </tariff>
+  <tariff id="AACHI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>70</payroll>
+    <smsprice>109</smsprice>
+  </tariff>
+  <tariff id="AACHJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>63</payroll>
+    <smsprice>76</smsprice>
+  </tariff>
+  <tariff id="AACIA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>192</payroll>
+    <smsprice>153</smsprice>
+  </tariff>
+  <tariff id="AACIB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>7</payroll>
+    <smsprice>153</smsprice>
+  </tariff>
+  <tariff id="AACIC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>196</payroll>
+    <smsprice>45</smsprice>
+  </tariff>
+  <tariff id="AACID">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>185</payroll>
+    <smsprice>145</smsprice>
+  </tariff>
+  <tariff id="AACIE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>50</payroll>
+    <smsprice>28</smsprice>
+  </tariff>
+  <tariff id="AACIF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>161</payroll>
+    <smsprice>45</smsprice>
+  </tariff>
+  <tariff id="AACIG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>89</payroll>
+    <smsprice>179</smsprice>
+  </tariff>
+  <tariff id="AACIH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>87</payroll>
+    <smsprice>32</smsprice>
+  </tariff>
+  <tariff id="AACII">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>61</payroll>
+    <smsprice>107</smsprice>
+  </tariff>
+  <tariff id="AACIJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>128</payroll>
+    <smsprice>9</smsprice>
+  </tariff>
+  <tariff id="AACJA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>25</payroll>
+    <smsprice>153</smsprice>
+  </tariff>
+  <tariff id="AACJB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>133</payroll>
+    <smsprice>96</smsprice>
+  </tariff>
+  <tariff id="AACJC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>143</payroll>
+    <smsprice>190</smsprice>
+  </tariff>
+  <tariff id="AACJD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>8</payroll>
+    <smsprice>185</smsprice>
+  </tariff>
+  <tariff id="AACJE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>54</payroll>
+    <smsprice>12</smsprice>
+  </tariff>
+  <tariff id="AACJF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>51</payroll>
+    <smsprice>175</smsprice>
+  </tariff>
+  <tariff id="AACJG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>154</payroll>
+    <smsprice>122</smsprice>
+  </tariff>
+  <tariff id="AACJH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>127</payroll>
+    <smsprice>84</smsprice>
+  </tariff>
+  <tariff id="AACJI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>64</payroll>
+    <smsprice>135</smsprice>
+  </tariff>
+  <tariff id="AACJJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>131</payroll>
+    <smsprice>148</smsprice>
+  </tariff>
+  <tariff id="AADAA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>78</payroll>
+    <smsprice>12</smsprice>
+  </tariff>
+  <tariff id="AADAB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>45</payroll>
+    <smsprice>71</smsprice>
+  </tariff>
+  <tariff id="AADAC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>159</payroll>
+    <smsprice>66</smsprice>
+  </tariff>
+  <tariff id="AADAD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>120</payroll>
+    <smsprice>5</smsprice>
+  </tariff>
+  <tariff id="AADAE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>157</payroll>
+    <smsprice>130</smsprice>
+  </tariff>
+  <tariff id="AADAF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>149</payroll>
+    <smsprice>154</smsprice>
+  </tariff>
+  <tariff id="AADAG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>37</payroll>
+    <smsprice>176</smsprice>
+  </tariff>
+  <tariff id="AADAH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>46</payroll>
+    <smsprice>147</smsprice>
+  </tariff>
+  <tariff id="AADAI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>63</payroll>
+    <smsprice>82</smsprice>
+  </tariff>
+  <tariff id="AADAJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>3</payroll>
+    <smsprice>133</smsprice>
+  </tariff>
+  <tariff id="AADBA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>128</payroll>
+    <smsprice>83</smsprice>
+  </tariff>
+  <tariff id="AADBB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>146</payroll>
+    <smsprice>147</smsprice>
+  </tariff>
+  <tariff id="AADBC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>50</smsprice>
+  </tariff>
+  <tariff id="AADBD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>77</payroll>
+    <smsprice>54</smsprice>
+  </tariff>
+  <tariff id="AADBE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>101</payroll>
+    <smsprice>181</smsprice>
+  </tariff>
+  <tariff id="AADBF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>41</payroll>
+    <smsprice>164</smsprice>
+  </tariff>
+  <tariff id="AADBG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>5</payroll>
+    <smsprice>84</smsprice>
+  </tariff>
+  <tariff id="AADBH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>144</payroll>
+    <smsprice>193</smsprice>
+  </tariff>
+  <tariff id="AADBI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>87</payroll>
+    <smsprice>171</smsprice>
+  </tariff>
+  <tariff id="AADBJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>106</payroll>
+    <smsprice>156</smsprice>
+  </tariff>
+  <tariff id="AADCA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>107</payroll>
+    <smsprice>125</smsprice>
+  </tariff>
+  <tariff id="AADCB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>33</payroll>
+    <smsprice>183</smsprice>
+  </tariff>
+  <tariff id="AADCC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>175</payroll>
+    <smsprice>100</smsprice>
+  </tariff>
+  <tariff id="AADCD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>4</payroll>
+    <smsprice>91</smsprice>
+  </tariff>
+  <tariff id="AADCE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>161</payroll>
+    <smsprice>20</smsprice>
+  </tariff>
+  <tariff id="AADCF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>3</payroll>
+    <smsprice>97</smsprice>
+  </tariff>
+  <tariff id="AADCG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>104</payroll>
+    <smsprice>178</smsprice>
+  </tariff>
+  <tariff id="AADCH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>53</payroll>
+    <smsprice>133</smsprice>
+  </tariff>
+  <tariff id="AADCI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>136</payroll>
+    <smsprice>129</smsprice>
+  </tariff>
+  <tariff id="AADCJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>130</payroll>
+    <smsprice>168</smsprice>
+  </tariff>
+  <tariff id="AADDA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>104</payroll>
+    <smsprice>112</smsprice>
+  </tariff>
+  <tariff id="AADDB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>124</payroll>
+    <smsprice>97</smsprice>
+  </tariff>
+  <tariff id="AADDC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>27</payroll>
+    <smsprice>59</smsprice>
+  </tariff>
+  <tariff id="AADDD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>172</payroll>
+    <smsprice>105</smsprice>
+  </tariff>
+  <tariff id="AADDE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>139</payroll>
+    <smsprice>107</smsprice>
+  </tariff>
+  <tariff id="AADDF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>96</payroll>
+    <smsprice>128</smsprice>
+  </tariff>
+  <tariff id="AADDG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>32</payroll>
+    <smsprice>86</smsprice>
+  </tariff>
+  <tariff id="AADDH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>42</payroll>
+    <smsprice>200</smsprice>
+  </tariff>
+  <tariff id="AADDI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>143</payroll>
+    <smsprice>46</smsprice>
+  </tariff>
+  <tariff id="AADDJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>20</payroll>
+    <smsprice>28</smsprice>
+  </tariff>
+  <tariff id="AADEA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>194</payroll>
+    <smsprice>179</smsprice>
+  </tariff>
+  <tariff id="AADEB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>54</payroll>
+    <smsprice>63</smsprice>
+  </tariff>
+  <tariff id="AADEC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>66</payroll>
+    <smsprice>191</smsprice>
+  </tariff>
+  <tariff id="AADED">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>116</payroll>
+    <smsprice>182</smsprice>
+  </tariff>
+  <tariff id="AADEE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>127</payroll>
+    <smsprice>198</smsprice>
+  </tariff>
+  <tariff id="AADEF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>104</payroll>
+    <smsprice>107</smsprice>
+  </tariff>
+  <tariff id="AADEG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>37</payroll>
+    <smsprice>78</smsprice>
+  </tariff>
+  <tariff id="AADEH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>67</payroll>
+    <smsprice>56</smsprice>
+  </tariff>
+  <tariff id="AADEI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>98</payroll>
+    <smsprice>20</smsprice>
+  </tariff>
+  <tariff id="AADEJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>118</payroll>
+    <smsprice>199</smsprice>
+  </tariff>
+  <tariff id="AADFA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>146</payroll>
+    <smsprice>122</smsprice>
+  </tariff>
+  <tariff id="AADFB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>120</payroll>
+    <smsprice>5</smsprice>
+  </tariff>
+  <tariff id="AADFC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>46</payroll>
+    <smsprice>72</smsprice>
+  </tariff>
+  <tariff id="AADFD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>14</payroll>
+    <smsprice>48</smsprice>
+  </tariff>
+  <tariff id="AADFE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>79</payroll>
+    <smsprice>179</smsprice>
+  </tariff>
+  <tariff id="AADFF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>16</payroll>
+    <smsprice>61</smsprice>
+  </tariff>
+  <tariff id="AADFG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>196</payroll>
+    <smsprice>149</smsprice>
+  </tariff>
+  <tariff id="AADFH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>173</payroll>
+    <smsprice>4</smsprice>
+  </tariff>
+  <tariff id="AADFI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>59</payroll>
+    <smsprice>150</smsprice>
+  </tariff>
+  <tariff id="AADFJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>188</payroll>
+    <smsprice>132</smsprice>
+  </tariff>
+  <tariff id="AADGA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>24</payroll>
+    <smsprice>71</smsprice>
+  </tariff>
+  <tariff id="AADGB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>133</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AADGC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>23</payroll>
+    <smsprice>26</smsprice>
+  </tariff>
+  <tariff id="AADGD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>152</payroll>
+    <smsprice>101</smsprice>
+  </tariff>
+  <tariff id="AADGE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>43</payroll>
+    <smsprice>105</smsprice>
+  </tariff>
+  <tariff id="AADGF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>79</payroll>
+    <smsprice>121</smsprice>
+  </tariff>
+  <tariff id="AADGG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>152</payroll>
+    <smsprice>136</smsprice>
+  </tariff>
+  <tariff id="AADGH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>6</payroll>
+    <smsprice>166</smsprice>
+  </tariff>
+  <tariff id="AADGI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>182</payroll>
+    <smsprice>107</smsprice>
+  </tariff>
+  <tariff id="AADGJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>143</payroll>
+    <smsprice>125</smsprice>
+  </tariff>
+  <tariff id="AADHA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>103</payroll>
+    <smsprice>187</smsprice>
+  </tariff>
+  <tariff id="AADHB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>132</payroll>
+    <smsprice>53</smsprice>
+  </tariff>
+  <tariff id="AADHC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>35</payroll>
+    <smsprice>183</smsprice>
+  </tariff>
+  <tariff id="AADHD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>23</payroll>
+    <smsprice>87</smsprice>
+  </tariff>
+  <tariff id="AADHE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>11</payroll>
+    <smsprice>188</smsprice>
+  </tariff>
+  <tariff id="AADHF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>30</payroll>
+    <smsprice>72</smsprice>
+  </tariff>
+  <tariff id="AADHG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>50</payroll>
+    <smsprice>94</smsprice>
+  </tariff>
+  <tariff id="AADHH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>45</payroll>
+    <smsprice>86</smsprice>
+  </tariff>
+  <tariff id="AADHI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>119</payroll>
+    <smsprice>22</smsprice>
+  </tariff>
+  <tariff id="AADHJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>149</payroll>
+    <smsprice>50</smsprice>
+  </tariff>
+  <tariff id="AADIA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>61</payroll>
+    <smsprice>23</smsprice>
+  </tariff>
+  <tariff id="AADIB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>41</payroll>
+    <smsprice>64</smsprice>
+  </tariff>
+  <tariff id="AADIC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>174</payroll>
+    <smsprice>189</smsprice>
+  </tariff>
+  <tariff id="AADID">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>149</payroll>
+    <smsprice>1</smsprice>
+  </tariff>
+  <tariff id="AADIE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>139</payroll>
+    <smsprice>1</smsprice>
+  </tariff>
+  <tariff id="AADIF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>110</payroll>
+    <smsprice>7</smsprice>
+  </tariff>
+  <tariff id="AADIG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>99</payroll>
+    <smsprice>58</smsprice>
+  </tariff>
+  <tariff id="AADIH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>133</payroll>
+    <smsprice>167</smsprice>
+  </tariff>
+  <tariff id="AADII">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>10</payroll>
+    <smsprice>104</smsprice>
+  </tariff>
+  <tariff id="AADIJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>133</payroll>
+    <smsprice>136</smsprice>
+  </tariff>
+  <tariff id="AADJA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>97</payroll>
+    <smsprice>81</smsprice>
+  </tariff>
+  <tariff id="AADJB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>70</payroll>
+    <smsprice>68</smsprice>
+  </tariff>
+  <tariff id="AADJC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>127</payroll>
+    <smsprice>18</smsprice>
+  </tariff>
+  <tariff id="AADJD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>108</payroll>
+    <smsprice>74</smsprice>
+  </tariff>
+  <tariff id="AADJE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>119</payroll>
+    <smsprice>107</smsprice>
+  </tariff>
+  <tariff id="AADJF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>65</payroll>
+    <smsprice>85</smsprice>
+  </tariff>
+  <tariff id="AADJG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>114</payroll>
+    <smsprice>166</smsprice>
+  </tariff>
+  <tariff id="AADJH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>116</payroll>
+    <smsprice>39</smsprice>
+  </tariff>
+  <tariff id="AADJI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>33</payroll>
+    <smsprice>109</smsprice>
+  </tariff>
+  <tariff id="AADJJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>99</payroll>
+    <smsprice>75</smsprice>
+  </tariff>
+  <tariff id="AAEAA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>181</payroll>
+    <smsprice>25</smsprice>
+  </tariff>
+  <tariff id="AAEAB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>51</payroll>
+    <smsprice>98</smsprice>
+  </tariff>
+  <tariff id="AAEAC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>25</payroll>
+    <smsprice>195</smsprice>
+  </tariff>
+  <tariff id="AAEAD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>54</payroll>
+    <smsprice>166</smsprice>
+  </tariff>
+  <tariff id="AAEAE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>177</payroll>
+    <smsprice>45</smsprice>
+  </tariff>
+  <tariff id="AAEAF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>179</payroll>
+    <smsprice>34</smsprice>
+  </tariff>
+  <tariff id="AAEAG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>42</payroll>
+    <smsprice>14</smsprice>
+  </tariff>
+  <tariff id="AAEAH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>46</payroll>
+    <smsprice>118</smsprice>
+  </tariff>
+  <tariff id="AAEAI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>109</payroll>
+    <smsprice>57</smsprice>
+  </tariff>
+  <tariff id="AAEAJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>101</payroll>
+    <smsprice>164</smsprice>
+  </tariff>
+  <tariff id="AAEBA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>38</payroll>
+    <smsprice>28</smsprice>
+  </tariff>
+  <tariff id="AAEBB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>143</payroll>
+    <smsprice>164</smsprice>
+  </tariff>
+  <tariff id="AAEBC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>190</payroll>
+    <smsprice>192</smsprice>
+  </tariff>
+  <tariff id="AAEBD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>108</payroll>
+    <smsprice>70</smsprice>
+  </tariff>
+  <tariff id="AAEBE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>127</payroll>
+    <smsprice>131</smsprice>
+  </tariff>
+  <tariff id="AAEBF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>64</payroll>
+    <smsprice>37</smsprice>
+  </tariff>
+  <tariff id="AAEBG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>165</payroll>
+    <smsprice>148</smsprice>
+  </tariff>
+  <tariff id="AAEBH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>115</payroll>
+    <smsprice>56</smsprice>
+  </tariff>
+  <tariff id="AAEBI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>35</payroll>
+    <smsprice>51</smsprice>
+  </tariff>
+  <tariff id="AAEBJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>132</payroll>
+    <smsprice>60</smsprice>
+  </tariff>
+  <tariff id="AAECA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>3</payroll>
+    <smsprice>97</smsprice>
+  </tariff>
+  <tariff id="AAECB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>54</payroll>
+    <smsprice>139</smsprice>
+  </tariff>
+  <tariff id="AAECC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>19</payroll>
+    <smsprice>85</smsprice>
+  </tariff>
+  <tariff id="AAECD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>155</payroll>
+    <smsprice>200</smsprice>
+  </tariff>
+  <tariff id="AAECE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>77</payroll>
+    <smsprice>2</smsprice>
+  </tariff>
+  <tariff id="AAECF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>87</payroll>
+    <smsprice>119</smsprice>
+  </tariff>
+  <tariff id="AAECG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>178</payroll>
+    <smsprice>185</smsprice>
+  </tariff>
+  <tariff id="AAECH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>77</payroll>
+    <smsprice>3</smsprice>
+  </tariff>
+  <tariff id="AAECI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>196</payroll>
+    <smsprice>200</smsprice>
+  </tariff>
+  <tariff id="AAECJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>92</payroll>
+    <smsprice>74</smsprice>
+  </tariff>
+  <tariff id="AAEDA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>155</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AAEDB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>9</payroll>
+    <smsprice>21</smsprice>
+  </tariff>
+  <tariff id="AAEDC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>108</payroll>
+    <smsprice>138</smsprice>
+  </tariff>
+  <tariff id="AAEDD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>146</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="AAEDE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>164</payroll>
+    <smsprice>71</smsprice>
+  </tariff>
+  <tariff id="AAEDF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>95</payroll>
+    <smsprice>143</smsprice>
+  </tariff>
+  <tariff id="AAEDG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>100</payroll>
+    <smsprice>94</smsprice>
+  </tariff>
+  <tariff id="AAEDH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>78</payroll>
+    <smsprice>111</smsprice>
+  </tariff>
+  <tariff id="AAEDI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>60</payroll>
+    <smsprice>132</smsprice>
+  </tariff>
+  <tariff id="AAEDJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>190</payroll>
+    <smsprice>36</smsprice>
+  </tariff>
+  <tariff id="AAEEA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>74</payroll>
+    <smsprice>185</smsprice>
+  </tariff>
+  <tariff id="AAEEB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>75</payroll>
+    <smsprice>118</smsprice>
+  </tariff>
+  <tariff id="AAEEC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>35</payroll>
+    <smsprice>23</smsprice>
+  </tariff>
+  <tariff id="AAEED">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>195</payroll>
+    <smsprice>193</smsprice>
+  </tariff>
+  <tariff id="AAEEE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>121</payroll>
+    <smsprice>200</smsprice>
+  </tariff>
+  <tariff id="AAEEF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>165</payroll>
+    <smsprice>62</smsprice>
+  </tariff>
+  <tariff id="AAEEG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>34</payroll>
+    <smsprice>182</smsprice>
+  </tariff>
+  <tariff id="AAEEH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>33</payroll>
+    <smsprice>108</smsprice>
+  </tariff>
+  <tariff id="AAEEI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>91</payroll>
+    <smsprice>177</smsprice>
+  </tariff>
+  <tariff id="AAEEJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>92</payroll>
+    <smsprice>99</smsprice>
+  </tariff>
+  <tariff id="AAEFA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>137</payroll>
+    <smsprice>143</smsprice>
+  </tariff>
+  <tariff id="AAEFB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>34</payroll>
+    <smsprice>165</smsprice>
+  </tariff>
+  <tariff id="AAEFC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>96</payroll>
+    <smsprice>23</smsprice>
+  </tariff>
+  <tariff id="AAEFD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>100</payroll>
+    <smsprice>51</smsprice>
+  </tariff>
+  <tariff id="AAEFE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>186</payroll>
+    <smsprice>124</smsprice>
+  </tariff>
+  <tariff id="AAEFF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>46</payroll>
+    <smsprice>78</smsprice>
+  </tariff>
+  <tariff id="AAEFG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>164</payroll>
+    <smsprice>33</smsprice>
+  </tariff>
+  <tariff id="AAEFH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>3</payroll>
+    <smsprice>11</smsprice>
+  </tariff>
+  <tariff id="AAEFI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>23</payroll>
+    <smsprice>146</smsprice>
+  </tariff>
+  <tariff id="AAEFJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>191</payroll>
+    <smsprice>163</smsprice>
+  </tariff>
+  <tariff id="AAEGA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>136</payroll>
+    <smsprice>173</smsprice>
+  </tariff>
+  <tariff id="AAEGB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>10</payroll>
+    <smsprice>161</smsprice>
+  </tariff>
+  <tariff id="AAEGC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>62</payroll>
+    <smsprice>53</smsprice>
+  </tariff>
+  <tariff id="AAEGD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>121</payroll>
+    <smsprice>64</smsprice>
+  </tariff>
+  <tariff id="AAEGE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>46</payroll>
+    <smsprice>20</smsprice>
+  </tariff>
+  <tariff id="AAEGF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>100</payroll>
+    <smsprice>161</smsprice>
+  </tariff>
+  <tariff id="AAEGG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>82</payroll>
+    <smsprice>195</smsprice>
+  </tariff>
+  <tariff id="AAEGH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>47</payroll>
+    <smsprice>193</smsprice>
+  </tariff>
+  <tariff id="AAEGI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>138</payroll>
+    <smsprice>99</smsprice>
+  </tariff>
+  <tariff id="AAEGJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>155</payroll>
+    <smsprice>129</smsprice>
+  </tariff>
+  <tariff id="AAEHA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>146</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AAEHB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>107</payroll>
+    <smsprice>135</smsprice>
+  </tariff>
+  <tariff id="AAEHC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>82</payroll>
+    <smsprice>52</smsprice>
+  </tariff>
+  <tariff id="AAEHD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>26</payroll>
+    <smsprice>112</smsprice>
+  </tariff>
+  <tariff id="AAEHE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>64</payroll>
+    <smsprice>124</smsprice>
+  </tariff>
+  <tariff id="AAEHF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>173</payroll>
+    <smsprice>123</smsprice>
+  </tariff>
+  <tariff id="AAEHG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>102</payroll>
+    <smsprice>146</smsprice>
+  </tariff>
+  <tariff id="AAEHH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>148</payroll>
+    <smsprice>144</smsprice>
+  </tariff>
+  <tariff id="AAEHI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>6</payroll>
+    <smsprice>183</smsprice>
+  </tariff>
+  <tariff id="AAEHJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>128</payroll>
+    <smsprice>192</smsprice>
+  </tariff>
+  <tariff id="AAEIA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>136</payroll>
+    <smsprice>198</smsprice>
+  </tariff>
+  <tariff id="AAEIB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>71</payroll>
+    <smsprice>130</smsprice>
+  </tariff>
+  <tariff id="AAEIC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>119</payroll>
+    <smsprice>169</smsprice>
+  </tariff>
+  <tariff id="AAEID">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>163</payroll>
+    <smsprice>62</smsprice>
+  </tariff>
+  <tariff id="AAEIE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>25</payroll>
+    <smsprice>41</smsprice>
+  </tariff>
+  <tariff id="AAEIF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>152</payroll>
+    <smsprice>47</smsprice>
+  </tariff>
+  <tariff id="AAEIG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>62</payroll>
+    <smsprice>180</smsprice>
+  </tariff>
+  <tariff id="AAEIH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>178</payroll>
+    <smsprice>3</smsprice>
+  </tariff>
+  <tariff id="AAEII">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>99</payroll>
+    <smsprice>189</smsprice>
+  </tariff>
+  <tariff id="AAEIJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>179</payroll>
+    <smsprice>49</smsprice>
+  </tariff>
+  <tariff id="AAEJA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>46</payroll>
+    <smsprice>156</smsprice>
+  </tariff>
+  <tariff id="AAEJB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>197</payroll>
+    <smsprice>171</smsprice>
+  </tariff>
+  <tariff id="AAEJC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>162</payroll>
+    <smsprice>168</smsprice>
+  </tariff>
+  <tariff id="AAEJD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>34</payroll>
+    <smsprice>155</smsprice>
+  </tariff>
+  <tariff id="AAEJE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>84</payroll>
+    <smsprice>185</smsprice>
+  </tariff>
+  <tariff id="AAEJF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>10</payroll>
+    <smsprice>56</smsprice>
+  </tariff>
+  <tariff id="AAEJG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>32</payroll>
+    <smsprice>131</smsprice>
+  </tariff>
+  <tariff id="AAEJH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>55</payroll>
+    <smsprice>147</smsprice>
+  </tariff>
+  <tariff id="AAEJI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>130</payroll>
+    <smsprice>109</smsprice>
+  </tariff>
+  <tariff id="AAEJJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>87</payroll>
+    <smsprice>154</smsprice>
+  </tariff>
+  <tariff id="AAFAA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>122</payroll>
+    <smsprice>84</smsprice>
+  </tariff>
+  <tariff id="AAFAB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>135</payroll>
+    <smsprice>158</smsprice>
+  </tariff>
+  <tariff id="AAFAC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>196</payroll>
+    <smsprice>51</smsprice>
+  </tariff>
+  <tariff id="AAFAD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>117</payroll>
+    <smsprice>45</smsprice>
+  </tariff>
+  <tariff id="AAFAE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>117</payroll>
+    <smsprice>105</smsprice>
+  </tariff>
+  <tariff id="AAFAF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>26</payroll>
+    <smsprice>23</smsprice>
+  </tariff>
+  <tariff id="AAFAG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>185</payroll>
+    <smsprice>155</smsprice>
+  </tariff>
+  <tariff id="AAFAH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>106</payroll>
+    <smsprice>76</smsprice>
+  </tariff>
+  <tariff id="AAFAI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>125</payroll>
+    <smsprice>11</smsprice>
+  </tariff>
+  <tariff id="AAFAJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>16</payroll>
+    <smsprice>2</smsprice>
+  </tariff>
+  <tariff id="AAFBA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>162</payroll>
+    <smsprice>55</smsprice>
+  </tariff>
+  <tariff id="AAFBB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>13</payroll>
+    <smsprice>172</smsprice>
+  </tariff>
+  <tariff id="AAFBC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>46</payroll>
+    <smsprice>55</smsprice>
+  </tariff>
+  <tariff id="AAFBD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>160</payroll>
+    <smsprice>23</smsprice>
+  </tariff>
+  <tariff id="AAFBE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>128</payroll>
+    <smsprice>153</smsprice>
+  </tariff>
+  <tariff id="AAFBF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>130</payroll>
+    <smsprice>117</smsprice>
+  </tariff>
+  <tariff id="AAFBG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>179</payroll>
+    <smsprice>79</smsprice>
+  </tariff>
+  <tariff id="AAFBH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>180</payroll>
+    <smsprice>91</smsprice>
+  </tariff>
+  <tariff id="AAFBI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>52</payroll>
+    <smsprice>185</smsprice>
+  </tariff>
+  <tariff id="AAFBJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>34</payroll>
+    <smsprice>54</smsprice>
+  </tariff>
+  <tariff id="AAFCA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>126</payroll>
+    <smsprice>43</smsprice>
+  </tariff>
+  <tariff id="AAFCB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>13</payroll>
+    <smsprice>95</smsprice>
+  </tariff>
+  <tariff id="AAFCC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>196</payroll>
+    <smsprice>29</smsprice>
+  </tariff>
+  <tariff id="AAFCD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>71</payroll>
+    <smsprice>129</smsprice>
+  </tariff>
+  <tariff id="AAFCE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>89</payroll>
+    <smsprice>83</smsprice>
+  </tariff>
+  <tariff id="AAFCF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>141</payroll>
+    <smsprice>56</smsprice>
+  </tariff>
+  <tariff id="AAFCG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>146</payroll>
+    <smsprice>33</smsprice>
+  </tariff>
+  <tariff id="AAFCH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>81</payroll>
+    <smsprice>135</smsprice>
+  </tariff>
+  <tariff id="AAFCI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>100</payroll>
+    <smsprice>93</smsprice>
+  </tariff>
+  <tariff id="AAFCJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>185</payroll>
+    <smsprice>89</smsprice>
+  </tariff>
+  <tariff id="AAFDA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>84</payroll>
+    <smsprice>181</smsprice>
+  </tariff>
+  <tariff id="AAFDB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>140</payroll>
+    <smsprice>2</smsprice>
+  </tariff>
+  <tariff id="AAFDC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>105</payroll>
+    <smsprice>94</smsprice>
+  </tariff>
+  <tariff id="AAFDD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>11</payroll>
+    <smsprice>13</smsprice>
+  </tariff>
+  <tariff id="AAFDE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>70</payroll>
+    <smsprice>178</smsprice>
+  </tariff>
+  <tariff id="AAFDF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>104</payroll>
+    <smsprice>97</smsprice>
+  </tariff>
+  <tariff id="AAFDG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>163</payroll>
+    <smsprice>68</smsprice>
+  </tariff>
+  <tariff id="AAFDH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>195</payroll>
+    <smsprice>6</smsprice>
+  </tariff>
+  <tariff id="AAFDI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>152</payroll>
+    <smsprice>123</smsprice>
+  </tariff>
+  <tariff id="AAFDJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>65</payroll>
+    <smsprice>117</smsprice>
+  </tariff>
+  <tariff id="AAFEA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>75</payroll>
+    <smsprice>73</smsprice>
+  </tariff>
+  <tariff id="AAFEB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>90</payroll>
+    <smsprice>144</smsprice>
+  </tariff>
+  <tariff id="AAFEC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>190</payroll>
+    <smsprice>34</smsprice>
+  </tariff>
+  <tariff id="AAFED">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>29</payroll>
+    <smsprice>48</smsprice>
+  </tariff>
+  <tariff id="AAFEE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>21</payroll>
+    <smsprice>17</smsprice>
+  </tariff>
+  <tariff id="AAFEF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>22</payroll>
+    <smsprice>1</smsprice>
+  </tariff>
+  <tariff id="AAFEG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>145</payroll>
+    <smsprice>116</smsprice>
+  </tariff>
+  <tariff id="AAFEH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>47</payroll>
+    <smsprice>104</smsprice>
+  </tariff>
+  <tariff id="AAFEI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>189</payroll>
+    <smsprice>90</smsprice>
+  </tariff>
+  <tariff id="AAFEJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>111</payroll>
+    <smsprice>184</smsprice>
+  </tariff>
+  <tariff id="AAFFA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>176</payroll>
+    <smsprice>64</smsprice>
+  </tariff>
+  <tariff id="AAFFB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>168</payroll>
+    <smsprice>112</smsprice>
+  </tariff>
+  <tariff id="AAFFC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>149</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AAFFD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>14</payroll>
+    <smsprice>66</smsprice>
+  </tariff>
+  <tariff id="AAFFE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>151</payroll>
+    <smsprice>80</smsprice>
+  </tariff>
+  <tariff id="AAFFF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>108</payroll>
+    <smsprice>58</smsprice>
+  </tariff>
+  <tariff id="AAFFG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>125</payroll>
+    <smsprice>197</smsprice>
+  </tariff>
+  <tariff id="AAFFH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>153</payroll>
+    <smsprice>90</smsprice>
+  </tariff>
+  <tariff id="AAFFI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>29</payroll>
+    <smsprice>150</smsprice>
+  </tariff>
+  <tariff id="AAFFJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>154</payroll>
+    <smsprice>62</smsprice>
+  </tariff>
+  <tariff id="AAFGA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>144</payroll>
+    <smsprice>128</smsprice>
+  </tariff>
+  <tariff id="AAFGB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>40</payroll>
+    <smsprice>79</smsprice>
+  </tariff>
+  <tariff id="AAFGC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>161</payroll>
+    <smsprice>134</smsprice>
+  </tariff>
+  <tariff id="AAFGD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>7</payroll>
+    <smsprice>94</smsprice>
+  </tariff>
+  <tariff id="AAFGE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>108</payroll>
+    <smsprice>117</smsprice>
+  </tariff>
+  <tariff id="AAFGF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>149</payroll>
+    <smsprice>56</smsprice>
+  </tariff>
+  <tariff id="AAFGG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>111</payroll>
+    <smsprice>25</smsprice>
+  </tariff>
+  <tariff id="AAFGH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>162</payroll>
+    <smsprice>164</smsprice>
+  </tariff>
+  <tariff id="AAFGI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>134</payroll>
+    <smsprice>138</smsprice>
+  </tariff>
+  <tariff id="AAFGJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>96</payroll>
+    <smsprice>91</smsprice>
+  </tariff>
+  <tariff id="AAFHA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>46</payroll>
+    <smsprice>145</smsprice>
+  </tariff>
+  <tariff id="AAFHB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>10</payroll>
+    <smsprice>191</smsprice>
+  </tariff>
+  <tariff id="AAFHC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>98</payroll>
+    <smsprice>78</smsprice>
+  </tariff>
+  <tariff id="AAFHD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>175</payroll>
+    <smsprice>129</smsprice>
+  </tariff>
+  <tariff id="AAFHE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>163</payroll>
+    <smsprice>16</smsprice>
+  </tariff>
+  <tariff id="AAFHF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>29</payroll>
+    <smsprice>123</smsprice>
+  </tariff>
+  <tariff id="AAFHG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>174</payroll>
+    <smsprice>183</smsprice>
+  </tariff>
+  <tariff id="AAFHH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>178</payroll>
+    <smsprice>63</smsprice>
+  </tariff>
+  <tariff id="AAFHI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>55</payroll>
+    <smsprice>82</smsprice>
+  </tariff>
+  <tariff id="AAFHJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>110</payroll>
+    <smsprice>114</smsprice>
+  </tariff>
+  <tariff id="AAFIA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>169</payroll>
+    <smsprice>138</smsprice>
+  </tariff>
+  <tariff id="AAFIB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>133</payroll>
+    <smsprice>49</smsprice>
+  </tariff>
+  <tariff id="AAFIC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>47</payroll>
+    <smsprice>170</smsprice>
+  </tariff>
+  <tariff id="AAFID">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>146</payroll>
+    <smsprice>198</smsprice>
+  </tariff>
+  <tariff id="AAFIE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>160</payroll>
+    <smsprice>33</smsprice>
+  </tariff>
+  <tariff id="AAFIF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>123</payroll>
+    <smsprice>196</smsprice>
+  </tariff>
+  <tariff id="AAFIG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>17</payroll>
+    <smsprice>39</smsprice>
+  </tariff>
+  <tariff id="AAFIH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>2</payroll>
+    <smsprice>155</smsprice>
+  </tariff>
+  <tariff id="AAFII">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>13</payroll>
+    <smsprice>115</smsprice>
+  </tariff>
+  <tariff id="AAFIJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>22</payroll>
+    <smsprice>86</smsprice>
+  </tariff>
+  <tariff id="AAFJA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>151</payroll>
+    <smsprice>164</smsprice>
+  </tariff>
+  <tariff id="AAFJB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>11</payroll>
+    <smsprice>127</smsprice>
+  </tariff>
+  <tariff id="AAFJC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>47</payroll>
+    <smsprice>181</smsprice>
+  </tariff>
+  <tariff id="AAFJD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>189</payroll>
+    <smsprice>100</smsprice>
+  </tariff>
+  <tariff id="AAFJE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>134</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AAFJF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>62</payroll>
+    <smsprice>23</smsprice>
+  </tariff>
+  <tariff id="AAFJG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>23</payroll>
+    <smsprice>43</smsprice>
+  </tariff>
+  <tariff id="AAFJH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>61</payroll>
+    <smsprice>167</smsprice>
+  </tariff>
+  <tariff id="AAFJI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>15</payroll>
+    <smsprice>43</smsprice>
+  </tariff>
+  <tariff id="AAFJJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>198</payroll>
+    <smsprice>29</smsprice>
+  </tariff>
+  <tariff id="AAGAA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>58</payroll>
+    <smsprice>124</smsprice>
+  </tariff>
+  <tariff id="AAGAB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>183</payroll>
+    <smsprice>184</smsprice>
+  </tariff>
+  <tariff id="AAGAC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>130</payroll>
+    <smsprice>161</smsprice>
+  </tariff>
+  <tariff id="AAGAD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>25</payroll>
+    <smsprice>56</smsprice>
+  </tariff>
+  <tariff id="AAGAE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>145</payroll>
+    <smsprice>194</smsprice>
+  </tariff>
+  <tariff id="AAGAF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>64</payroll>
+    <smsprice>26</smsprice>
+  </tariff>
+  <tariff id="AAGAG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>186</payroll>
+    <smsprice>18</smsprice>
+  </tariff>
+  <tariff id="AAGAH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>26</payroll>
+    <smsprice>115</smsprice>
+  </tariff>
+  <tariff id="AAGAI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>184</payroll>
+    <smsprice>42</smsprice>
+  </tariff>
+  <tariff id="AAGAJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>1</payroll>
+    <smsprice>197</smsprice>
+  </tariff>
+  <tariff id="AAGBA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>39</payroll>
+    <smsprice>60</smsprice>
+  </tariff>
+  <tariff id="AAGBB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>7</payroll>
+    <smsprice>169</smsprice>
+  </tariff>
+  <tariff id="AAGBC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>73</payroll>
+    <smsprice>165</smsprice>
+  </tariff>
+  <tariff id="AAGBD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>152</payroll>
+    <smsprice>141</smsprice>
+  </tariff>
+  <tariff id="AAGBE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>20</payroll>
+    <smsprice>15</smsprice>
+  </tariff>
+  <tariff id="AAGBF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>78</payroll>
+    <smsprice>193</smsprice>
+  </tariff>
+  <tariff id="AAGBG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>131</payroll>
+    <smsprice>148</smsprice>
+  </tariff>
+  <tariff id="AAGBH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>171</payroll>
+    <smsprice>113</smsprice>
+  </tariff>
+  <tariff id="AAGBI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>106</payroll>
+    <smsprice>104</smsprice>
+  </tariff>
+  <tariff id="AAGBJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>177</payroll>
+    <smsprice>190</smsprice>
+  </tariff>
+  <tariff id="AAGCA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>24</payroll>
+    <smsprice>2</smsprice>
+  </tariff>
+  <tariff id="AAGCB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>26</payroll>
+    <smsprice>34</smsprice>
+  </tariff>
+  <tariff id="AAGCC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>96</payroll>
+    <smsprice>35</smsprice>
+  </tariff>
+  <tariff id="AAGCD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>25</payroll>
+    <smsprice>109</smsprice>
+  </tariff>
+  <tariff id="AAGCE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>142</payroll>
+    <smsprice>171</smsprice>
+  </tariff>
+  <tariff id="AAGCF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>169</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AAGCG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>60</payroll>
+    <smsprice>199</smsprice>
+  </tariff>
+  <tariff id="AAGCH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>181</payroll>
+    <smsprice>175</smsprice>
+  </tariff>
+  <tariff id="AAGCI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>71</payroll>
+    <smsprice>21</smsprice>
+  </tariff>
+  <tariff id="AAGCJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>70</payroll>
+    <smsprice>158</smsprice>
+  </tariff>
+  <tariff id="AAGDA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>173</payroll>
+    <smsprice>140</smsprice>
+  </tariff>
+  <tariff id="AAGDB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>186</payroll>
+    <smsprice>149</smsprice>
+  </tariff>
+  <tariff id="AAGDC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>99</payroll>
+    <smsprice>39</smsprice>
+  </tariff>
+  <tariff id="AAGDD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>65</payroll>
+    <smsprice>43</smsprice>
+  </tariff>
+  <tariff id="AAGDE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>62</payroll>
+    <smsprice>116</smsprice>
+  </tariff>
+  <tariff id="AAGDF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>95</payroll>
+    <smsprice>35</smsprice>
+  </tariff>
+  <tariff id="AAGDG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>33</payroll>
+    <smsprice>188</smsprice>
+  </tariff>
+  <tariff id="AAGDH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>54</payroll>
+    <smsprice>75</smsprice>
+  </tariff>
+  <tariff id="AAGDI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>171</payroll>
+    <smsprice>63</smsprice>
+  </tariff>
+  <tariff id="AAGDJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>191</payroll>
+    <smsprice>165</smsprice>
+  </tariff>
+  <tariff id="AAGEA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>64</payroll>
+    <smsprice>115</smsprice>
+  </tariff>
+  <tariff id="AAGEB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>8</payroll>
+    <smsprice>138</smsprice>
+  </tariff>
+  <tariff id="AAGEC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>85</payroll>
+    <smsprice>191</smsprice>
+  </tariff>
+  <tariff id="AAGED">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>139</payroll>
+    <smsprice>28</smsprice>
+  </tariff>
+  <tariff id="AAGEE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>113</payroll>
+    <smsprice>18</smsprice>
+  </tariff>
+  <tariff id="AAGEF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>187</payroll>
+    <smsprice>151</smsprice>
+  </tariff>
+  <tariff id="AAGEG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>153</payroll>
+    <smsprice>88</smsprice>
+  </tariff>
+  <tariff id="AAGEH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>126</payroll>
+    <smsprice>39</smsprice>
+  </tariff>
+  <tariff id="AAGEI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>58</payroll>
+    <smsprice>145</smsprice>
+  </tariff>
+  <tariff id="AAGEJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>196</payroll>
+    <smsprice>69</smsprice>
+  </tariff>
+  <tariff id="AAGFA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>64</payroll>
+    <smsprice>68</smsprice>
+  </tariff>
+  <tariff id="AAGFB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>69</payroll>
+    <smsprice>132</smsprice>
+  </tariff>
+  <tariff id="AAGFC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>164</payroll>
+    <smsprice>169</smsprice>
+  </tariff>
+  <tariff id="AAGFD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>9</payroll>
+    <smsprice>2</smsprice>
+  </tariff>
+  <tariff id="AAGFE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>78</payroll>
+    <smsprice>164</smsprice>
+  </tariff>
+  <tariff id="AAGFF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>7</payroll>
+    <smsprice>155</smsprice>
+  </tariff>
+  <tariff id="AAGFG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>191</payroll>
+    <smsprice>149</smsprice>
+  </tariff>
+  <tariff id="AAGFH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>23</payroll>
+    <smsprice>124</smsprice>
+  </tariff>
+  <tariff id="AAGFI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>136</payroll>
+    <smsprice>84</smsprice>
+  </tariff>
+  <tariff id="AAGFJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>34</payroll>
+    <smsprice>134</smsprice>
+  </tariff>
+  <tariff id="AAGGA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>125</payroll>
+    <smsprice>9</smsprice>
+  </tariff>
+  <tariff id="AAGGB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>4</payroll>
+    <smsprice>149</smsprice>
+  </tariff>
+  <tariff id="AAGGC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>188</payroll>
+    <smsprice>162</smsprice>
+  </tariff>
+  <tariff id="AAGGD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>105</payroll>
+    <smsprice>44</smsprice>
+  </tariff>
+  <tariff id="AAGGE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>183</payroll>
+    <smsprice>91</smsprice>
+  </tariff>
+  <tariff id="AAGGF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>149</payroll>
+    <smsprice>89</smsprice>
+  </tariff>
+  <tariff id="AAGGG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>145</payroll>
+    <smsprice>46</smsprice>
+  </tariff>
+  <tariff id="AAGGH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>141</payroll>
+    <smsprice>126</smsprice>
+  </tariff>
+  <tariff id="AAGGI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>193</payroll>
+    <smsprice>117</smsprice>
+  </tariff>
+  <tariff id="AAGGJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>32</payroll>
+    <smsprice>151</smsprice>
+  </tariff>
+  <tariff id="AAGHA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>105</payroll>
+    <smsprice>60</smsprice>
+  </tariff>
+  <tariff id="AAGHB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>20</payroll>
+    <smsprice>121</smsprice>
+  </tariff>
+  <tariff id="AAGHC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>27</payroll>
+    <smsprice>12</smsprice>
+  </tariff>
+  <tariff id="AAGHD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>128</payroll>
+    <smsprice>117</smsprice>
+  </tariff>
+  <tariff id="AAGHE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>154</payroll>
+    <smsprice>149</smsprice>
+  </tariff>
+  <tariff id="AAGHF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>69</payroll>
+    <smsprice>77</smsprice>
+  </tariff>
+  <tariff id="AAGHG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>72</payroll>
+    <smsprice>28</smsprice>
+  </tariff>
+  <tariff id="AAGHH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>143</payroll>
+    <smsprice>36</smsprice>
+  </tariff>
+  <tariff id="AAGHI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>93</payroll>
+    <smsprice>72</smsprice>
+  </tariff>
+  <tariff id="AAGHJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>192</payroll>
+    <smsprice>153</smsprice>
+  </tariff>
+  <tariff id="AAGIA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>145</payroll>
+    <smsprice>134</smsprice>
+  </tariff>
+  <tariff id="AAGIB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>49</payroll>
+    <smsprice>91</smsprice>
+  </tariff>
+  <tariff id="AAGIC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>55</payroll>
+    <smsprice>9</smsprice>
+  </tariff>
+  <tariff id="AAGID">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>113</payroll>
+    <smsprice>7</smsprice>
+  </tariff>
+  <tariff id="AAGIE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>150</payroll>
+    <smsprice>72</smsprice>
+  </tariff>
+  <tariff id="AAGIF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>82</payroll>
+    <smsprice>130</smsprice>
+  </tariff>
+  <tariff id="AAGIG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>157</payroll>
+    <smsprice>168</smsprice>
+  </tariff>
+  <tariff id="AAGIH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>199</payroll>
+    <smsprice>150</smsprice>
+  </tariff>
+  <tariff id="AAGII">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>63</payroll>
+    <smsprice>179</smsprice>
+  </tariff>
+  <tariff id="AAGIJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>144</payroll>
+    <smsprice>119</smsprice>
+  </tariff>
+  <tariff id="AAGJA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>96</payroll>
+    <smsprice>102</smsprice>
+  </tariff>
+  <tariff id="AAGJB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>118</payroll>
+    <smsprice>19</smsprice>
+  </tariff>
+  <tariff id="AAGJC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>72</payroll>
+    <smsprice>94</smsprice>
+  </tariff>
+  <tariff id="AAGJD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>189</payroll>
+    <smsprice>44</smsprice>
+  </tariff>
+  <tariff id="AAGJE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>42</payroll>
+    <smsprice>107</smsprice>
+  </tariff>
+  <tariff id="AAGJF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>169</payroll>
+    <smsprice>171</smsprice>
+  </tariff>
+  <tariff id="AAGJG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>55</payroll>
+    <smsprice>49</smsprice>
+  </tariff>
+  <tariff id="AAGJH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>191</payroll>
+    <smsprice>15</smsprice>
+  </tariff>
+  <tariff id="AAGJI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>18</payroll>
+    <smsprice>179</smsprice>
+  </tariff>
+  <tariff id="AAGJJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>123</payroll>
+    <smsprice>59</smsprice>
+  </tariff>
+  <tariff id="AAHAA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>108</payroll>
+    <smsprice>188</smsprice>
+  </tariff>
+  <tariff id="AAHAB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>67</payroll>
+    <smsprice>195</smsprice>
+  </tariff>
+  <tariff id="AAHAC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>23</payroll>
+    <smsprice>102</smsprice>
+  </tariff>
+  <tariff id="AAHAD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>70</payroll>
+    <smsprice>105</smsprice>
+  </tariff>
+  <tariff id="AAHAE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>163</payroll>
+    <smsprice>188</smsprice>
+  </tariff>
+  <tariff id="AAHAF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>138</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="AAHAG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>189</payroll>
+    <smsprice>107</smsprice>
+  </tariff>
+  <tariff id="AAHAH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>140</payroll>
+    <smsprice>41</smsprice>
+  </tariff>
+  <tariff id="AAHAI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>168</payroll>
+    <smsprice>140</smsprice>
+  </tariff>
+  <tariff id="AAHAJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>128</payroll>
+    <smsprice>109</smsprice>
+  </tariff>
+  <tariff id="AAHBA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>176</payroll>
+    <smsprice>111</smsprice>
+  </tariff>
+  <tariff id="AAHBB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>188</payroll>
+    <smsprice>103</smsprice>
+  </tariff>
+  <tariff id="AAHBC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>61</payroll>
+    <smsprice>10</smsprice>
+  </tariff>
+  <tariff id="AAHBD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>92</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+  <tariff id="AAHBE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>77</payroll>
+    <smsprice>54</smsprice>
+  </tariff>
+  <tariff id="AAHBF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>138</payroll>
+    <smsprice>79</smsprice>
+  </tariff>
+  <tariff id="AAHBG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>89</payroll>
+    <smsprice>166</smsprice>
+  </tariff>
+  <tariff id="AAHBH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>186</payroll>
+    <smsprice>59</smsprice>
+  </tariff>
+  <tariff id="AAHBI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>2</payroll>
+    <smsprice>95</smsprice>
+  </tariff>
+  <tariff id="AAHBJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>11</payroll>
+    <smsprice>103</smsprice>
+  </tariff>
+  <tariff id="AAHCA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>39</payroll>
+    <smsprice>60</smsprice>
+  </tariff>
+  <tariff id="AAHCB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>75</payroll>
+    <smsprice>160</smsprice>
+  </tariff>
+  <tariff id="AAHCC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>92</payroll>
+    <smsprice>87</smsprice>
+  </tariff>
+  <tariff id="AAHCD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>33</payroll>
+    <smsprice>193</smsprice>
+  </tariff>
+  <tariff id="AAHCE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>43</payroll>
+    <smsprice>117</smsprice>
+  </tariff>
+  <tariff id="AAHCF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>37</payroll>
+    <smsprice>104</smsprice>
+  </tariff>
+  <tariff id="AAHCG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>38</payroll>
+    <smsprice>35</smsprice>
+  </tariff>
+  <tariff id="AAHCH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>126</payroll>
+    <smsprice>13</smsprice>
+  </tariff>
+  <tariff id="AAHCI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>105</payroll>
+    <smsprice>48</smsprice>
+  </tariff>
+  <tariff id="AAHCJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>127</payroll>
+    <smsprice>160</smsprice>
+  </tariff>
+  <tariff id="AAHDA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>108</payroll>
+    <smsprice>104</smsprice>
+  </tariff>
+  <tariff id="AAHDB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>110</payroll>
+    <smsprice>138</smsprice>
+  </tariff>
+  <tariff id="AAHDC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>36</payroll>
+    <smsprice>95</smsprice>
+  </tariff>
+  <tariff id="AAHDD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>160</payroll>
+    <smsprice>6</smsprice>
+  </tariff>
+  <tariff id="AAHDE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>195</payroll>
+    <smsprice>113</smsprice>
+  </tariff>
+  <tariff id="AAHDF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>77</payroll>
+    <smsprice>114</smsprice>
+  </tariff>
+  <tariff id="AAHDG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>80</payroll>
+    <smsprice>19</smsprice>
+  </tariff>
+  <tariff id="AAHDH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>81</payroll>
+    <smsprice>73</smsprice>
+  </tariff>
+  <tariff id="AAHDI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>181</payroll>
+    <smsprice>13</smsprice>
+  </tariff>
+  <tariff id="AAHDJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>104</payroll>
+    <smsprice>163</smsprice>
+  </tariff>
+  <tariff id="AAHEA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>116</payroll>
+    <smsprice>127</smsprice>
+  </tariff>
+  <tariff id="AAHEB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>50</payroll>
+    <smsprice>22</smsprice>
+  </tariff>
+  <tariff id="AAHEC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>84</payroll>
+    <smsprice>175</smsprice>
+  </tariff>
+  <tariff id="AAHED">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>63</payroll>
+    <smsprice>54</smsprice>
+  </tariff>
+  <tariff id="AAHEE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>185</payroll>
+    <smsprice>82</smsprice>
+  </tariff>
+  <tariff id="AAHEF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>12</payroll>
+    <smsprice>19</smsprice>
+  </tariff>
+  <tariff id="AAHEG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>148</payroll>
+    <smsprice>126</smsprice>
+  </tariff>
+  <tariff id="AAHEH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>142</payroll>
+    <smsprice>46</smsprice>
+  </tariff>
+  <tariff id="AAHEI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>30</payroll>
+    <smsprice>104</smsprice>
+  </tariff>
+  <tariff id="AAHEJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>23</payroll>
+    <smsprice>17</smsprice>
+  </tariff>
+  <tariff id="AAHFA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>40</payroll>
+    <smsprice>35</smsprice>
+  </tariff>
+  <tariff id="AAHFB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>64</payroll>
+    <smsprice>193</smsprice>
+  </tariff>
+  <tariff id="AAHFC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>97</payroll>
+    <smsprice>111</smsprice>
+  </tariff>
+  <tariff id="AAHFD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>39</payroll>
+    <smsprice>181</smsprice>
+  </tariff>
+  <tariff id="AAHFE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>28</payroll>
+    <smsprice>154</smsprice>
+  </tariff>
+  <tariff id="AAHFF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>170</payroll>
+    <smsprice>16</smsprice>
+  </tariff>
+  <tariff id="AAHFG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>150</payroll>
+    <smsprice>105</smsprice>
+  </tariff>
+  <tariff id="AAHFH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>164</payroll>
+    <smsprice>51</smsprice>
+  </tariff>
+  <tariff id="AAHFI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>161</payroll>
+    <smsprice>74</smsprice>
+  </tariff>
+  <tariff id="AAHFJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>22</payroll>
+    <smsprice>138</smsprice>
+  </tariff>
+  <tariff id="AAHGA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>42</payroll>
+    <smsprice>88</smsprice>
+  </tariff>
+  <tariff id="AAHGB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>52</payroll>
+    <smsprice>87</smsprice>
+  </tariff>
+  <tariff id="AAHGC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>195</payroll>
+    <smsprice>3</smsprice>
+  </tariff>
+  <tariff id="AAHGD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>13</payroll>
+    <smsprice>150</smsprice>
+  </tariff>
+  <tariff id="AAHGE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>35</payroll>
+    <smsprice>136</smsprice>
+  </tariff>
+  <tariff id="AAHGF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>113</payroll>
+    <smsprice>155</smsprice>
+  </tariff>
+  <tariff id="AAHGG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>182</payroll>
+    <smsprice>110</smsprice>
+  </tariff>
+  <tariff id="AAHGH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>144</payroll>
+    <smsprice>119</smsprice>
+  </tariff>
+  <tariff id="AAHGI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>87</payroll>
+    <smsprice>191</smsprice>
+  </tariff>
+  <tariff id="AAHGJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>150</payroll>
+    <smsprice>41</smsprice>
+  </tariff>
+  <tariff id="AAHHA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>48</payroll>
+    <smsprice>30</smsprice>
+  </tariff>
+  <tariff id="AAHHB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>108</payroll>
+    <smsprice>105</smsprice>
+  </tariff>
+  <tariff id="AAHHC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>140</payroll>
+    <smsprice>23</smsprice>
+  </tariff>
+  <tariff id="AAHHD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>91</payroll>
+    <smsprice>178</smsprice>
+  </tariff>
+  <tariff id="AAHHE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>100</payroll>
+    <smsprice>162</smsprice>
+  </tariff>
+  <tariff id="AAHHF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>118</payroll>
+    <smsprice>124</smsprice>
+  </tariff>
+  <tariff id="AAHHG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>97</payroll>
+    <smsprice>20</smsprice>
+  </tariff>
+  <tariff id="AAHHH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>153</payroll>
+    <smsprice>190</smsprice>
+  </tariff>
+  <tariff id="AAHHI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>94</payroll>
+    <smsprice>199</smsprice>
+  </tariff>
+  <tariff id="AAHHJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>108</payroll>
+    <smsprice>96</smsprice>
+  </tariff>
+  <tariff id="AAHIA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>192</payroll>
+    <smsprice>89</smsprice>
+  </tariff>
+  <tariff id="AAHIB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>157</payroll>
+    <smsprice>189</smsprice>
+  </tariff>
+  <tariff id="AAHIC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>151</payroll>
+    <smsprice>150</smsprice>
+  </tariff>
+  <tariff id="AAHID">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>125</payroll>
+    <smsprice>78</smsprice>
+  </tariff>
+  <tariff id="AAHIE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>47</payroll>
+    <smsprice>191</smsprice>
+  </tariff>
+  <tariff id="AAHIF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>16</payroll>
+    <smsprice>176</smsprice>
+  </tariff>
+  <tariff id="AAHIG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>84</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AAHIH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>117</payroll>
+    <smsprice>86</smsprice>
+  </tariff>
+  <tariff id="AAHII">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>2</payroll>
+    <smsprice>129</smsprice>
+  </tariff>
+  <tariff id="AAHIJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>180</payroll>
+    <smsprice>137</smsprice>
+  </tariff>
+  <tariff id="AAHJA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>187</payroll>
+    <smsprice>123</smsprice>
+  </tariff>
+  <tariff id="AAHJB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>61</payroll>
+    <smsprice>96</smsprice>
+  </tariff>
+  <tariff id="AAHJC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>2</payroll>
+    <smsprice>136</smsprice>
+  </tariff>
+  <tariff id="AAHJD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>36</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AAHJE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>172</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AAHJF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>59</payroll>
+    <smsprice>61</smsprice>
+  </tariff>
+  <tariff id="AAHJG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>191</payroll>
+    <smsprice>117</smsprice>
+  </tariff>
+  <tariff id="AAHJH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>69</payroll>
+    <smsprice>69</smsprice>
+  </tariff>
+  <tariff id="AAHJI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>164</payroll>
+    <smsprice>194</smsprice>
+  </tariff>
+  <tariff id="AAHJJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>59</payroll>
+    <smsprice>16</smsprice>
+  </tariff>
+  <tariff id="AAIAA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>126</payroll>
+    <smsprice>10</smsprice>
+  </tariff>
+  <tariff id="AAIAB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>53</payroll>
+    <smsprice>163</smsprice>
+  </tariff>
+  <tariff id="AAIAC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>193</payroll>
+    <smsprice>195</smsprice>
+  </tariff>
+  <tariff id="AAIAD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>24</payroll>
+    <smsprice>174</smsprice>
+  </tariff>
+  <tariff id="AAIAE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>27</payroll>
+    <smsprice>43</smsprice>
+  </tariff>
+  <tariff id="AAIAF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>14</payroll>
+    <smsprice>134</smsprice>
+  </tariff>
+  <tariff id="AAIAG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>24</payroll>
+    <smsprice>85</smsprice>
+  </tariff>
+  <tariff id="AAIAH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>143</payroll>
+    <smsprice>169</smsprice>
+  </tariff>
+  <tariff id="AAIAI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>199</payroll>
+    <smsprice>95</smsprice>
+  </tariff>
+  <tariff id="AAIAJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>143</payroll>
+    <smsprice>16</smsprice>
+  </tariff>
+  <tariff id="AAIBA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>7</payroll>
+    <smsprice>103</smsprice>
+  </tariff>
+  <tariff id="AAIBB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>192</payroll>
+    <smsprice>169</smsprice>
+  </tariff>
+  <tariff id="AAIBC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>164</payroll>
+    <smsprice>122</smsprice>
+  </tariff>
+  <tariff id="AAIBD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>104</payroll>
+    <smsprice>112</smsprice>
+  </tariff>
+  <tariff id="AAIBE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>94</payroll>
+    <smsprice>6</smsprice>
+  </tariff>
+  <tariff id="AAIBF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>20</payroll>
+    <smsprice>81</smsprice>
+  </tariff>
+  <tariff id="AAIBG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>128</payroll>
+    <smsprice>114</smsprice>
+  </tariff>
+  <tariff id="AAIBH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>20</payroll>
+    <smsprice>29</smsprice>
+  </tariff>
+  <tariff id="AAIBI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>94</payroll>
+    <smsprice>60</smsprice>
+  </tariff>
+  <tariff id="AAIBJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>64</payroll>
+    <smsprice>14</smsprice>
+  </tariff>
+  <tariff id="AAICA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>162</payroll>
+    <smsprice>74</smsprice>
+  </tariff>
+  <tariff id="AAICB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>108</payroll>
+    <smsprice>98</smsprice>
+  </tariff>
+  <tariff id="AAICC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>67</payroll>
+    <smsprice>166</smsprice>
+  </tariff>
+  <tariff id="AAICD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>53</payroll>
+    <smsprice>102</smsprice>
+  </tariff>
+  <tariff id="AAICE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>132</payroll>
+    <smsprice>8</smsprice>
+  </tariff>
+  <tariff id="AAICF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>50</payroll>
+    <smsprice>12</smsprice>
+  </tariff>
+  <tariff id="AAICG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>2</payroll>
+    <smsprice>152</smsprice>
+  </tariff>
+  <tariff id="AAICH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>125</payroll>
+    <smsprice>37</smsprice>
+  </tariff>
+  <tariff id="AAICI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>41</payroll>
+    <smsprice>7</smsprice>
+  </tariff>
+  <tariff id="AAICJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>63</payroll>
+    <smsprice>62</smsprice>
+  </tariff>
+  <tariff id="AAIDA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>47</payroll>
+    <smsprice>187</smsprice>
+  </tariff>
+  <tariff id="AAIDB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>11</payroll>
+    <smsprice>38</smsprice>
+  </tariff>
+  <tariff id="AAIDC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>132</payroll>
+    <smsprice>55</smsprice>
+  </tariff>
+  <tariff id="AAIDD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>157</payroll>
+    <smsprice>162</smsprice>
+  </tariff>
+  <tariff id="AAIDE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>112</payroll>
+    <smsprice>47</smsprice>
+  </tariff>
+  <tariff id="AAIDF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>48</payroll>
+    <smsprice>60</smsprice>
+  </tariff>
+  <tariff id="AAIDG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>110</payroll>
+    <smsprice>49</smsprice>
+  </tariff>
+  <tariff id="AAIDH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>16</payroll>
+    <smsprice>116</smsprice>
+  </tariff>
+  <tariff id="AAIDI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>10</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AAIDJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>149</payroll>
+    <smsprice>158</smsprice>
+  </tariff>
+  <tariff id="AAIEA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>138</payroll>
+    <smsprice>55</smsprice>
+  </tariff>
+  <tariff id="AAIEB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>132</payroll>
+    <smsprice>79</smsprice>
+  </tariff>
+  <tariff id="AAIEC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>174</payroll>
+    <smsprice>154</smsprice>
+  </tariff>
+  <tariff id="AAIED">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>168</payroll>
+    <smsprice>18</smsprice>
+  </tariff>
+  <tariff id="AAIEE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>50</payroll>
+    <smsprice>150</smsprice>
+  </tariff>
+  <tariff id="AAIEF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>119</payroll>
+    <smsprice>152</smsprice>
+  </tariff>
+  <tariff id="AAIEG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>67</payroll>
+    <smsprice>124</smsprice>
+  </tariff>
+  <tariff id="AAIEH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>15</payroll>
+    <smsprice>155</smsprice>
+  </tariff>
+  <tariff id="AAIEI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>185</payroll>
+    <smsprice>58</smsprice>
+  </tariff>
+  <tariff id="AAIEJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>92</payroll>
+    <smsprice>29</smsprice>
+  </tariff>
+  <tariff id="AAIFA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>174</payroll>
+    <smsprice>11</smsprice>
+  </tariff>
+  <tariff id="AAIFB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>165</payroll>
+    <smsprice>164</smsprice>
+  </tariff>
+  <tariff id="AAIFC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>54</payroll>
+    <smsprice>14</smsprice>
+  </tariff>
+  <tariff id="AAIFD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>45</payroll>
+    <smsprice>70</smsprice>
+  </tariff>
+  <tariff id="AAIFE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>36</payroll>
+    <smsprice>96</smsprice>
+  </tariff>
+  <tariff id="AAIFF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>14</payroll>
+    <smsprice>7</smsprice>
+  </tariff>
+  <tariff id="AAIFG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>74</payroll>
+    <smsprice>193</smsprice>
+  </tariff>
+  <tariff id="AAIFH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>156</payroll>
+    <smsprice>109</smsprice>
+  </tariff>
+  <tariff id="AAIFI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>67</payroll>
+    <smsprice>101</smsprice>
+  </tariff>
+  <tariff id="AAIFJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>98</payroll>
+    <smsprice>86</smsprice>
+  </tariff>
+  <tariff id="AAIGA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>130</payroll>
+    <smsprice>102</smsprice>
+  </tariff>
+  <tariff id="AAIGB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>95</payroll>
+    <smsprice>37</smsprice>
+  </tariff>
+  <tariff id="AAIGC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>119</payroll>
+    <smsprice>122</smsprice>
+  </tariff>
+  <tariff id="AAIGD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>49</payroll>
+    <smsprice>22</smsprice>
+  </tariff>
+  <tariff id="AAIGE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>169</payroll>
+    <smsprice>47</smsprice>
+  </tariff>
+  <tariff id="AAIGF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>182</payroll>
+    <smsprice>74</smsprice>
+  </tariff>
+  <tariff id="AAIGG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>53</payroll>
+    <smsprice>188</smsprice>
+  </tariff>
+  <tariff id="AAIGH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>124</payroll>
+    <smsprice>118</smsprice>
+  </tariff>
+  <tariff id="AAIGI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>14</payroll>
+    <smsprice>97</smsprice>
+  </tariff>
+  <tariff id="AAIGJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>71</payroll>
+    <smsprice>66</smsprice>
+  </tariff>
+  <tariff id="AAIHA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>31</payroll>
+    <smsprice>96</smsprice>
+  </tariff>
+  <tariff id="AAIHB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>166</payroll>
+    <smsprice>87</smsprice>
+  </tariff>
+  <tariff id="AAIHC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>39</payroll>
+    <smsprice>132</smsprice>
+  </tariff>
+  <tariff id="AAIHD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>131</payroll>
+    <smsprice>41</smsprice>
+  </tariff>
+  <tariff id="AAIHE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>12</payroll>
+    <smsprice>99</smsprice>
+  </tariff>
+  <tariff id="AAIHF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>20</payroll>
+    <smsprice>102</smsprice>
+  </tariff>
+  <tariff id="AAIHG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>63</payroll>
+    <smsprice>186</smsprice>
+  </tariff>
+  <tariff id="AAIHH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>147</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AAIHI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>165</payroll>
+    <smsprice>40</smsprice>
+  </tariff>
+  <tariff id="AAIHJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>39</payroll>
+    <smsprice>137</smsprice>
+  </tariff>
+  <tariff id="AAIIA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>185</payroll>
+    <smsprice>34</smsprice>
+  </tariff>
+  <tariff id="AAIIB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>174</payroll>
+    <smsprice>185</smsprice>
+  </tariff>
+  <tariff id="AAIIC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>7</payroll>
+    <smsprice>186</smsprice>
+  </tariff>
+  <tariff id="AAIID">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>128</payroll>
+    <smsprice>179</smsprice>
+  </tariff>
+  <tariff id="AAIIE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>11</payroll>
+    <smsprice>197</smsprice>
+  </tariff>
+  <tariff id="AAIIF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>115</payroll>
+    <smsprice>28</smsprice>
+  </tariff>
+  <tariff id="AAIIG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>126</payroll>
+    <smsprice>104</smsprice>
+  </tariff>
+  <tariff id="AAIIH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>27</payroll>
+    <smsprice>184</smsprice>
+  </tariff>
+  <tariff id="AAIII">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>189</payroll>
+    <smsprice>138</smsprice>
+  </tariff>
+  <tariff id="AAIIJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>134</payroll>
+    <smsprice>132</smsprice>
+  </tariff>
+  <tariff id="AAIJA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>177</payroll>
+    <smsprice>102</smsprice>
+  </tariff>
+  <tariff id="AAIJB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>41</payroll>
+    <smsprice>128</smsprice>
+  </tariff>
+  <tariff id="AAIJC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>105</payroll>
+    <smsprice>120</smsprice>
+  </tariff>
+  <tariff id="AAIJD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>15</payroll>
+    <smsprice>158</smsprice>
+  </tariff>
+  <tariff id="AAIJE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>83</payroll>
+    <smsprice>74</smsprice>
+  </tariff>
+  <tariff id="AAIJF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>23</payroll>
+    <smsprice>42</smsprice>
+  </tariff>
+  <tariff id="AAIJG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>185</payroll>
+    <smsprice>166</smsprice>
+  </tariff>
+  <tariff id="AAIJH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>194</payroll>
+    <smsprice>169</smsprice>
+  </tariff>
+  <tariff id="AAIJI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>26</payroll>
+    <smsprice>159</smsprice>
+  </tariff>
+  <tariff id="AAIJJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>165</payroll>
+    <smsprice>28</smsprice>
+  </tariff>
+  <tariff id="AAJAA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>192</payroll>
+    <smsprice>91</smsprice>
+  </tariff>
+  <tariff id="AAJAB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>180</payroll>
+    <smsprice>145</smsprice>
+  </tariff>
+  <tariff id="AAJAC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>197</payroll>
+    <smsprice>92</smsprice>
+  </tariff>
+  <tariff id="AAJAD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>189</payroll>
+    <smsprice>160</smsprice>
+  </tariff>
+  <tariff id="AAJAE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>178</payroll>
+    <smsprice>5</smsprice>
+  </tariff>
+  <tariff id="AAJAF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>15</payroll>
+    <smsprice>165</smsprice>
+  </tariff>
+  <tariff id="AAJAG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>58</payroll>
+    <smsprice>52</smsprice>
+  </tariff>
+  <tariff id="AAJAH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>122</payroll>
+    <smsprice>114</smsprice>
+  </tariff>
+  <tariff id="AAJAI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>194</payroll>
+    <smsprice>178</smsprice>
+  </tariff>
+  <tariff id="AAJAJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>5</payroll>
+    <smsprice>155</smsprice>
+  </tariff>
+  <tariff id="AAJBA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>98</payroll>
+    <smsprice>192</smsprice>
+  </tariff>
+  <tariff id="AAJBB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>71</payroll>
+    <smsprice>60</smsprice>
+  </tariff>
+  <tariff id="AAJBC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>38</smsprice>
+  </tariff>
+  <tariff id="AAJBD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>133</payroll>
+    <smsprice>108</smsprice>
+  </tariff>
+  <tariff id="AAJBE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>105</payroll>
+    <smsprice>192</smsprice>
+  </tariff>
+  <tariff id="AAJBF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>134</payroll>
+    <smsprice>145</smsprice>
+  </tariff>
+  <tariff id="AAJBG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>46</payroll>
+    <smsprice>8</smsprice>
+  </tariff>
+  <tariff id="AAJBH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>1</payroll>
+    <smsprice>144</smsprice>
+  </tariff>
+  <tariff id="AAJBI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>3</payroll>
+    <smsprice>19</smsprice>
+  </tariff>
+  <tariff id="AAJBJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>192</payroll>
+    <smsprice>88</smsprice>
+  </tariff>
+  <tariff id="AAJCA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>178</payroll>
+    <smsprice>109</smsprice>
+  </tariff>
+  <tariff id="AAJCB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>122</payroll>
+    <smsprice>118</smsprice>
+  </tariff>
+  <tariff id="AAJCC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>127</payroll>
+    <smsprice>110</smsprice>
+  </tariff>
+  <tariff id="AAJCD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>50</payroll>
+    <smsprice>144</smsprice>
+  </tariff>
+  <tariff id="AAJCE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>181</payroll>
+    <smsprice>71</smsprice>
+  </tariff>
+  <tariff id="AAJCF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>70</payroll>
+    <smsprice>38</smsprice>
+  </tariff>
+  <tariff id="AAJCG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>92</payroll>
+    <smsprice>170</smsprice>
+  </tariff>
+  <tariff id="AAJCH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>125</payroll>
+    <smsprice>106</smsprice>
+  </tariff>
+  <tariff id="AAJCI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>133</payroll>
+    <smsprice>143</smsprice>
+  </tariff>
+  <tariff id="AAJCJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>103</payroll>
+    <smsprice>162</smsprice>
+  </tariff>
+  <tariff id="AAJDA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>159</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AAJDB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>197</payroll>
+    <smsprice>113</smsprice>
+  </tariff>
+  <tariff id="AAJDC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>93</payroll>
+    <smsprice>159</smsprice>
+  </tariff>
+  <tariff id="AAJDD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>188</payroll>
+    <smsprice>183</smsprice>
+  </tariff>
+  <tariff id="AAJDE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>179</payroll>
+    <smsprice>193</smsprice>
+  </tariff>
+  <tariff id="AAJDF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>60</payroll>
+    <smsprice>78</smsprice>
+  </tariff>
+  <tariff id="AAJDG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>47</payroll>
+    <smsprice>130</smsprice>
+  </tariff>
+  <tariff id="AAJDH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>163</payroll>
+    <smsprice>177</smsprice>
+  </tariff>
+  <tariff id="AAJDI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>7</payroll>
+    <smsprice>169</smsprice>
+  </tariff>
+  <tariff id="AAJDJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>142</payroll>
+    <smsprice>118</smsprice>
+  </tariff>
+  <tariff id="AAJEA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>186</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AAJEB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>71</payroll>
+    <smsprice>173</smsprice>
+  </tariff>
+  <tariff id="AAJEC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>48</payroll>
+    <smsprice>130</smsprice>
+  </tariff>
+  <tariff id="AAJED">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>144</payroll>
+    <smsprice>108</smsprice>
+  </tariff>
+  <tariff id="AAJEE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>175</payroll>
+    <smsprice>101</smsprice>
+  </tariff>
+  <tariff id="AAJEF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>44</payroll>
+    <smsprice>154</smsprice>
+  </tariff>
+  <tariff id="AAJEG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>118</payroll>
+    <smsprice>168</smsprice>
+  </tariff>
+  <tariff id="AAJEH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>113</payroll>
+    <smsprice>27</smsprice>
+  </tariff>
+  <tariff id="AAJEI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>68</payroll>
+    <smsprice>28</smsprice>
+  </tariff>
+  <tariff id="AAJEJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>111</payroll>
+    <smsprice>178</smsprice>
+  </tariff>
+  <tariff id="AAJFA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>67</payroll>
+    <smsprice>21</smsprice>
+  </tariff>
+  <tariff id="AAJFB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>74</payroll>
+    <smsprice>111</smsprice>
+  </tariff>
+  <tariff id="AAJFC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>55</payroll>
+    <smsprice>89</smsprice>
+  </tariff>
+  <tariff id="AAJFD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>145</payroll>
+    <smsprice>192</smsprice>
+  </tariff>
+  <tariff id="AAJFE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>34</payroll>
+    <smsprice>74</smsprice>
+  </tariff>
+  <tariff id="AAJFF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>17</payroll>
+    <smsprice>141</smsprice>
+  </tariff>
+  <tariff id="AAJFG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>184</payroll>
+    <smsprice>193</smsprice>
+  </tariff>
+  <tariff id="AAJFH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>47</payroll>
+    <smsprice>116</smsprice>
+  </tariff>
+  <tariff id="AAJFI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>57</payroll>
+    <smsprice>170</smsprice>
+  </tariff>
+  <tariff id="AAJFJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>60</payroll>
+    <smsprice>102</smsprice>
+  </tariff>
+  <tariff id="AAJGA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>94</payroll>
+    <smsprice>33</smsprice>
+  </tariff>
+  <tariff id="AAJGB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>5</payroll>
+    <smsprice>28</smsprice>
+  </tariff>
+  <tariff id="AAJGC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>150</payroll>
+    <smsprice>177</smsprice>
+  </tariff>
+  <tariff id="AAJGD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>57</payroll>
+    <smsprice>165</smsprice>
+  </tariff>
+  <tariff id="AAJGE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>147</payroll>
+    <smsprice>154</smsprice>
+  </tariff>
+  <tariff id="AAJGF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>34</payroll>
+    <smsprice>74</smsprice>
+  </tariff>
+  <tariff id="AAJGG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>167</payroll>
+    <smsprice>91</smsprice>
+  </tariff>
+  <tariff id="AAJGH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>46</payroll>
+    <smsprice>69</smsprice>
+  </tariff>
+  <tariff id="AAJGI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>18</payroll>
+    <smsprice>75</smsprice>
+  </tariff>
+  <tariff id="AAJGJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>16</payroll>
+    <smsprice>115</smsprice>
+  </tariff>
+  <tariff id="AAJHA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>78</payroll>
+    <smsprice>60</smsprice>
+  </tariff>
+  <tariff id="AAJHB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>12</payroll>
+    <smsprice>83</smsprice>
+  </tariff>
+  <tariff id="AAJHC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>85</payroll>
+    <smsprice>70</smsprice>
+  </tariff>
+  <tariff id="AAJHD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>6</payroll>
+    <smsprice>143</smsprice>
+  </tariff>
+  <tariff id="AAJHE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>27</payroll>
+    <smsprice>44</smsprice>
+  </tariff>
+  <tariff id="AAJHF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>52</payroll>
+    <smsprice>166</smsprice>
+  </tariff>
+  <tariff id="AAJHG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>2</payroll>
+    <smsprice>188</smsprice>
+  </tariff>
+  <tariff id="AAJHH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>190</payroll>
+    <smsprice>31</smsprice>
+  </tariff>
+  <tariff id="AAJHI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>40</payroll>
+    <smsprice>195</smsprice>
+  </tariff>
+  <tariff id="AAJHJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>21</payroll>
+    <smsprice>189</smsprice>
+  </tariff>
+  <tariff id="AAJIA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>70</payroll>
+    <smsprice>129</smsprice>
+  </tariff>
+  <tariff id="AAJIB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>169</payroll>
+    <smsprice>175</smsprice>
+  </tariff>
+  <tariff id="AAJIC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>93</payroll>
+    <smsprice>12</smsprice>
+  </tariff>
+  <tariff id="AAJID">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>143</payroll>
+    <smsprice>56</smsprice>
+  </tariff>
+  <tariff id="AAJIE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>163</payroll>
+    <smsprice>131</smsprice>
+  </tariff>
+  <tariff id="AAJIF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>104</payroll>
+    <smsprice>161</smsprice>
+  </tariff>
+  <tariff id="AAJIG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>67</payroll>
+    <smsprice>103</smsprice>
+  </tariff>
+  <tariff id="AAJIH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>19</payroll>
+    <smsprice>140</smsprice>
+  </tariff>
+  <tariff id="AAJII">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>120</payroll>
+    <smsprice>82</smsprice>
+  </tariff>
+  <tariff id="AAJIJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>19</payroll>
+    <smsprice>32</smsprice>
+  </tariff>
+  <tariff id="AAJJA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>147</payroll>
+    <smsprice>85</smsprice>
+  </tariff>
+  <tariff id="AAJJB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>62</payroll>
+    <smsprice>20</smsprice>
+  </tariff>
+  <tariff id="AAJJC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>138</payroll>
+    <smsprice>41</smsprice>
+  </tariff>
+  <tariff id="AAJJD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>96</payroll>
+    <smsprice>158</smsprice>
+  </tariff>
+  <tariff id="AAJJE">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>150</payroll>
+    <smsprice>167</smsprice>
+  </tariff>
+  <tariff id="AAJJF">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>47</payroll>
+    <smsprice>151</smsprice>
+  </tariff>
+  <tariff id="AAJJG">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>17</payroll>
+    <smsprice>140</smsprice>
+  </tariff>
+  <tariff id="AAJJH">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>152</payroll>
+    <smsprice>148</smsprice>
+  </tariff>
+  <tariff id="AAJJI">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>162</payroll>
+    <smsprice>187</smsprice>
+  </tariff>
+  <tariff id="AAJJJ">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>78</payroll>
+    <smsprice>139</smsprice>
+  </tariff>
+  <tariff id="ABAAA">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>92</payroll>
+    <smsprice>18</smsprice>
+  </tariff>
+  <tariff id="ABAAB">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>minute</billing>
+    <payroll>26</payroll>
+    <smsprice>121</smsprice>
+  </tariff>
+  <tariff id="ABAAC">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>78</payroll>
+    <smsprice>23</smsprice>
+  </tariff>
+  <tariff id="ABAAD">
+    <name>string</name>
+    <operatorname>string</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>107</payroll>
+    <smsprice>184</smsprice>
+  </tariff>
+</tariffs>

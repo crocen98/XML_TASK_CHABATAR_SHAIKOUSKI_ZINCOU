@@ -99,9 +99,9 @@ public class Tariff implements Serializable {
         "name='" + name + '\'' +
         ", id=" + id +
         ", operatorName='" + operatorName + '\'' +
-        ", payroll=" + payroll +
+        ", payroll= " + payroll +
         ", billing=" + billing +
-        ", sms price" + smsPrice +
+        ", sms price= " + smsPrice +
         '}';
   }
 }

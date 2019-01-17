@@ -78,6 +78,7 @@ public class StAXTariffBuilder implements Builder<Tariff> {
               name = getXMLText(reader).trim();
               int smsprice = Integer.parseInt(name);
               tariff.setSmsPrice(smsprice);
+              break;
             case BILLING:
               name = getXMLText(reader).trim();
               Billing billing = Billing.valueOf(name);

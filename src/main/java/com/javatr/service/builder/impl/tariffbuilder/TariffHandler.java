@@ -5,7 +5,6 @@ import com.javatr.entity.tariff.Tariff;
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
-import java.util.Optional;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -72,6 +71,7 @@ public class TariffHandler extends DefaultHandler {
           break;
         case SMSPRICE:
           currentTariff.setSmsPrice(Integer.parseInt(tagContent));
+          break;
         default:
           throw new EnumConstantNotPresentException(
               tariffEnum.getDeclaringClass(), tariffEnum.name());
