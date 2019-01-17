@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<gems>
+    <gem id="id1">
+        <visual_parameters>
+            <color>red</color>
+            <transparency>50</transparency>
+            <cutting_method>8</cutting_method>
+        </visual_parameters>
+        <preciousness>semiprecious</preciousness>
+        <origin>Europe</origin>
+        <value>33</value>
+        <name>Topaz</name>
+    </gem>
+    <gem id="id2">
+        <visual_parameters>
+            <color>green</color>
+            <transparency>64</transparency>
+            <cutting_method>5</cutting_method>
+        </visual_parameters>
+        <preciousness>precious</preciousness>
+        <origin>Minsk</origin>
+        <origin>Europe</origin>
+        <value>22</value>
+        <name>Onyx</name>
+    </gem>
+    <gem id="id3">
+        <visual_parameters>
+            <color>Cwfehms</color>
+            <transparency>64</transparency>
+            <cutting_method>12</cutting_method>
+        </visual_parameters>
+        <preciousness>precious</preciousness>
+        <origin>XpMx</origin>
+        <origin>NrU</origin>
+        <value>15553.4549058039</value>
+        <name>M70c81O</name>
+    </gem>
+    <gem id="id4">
+        <visual_parameters>
+            <color>Efy</color>
+            <transparency>85</transparency>
+            <cutting_method>9</cutting_method>
+        </visual_parameters>
+        <preciousness>precious</preciousness>
+        <origin>TE</origin>
+        <origin>NR</origin>
+        <value>1774.8549058039</value>
+        <name>QTG</name>
+    </gem>
+    <gem id="id5">
+        <visual_parameters>
+            <color>vfk</color>
+            <transparency>47</transparency>
+            <cutting_method>7</cutting_method>
+        </visual_parameters>
+        <preciousness>semiprecious</preciousness>
+        <origin>FlMD</origin>
+        <origin>Gpd</origin>
+        <value>1711.4149058039</value>
+        <name>MP1N3ix6m957YU754XpJ</name>
+    </gem>
+    <gem id="id6">
+        <visual_parameters>
+            <color>Ahn</color>
+            <transparency>74</transparency>
+            <cutting_method>5</cutting_method>
+        </visual_parameters>
+        <preciousness>precious</preciousness>
+        <origin>WLk</origin>
+        <origin>CsYxHSRPnd</origin>
+        <value>7794.3149058039</value>
+        <name>NY</name>
+    </gem>
+    <gem id="id7">
+        <visual_parameters>
+            <color>xoog</color>
+            <transparency>47</transparency>
+            <cutting_method>11</cutting_method>
+        </visual_parameters>
+        <preciousness>semiprecious</preciousness>
+        <origin>Xh</origin>
+        <origin>StrtlaYXPPl</origin>
+        <value>15954.0349058039</value>
+        <name>Flw8Fu</name>
+    </gem>
+    <gem id="id8">
+        <visual_parameters>
+            <color>fojir</color>
+            <transparency>47</transparency>
+            <cutting_method>14</cutting_method>
+        </visual_parameters>
+        <preciousness>semiprecious</preciousness>
+        <origin>JWP</origin>
+        <origin>YlABQU</origin>
+        <origin>NpTJOivB</origin>
+        <origin>PkK</origin>
+        <value>3070.5349058039</value>
+        <name>Kt0P7pWT7</name>
+    </gem>
+    <gem id="id9">
+        <visual_parameters>
+            <color>zud</color>
+            <transparency>10</transparency>
+            <cutting_method>14</cutting_method>
+        </visual_parameters>
+        <preciousness>semiprecious</preciousness>
+        <origin>HH</origin>
+        <origin>JUPzSNkYSyG</origin>
+        <origin>TvoVWSo</origin>
+        <origin>Ed</origin>
+        <origin>LyCeHV</origin>
+        <value>14085.5149058039</value>
+        <name>Tk</name>
+    </gem>
+    <gem id="id10">
+        <visual_parameters>
+            <color>kbc</color>
+            <transparency>17</transparency>
+            <cutting_method>6</cutting_method>
+        </visual_parameters>
+        <preciousness>precious</preciousness>
+        <origin>EAVSe</origin>
+        <origin>Dd</origin>
+        <origin>WvLnGX</origin>
+        <origin>VmrpCB</origin>
+        <origin>AjlciMH</origin>
+        <value>10058.3749058039</value>
+        <name>TF4g</name>
+    </gem>
+    <gem id="id11">
+        <visual_parameters>
+            <color>gyd</color>
+            <transparency>93</transparency>
+            <cutting_method>11</cutting_method>
+        </visual_parameters>
+        <preciousness>precious</preciousness>
+        <origin>Kuu</origin>
+        <value>7545.1149058039</value>
+        <name>OT6H0J23</name>
+    </gem>
+    <gem id="id12">
+        <visual_parameters>
+            <color>white</color>
+            <transparency>86</transparency>
+            <cutting_method>7</cutting_method>
+        </visual_parameters>
+        <preciousness>semiprecious</preciousness>
+        <origin>Poland</origin>
+        <origin>Minsk</origin>
+        <origin>Europe</origin>
+        <value>222</value>
+        <name>Opal</name>
+    </gem>
+    <gem id="id13">
+        <visual_parameters>
+            <color>black</color>
+            <transparency>36</transparency>
+            <cutting_method>6</cutting_method>
+        </visual_parameters>
+        <preciousness>semiprecious</preciousness>
+        <origin>Maiami</origin>
+        <origin>Japan</origin>
+        <origin>Australia</origin>
+        <origin>Aliaska</origin>
+        <origin>Chukotka</origin>
+        <value>10488.9749058039</value>
+        <name>Fluorite</name>
+    </gem>
+    <gem id="id14">
+        <visual_parameters>
+            <color>White</color>
+            <transparency>45</transparency>
+            <cutting_method>11</cutting_method>
+        </visual_parameters>
+        <preciousness>semiprecious</preciousness>
+        <origin>Europe</origin>
+        <origin>SouthAmerica</origin>
+        <value>0.3</value>
+        <name>Amethyst</name>
+    </gem>
+    <gem id="id15">
+        <visual_parameters>
+            <color>green</color>
+            <transparency>56</transparency>
+            <cutting_method>12</cutting_method>
+        </visual_parameters>
+        <preciousness>semiprecious</preciousness>
+        <origin>Europe</origin>
+        <value>20</value>
+        <name>Agate</name>
+    </gem>
+    <gem id="id16">
+        <visual_parameters>
+            <color>White</color>
+            <transparency>35</transparency>
+            <cutting_method>9</cutting_method>
+        </visual_parameters>
+        <preciousness>precious</preciousness>
+        <origin>Africa</origin>
+        <origin>Australia</origin>
+        <value>2</value>
+        <name>Dimond</name>
+    </gem>
+</gems>

@@ -14,35 +14,36 @@ import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
 import java.io.File;
 import java.io.IOException;
+import org.xml.sax.helpers.DefaultHandler;
 
 
 public class XMLValidatorByXSD implements XMLValidator {
 
     private static final String LANGUAGE = XMLConstants.W3C_XML_SCHEMA_NS_URI;
     private final SchemaFactory factory = SchemaFactory.newInstance(LANGUAGE);
-    private String pathToXSDScheme;
+    private final String pathToXSDScheme;
 
     public XMLValidatorByXSD(String pathToXSDScheme) {
-      this.pathToXSDScheme = pathToXSDScheme;
+        this.pathToXSDScheme = pathToXSDScheme;
     }
 
-    public void validate(String fileName) throws IOServiceException, XMLParserServiceException {
+    @Override
+    public void validate(String fileName) throws XMLParserServiceException, IOServiceException {
         Source source = new StreamSource(fileName);
 
         File schemaLocation = new File(pathToXSDScheme);
-        try {
+        try{
             Schema schema = factory.newSchema(schemaLocation);
             Validator validator = schema.newValidator();
 
-            XMLErrorHandler xmlErrorHandler = XMLErrorHandler.getInstance();
-            validator.setErrorHandler(xmlErrorHandler);
+            DefaultHandler errorHandler = XMLErrorHandler.getInstance();
+            validator.setErrorHandler(errorHandler);
             validator.validate(source);
-        } catch (SAXException e) {
-            throw new XMLParserServiceException(e);
-        } catch (IOException e) {
+        } catch (IOException e){
             throw new IOServiceException(e);
+        } catch (SAXException e){
+            throw  new XMLParserServiceException(e);
         }
-
     }
 
 }
