@@ -7,11 +7,4 @@
     <payroll>1</payroll>
     <smsprice>9</smsprice>
   </tariff>
-  <tariff id="id2">
-    <name>           der        </name>
-    <operatorname>mts          </operatorname>
-    <billing>minute</billing>
-    <payroll>1</payroll>
-    <smsprice>8</smsprice>
-  </tariff>
 </tariffs>

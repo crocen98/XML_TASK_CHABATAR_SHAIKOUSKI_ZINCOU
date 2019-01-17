@@ -12,6 +12,19 @@ public class Tariff implements Serializable {
   private int smsPrice;
   private Billing billing;
 
+  public Tariff(){
+
+  }
+
+  public Tariff(String id, String name, String operatorName,  Billing billing, int payroll, int smsPrice){
+    this.name = name;
+    this.id = id;
+    this.operatorName = operatorName;
+    this.payroll = payroll;
+    this.smsPrice = smsPrice;
+    this.billing = billing;
+  }
+
   public void setSmsPrice(int smsPrice){
     this.smsPrice = smsPrice;
   }

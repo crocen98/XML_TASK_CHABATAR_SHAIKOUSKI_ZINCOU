@@ -2,28 +2,28 @@
 <tariffs xmlns="http://xml.chebotar.com/schema/tariffs" xsi:schemaLocation="http://xml.chebotar.com/schema/tariffs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <tariff id="AAAAA">
     <name>string</name>
-    <operatorname>string</operatorname>
+    <operatorname>operator</operatorname>
     <billing>minute</billing>
     <payroll>138</payroll>
     <smsprice>66</smsprice>
   </tariff>
   <tariff id="AAAAB">
-    <name>string</name>
-    <operatorname>string</operatorname>
+    <name>coolTariff</name>
+    <operatorname>coolOperator</operatorname>
     <billing>twelve_second</billing>
     <payroll>42</payroll>
     <smsprice>69</smsprice>
   </tariff>
   <tariff id="AAAAC">
-    <name>string</name>
-    <operatorname>string</operatorname>
+    <name>AnotherCoolName</name>
+    <operatorname>rer</operatorname>
     <billing>twelve_second</billing>
     <payroll>78</payroll>
     <smsprice>152</smsprice>
   </tariff>
   <tariff id="AAAAD">
-    <name>string</name>
-    <operatorname>string</operatorname>
+    <name>kgpig</name>
+    <operatorname>poipoi</operatorname>
     <billing>twelve_second</billing>
     <payroll>82</payroll>
     <smsprice>188</smsprice>
@@ -34,12 +34,5 @@
     <billing>minute</billing>
     <payroll>119</payroll>
     <smsprice>180</smsprice>
-  </tariff>
-  <tariff id="AAAAF">
-    <name>string</name>
-    <operatorname>string</operatorname>
-    <billing>minute</billing>
-    <payroll>47</payroll>
-    <smsprice>69</smsprice>
   </tariff>
 </tariffs>
