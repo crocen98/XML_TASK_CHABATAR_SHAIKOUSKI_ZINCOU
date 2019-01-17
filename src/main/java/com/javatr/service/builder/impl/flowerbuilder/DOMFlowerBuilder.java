@@ -13,7 +13,6 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -120,14 +119,15 @@ public class DOMFlowerBuilder implements Builder<Flower> {
     private  String getElementTextContent(Element element, FlowerEnum elementName) {
         NodeList nList = element.getElementsByTagName(elementName.getTagName());
         Node node = nList.item(0);
-        return node.getTextContent();
+        String text = node.getTextContent();
+        text = text.trim();
+        return text;
+
     }
 
     public static void main(String ... args) throws IOException, XMLParserServiceException {
         DOMFlowerBuilder builder = new DOMFlowerBuilder();
-        System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"), "resources/xml/flowers_five.xml"));
-
-
+       // System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"), "resources/xml/flowers_five.xml"));
         System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"), "resources/xml/flowers_one.xml"));
 
     }
