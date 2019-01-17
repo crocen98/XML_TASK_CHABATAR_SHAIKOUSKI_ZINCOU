@@ -49,21 +49,21 @@ public class DOMTariffBuilder implements Builder<Tariff> {
     Tariff tariff = new Tariff();
     tariff.setName(getElementTextContent(tariffElement,"name"));
     tariff.setPayroll(Integer.parseInt(getElementTextContent(tariffElement,"payroll")));
+    tariff.setSmsPrice(Integer.parseInt(getElementTextContent(tariffElement,"smsprice")));
     tariff.setOperatorName(getElementTextContent(tariffElement,"operatorname"));
     tariff.setId(tariffElement.getAttribute("id"));
-    tariff.setPreciousness(Boolean.parseBoolean(tariffElement.getAttribute("preciousness").toString()));
     initBilling(tariffElement,tariff);
     return tariff;
   }
 
   private void initBilling(Element billingType, Tariff tariff){
     String billing = getElementTextContent(billingType,TariffEnum.BILLING.tagName);
-    tariff.setBilling(Billing.valueOf(billing.toUpperCase()));
+    tariff.setBilling(Billing.valueOf(billing.toUpperCase().trim()));
   }
 
   private static String getElementTextContent(Element element, String elementName) {
     NodeList nList = element.getElementsByTagName(elementName);
     Node node = nList.item(0);
-    return node.getTextContent();
+    return node.getTextContent().trim();
   }
 }

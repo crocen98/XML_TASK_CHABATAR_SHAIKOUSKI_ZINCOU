@@ -16,9 +16,9 @@ public class ParserService {
     DOMTariffBuilder domTariffBuilder = new DOMTariffBuilder();
     StAXTariffBuilder stAXTariffBuilder = new StAXTariffBuilder();
     String pathToXSD = "resources/xsd/tariffs.xsd";
-    String pathToXML = "resources/xml/tariffs.xml";
-    System.out.println(saxTariffBuilder.build(new XMLValidatorByXSD(pathToXSD),pathToXML));
+    String pathToXML = "resources/xml/tariffs_one.xml";
     System.out.println(domTariffBuilder.build(new XMLValidatorByXSD(pathToXSD),pathToXML));
+    System.out.println();
     System.out.println(saxTariffBuilder.build(new XMLValidatorByXSD(pathToXSD),pathToXML));
   }
 }

@@ -33,9 +33,6 @@ public class TariffHandler extends DefaultHandler {
     if(TariffEnum.TARIFF.tagName.equals(localName)){
       currentTariff = new Tariff();
       currentTariff.setId(attributes.getValue(0));
-      Optional<String> preciousnessStringAttribute = Optional.of(attributes.getValue(1));
-      boolean isPreciousness = Boolean.parseBoolean(preciousnessStringAttribute.get());
-      currentTariff.setPreciousness(isPreciousness);
     } else {
       TariffEnum temp = TariffEnum.valueOf(localName.toUpperCase());
       if(tariffEnumSet.contains(temp)){
@@ -59,23 +56,22 @@ public class TariffHandler extends DefaultHandler {
     if(tariffEnum !=null){
       switch (tariffEnum){
         case NAME:
-          currentTariff.setName(tagContent);
+          currentTariff.setName(tagContent.trim());
           break;
         case ID:
-          currentTariff.setId(tagContent);
+          currentTariff.setId(tagContent.trim());
           break;
         case BILLING:
-          currentTariff.setBilling(Billing.valueOf(tagContent.toUpperCase()));
-          break;
-        case PRECIOUSNESS:
-          currentTariff.setPreciousness(Boolean.parseBoolean(tagContent));
+          currentTariff.setBilling(Billing.valueOf(tagContent.toUpperCase().trim()));
           break;
         case OPERATORNAME:
-          currentTariff.setOperatorName(tagContent);
+          currentTariff.setOperatorName(tagContent.trim());
           break;
         case PAYROLL:
           currentTariff.setPayroll(Integer.parseInt(tagContent));
           break;
+        case SMSPRICE:
+          currentTariff.setSmsPrice(Integer.parseInt(tagContent));
         default:
           throw new EnumConstantNotPresentException(
               tariffEnum.getDeclaringClass(), tariffEnum.name());

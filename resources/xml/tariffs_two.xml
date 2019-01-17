@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tariffs >
+  <tariff id="id1">
+    <name>           der        </name>
+    <operatorname>mts          </operatorname>
+    <billing>minute</billing>
+    <payroll>1</payroll>
+  </tariff>
+  <tariff id="id1">
+    <name>           der        </name>
+    <operatorname>mts          </operatorname>
+    <billing>minute</billing>
+    <payroll>1</payroll>
+  </tariff>
+</tariffs>

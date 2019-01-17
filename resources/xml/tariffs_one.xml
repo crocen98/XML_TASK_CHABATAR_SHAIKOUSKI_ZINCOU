@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tariffs xmlns="http://xml.chebotar.com/schema/tariffs">
+  <tariff id="id0">
+    <name>string</name>
+    <operatorname>mts</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>200</payroll>
+    <smsprice>2</smsprice>
+  </tariff>
+  <tariff id="id1">
+    <name>line</name>
+    <operatorname>mts</operatorname>
+    <billing>minute</billing>
+    <payroll>200</payroll>
+    <smsprice>8</smsprice>
+  </tariff>
+  <tariff id="id2">
+    <name>name</name>
+    <operatorname>velcom</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>200</payroll>
+    <smsprice>6</smsprice>
+  </tariff>
+  <tariff id="id3">
+    <name>anotherGrateName</name>
+    <operatorname>mir</operatorname>
+    <billing>minute</billing>
+    <payroll>200</payroll>
+    <smsprice>9</smsprice>
+  </tariff>
+  <tariff id="id4">
+    <name>NAME</name>
+    <operatorname>operator</operatorname>
+    <billing>minute</billing>
+    <payroll>78</payroll>
+    <smsprice>9</smsprice>
+  </tariff>
+  <tariff id="id5">
+    <name>fiveTariff</name>
+    <operatorname>mts</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>123</payroll>
+    <smsprice>93</smsprice>
+  </tariff>
+  <tariff id="id6">
+    <name>trueName</name>
+    <operatorname>mts</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>98</payroll>
+    <smsprice>45</smsprice>
+  </tariff>
+  <tariff id="id7">
+    <name>anyNewName</name>
+    <operatorname>life</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>88</payroll>
+    <smsprice>65</smsprice>
+  </tariff>
+
+</tariffs>

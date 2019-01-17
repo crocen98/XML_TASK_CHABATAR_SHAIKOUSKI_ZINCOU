@@ -1,22 +1,23 @@
 package com.javatr.entity.tariff;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Tariff {
+public class Tariff implements Serializable {
 
   private String id;
-  private boolean preciousness;
   private String name;
   private String operatorName;
   private int payroll;
+  private int smsPrice;
   private Billing billing;
+
+  public void setSmsPrice(int smsPrice){
+    this.smsPrice = smsPrice;
+  }
 
   public void setBilling(Billing billing) {
     this.billing = billing;
-  }
-
-  public void setPreciousness(boolean preciousness) {
-    this.preciousness = preciousness;
   }
 
   public void setName(String name) {
@@ -39,6 +40,10 @@ public class Tariff {
     return payroll;
   }
 
+  public int getSmsPrice() {
+    return smsPrice;
+  }
+
   public Billing getBilling() {
     return billing;
   }
@@ -55,13 +60,9 @@ public class Tariff {
     return operatorName;
   }
 
-  public boolean getPreciousness(){
-    return preciousness;
-  }
-
   @Override
   public int hashCode() {
-    return Objects.hash(name,preciousness,id,billing,payroll,operatorName);
+    return Objects.hash(name,id,billing,payroll,operatorName,smsPrice);
   }
 
 
@@ -86,7 +87,7 @@ public class Tariff {
     if(!this.operatorName.equals(tariff.getOperatorName())){
       return false;
     }
-    if(!this.preciousness == tariff.getPreciousness()){
+    if(this.smsPrice != tariff.getSmsPrice()){
       return false;
     }
     return this.payroll == tariff.getPayroll();
@@ -96,11 +97,11 @@ public class Tariff {
   public String toString() {
     return "Tariff{" +
         "name='" + name + '\'' +
-        ", preciousness=" + preciousness +
         ", id=" + id +
         ", operatorName='" + operatorName + '\'' +
         ", payroll=" + payroll +
         ", billing=" + billing +
+        ", sms price" + smsPrice +
         '}';
   }
 }

@@ -14,9 +14,9 @@
         <element type="string" name="operatorname"/>
         <element type="tns:Billing" name="billing"/>
         <element type="tns:payroll" name="payroll"/>
+        <element type="tns:smsprice" name="smsprice"/>
       </sequence>
       <attribute type="ID" name="id" use="required"/>
-      <attribute type="boolean" name="preciousness"/>
     </complexType>
 
   <simpleType name="Billing">
@@ -27,6 +27,13 @@
   </simpleType>
   
   <simpleType name="payroll">
+    <restriction base="positiveInteger">
+      <minInclusive value="1"/>
+      <maxInclusive value="200"/>
+    </restriction>
+  </simpleType>
+
+  <simpleType name="smsprice">
     <restriction base="positiveInteger">
       <minInclusive value="1"/>
       <maxInclusive value="200"/>
