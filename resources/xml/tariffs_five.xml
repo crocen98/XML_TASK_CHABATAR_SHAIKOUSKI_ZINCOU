@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tariffs xmlns="http://xml.chebotar.com/schema/tariffs">
+  <tariff id="id1">
+    <name>name</name>
+    <operatorname>name</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>87</payroll>
+    <smsprice>654</smsprice>
+  </tariff>
+  <tariff id="id1">
+    <name>fre</name>
+    <operatorname>aefee</operatorname>
+    <billing>twelve_second</billing>
+    <payroll>789</payroll>
+    <smsprice>3548</smsprice>
+  </tariff>
+</tariffs>
