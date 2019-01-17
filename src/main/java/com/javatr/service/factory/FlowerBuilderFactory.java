@@ -2,12 +2,9 @@ package com.javatr.service.factory;
 
 import com.javatr.entity.flower.Flower;
 import com.javatr.service.builder.Builder;
-import com.javatr.service.builder.impl.flowerbuilder.DOMFlowerBuilder;
-import com.javatr.service.builder.impl.flowerbuilder.SAXFlowerBuilder;
-import com.javatr.service.builder.impl.flowerbuilder.StAxFlowerBuilder;
 
 public final class FlowerBuilderFactory {
-    private static FlowerBuilderFactory ourInstance = new FlowerBuilderFactory();
+   /* private static FlowerBuilderFactory ourInstance = new FlowerBuilderFactory();
 
     public static FlowerBuilderFactory getInstance() {
         return ourInstance;
@@ -32,5 +29,5 @@ public final class FlowerBuilderFactory {
     }
 
 
-
+*/
 }

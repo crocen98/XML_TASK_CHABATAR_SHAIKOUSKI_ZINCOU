@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tariffs>
+  <tariff id="id0" preciousness="true">
+    <name>string</name>
+    <operatorname>mts</operatorname>
+    <payroll>123</payroll>
+    <billing>minute</billing>
+  </tariff>
+</tariffs>
