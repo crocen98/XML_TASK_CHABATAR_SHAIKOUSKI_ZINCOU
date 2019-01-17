@@ -14,9 +14,15 @@
         <element type="string" name="operatorname"/>
         <element type="tns:Billing" name="billing"/>
         <element type="tns:payroll" name="payroll"/>
+<<<<<<< HEAD
       </sequence>
       <attribute type="ID" name="id" use="required"/>
       <attribute type="boolean" name="preciousness"/>
+=======
+        <element type="tns:smsprice" name="smsprice"/>
+      </sequence>
+      <attribute type="ID" name="id" use="required"/>
+>>>>>>> tariff_Chebotar
     </complexType>
 
   <simpleType name="Billing">
@@ -32,4 +38,14 @@
       <maxInclusive value="200"/>
     </restriction>
   </simpleType>
+<<<<<<< HEAD
+=======
+
+  <simpleType name="smsprice">
+    <restriction base="positiveInteger">
+      <minInclusive value="1"/>
+      <maxInclusive value="200"/>
+    </restriction>
+  </simpleType>
+>>>>>>> tariff_Chebotar
 </schema>

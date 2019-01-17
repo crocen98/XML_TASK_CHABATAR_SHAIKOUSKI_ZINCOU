@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tariffs xmlns="http://xml.chebotar.com/schema/tariffs">
+  <tariff id="id1">
+    <name>           der        </name>
+    <operatorname>mts          </operatorname>
+    <billing>minute</billing>
+    <payroll>1</payroll>
+    <smsprice>9</smsprice>
+  </tariff>
+  <tariff id="id2">
+    <name>           der        </name>
+    <operatorname>mts          </operatorname>
+    <billing>minute</billing>
+    <payroll>1</payroll>
+    <smsprice>8</smsprice>
+  </tariff>
+</tariffs>

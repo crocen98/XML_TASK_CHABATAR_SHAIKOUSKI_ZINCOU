@@ -4,7 +4,6 @@ import com.javatr.service.exception.IOServiceException;
 import com.javatr.service.exception.XMLParserServiceException;
 import com.javatr.service.validation.XMLErrorHandler;
 import com.javatr.service.validation.XMLValidator;
-import java.nio.file.Path;
 import org.xml.sax.SAXException;
 
 import javax.xml.XMLConstants;

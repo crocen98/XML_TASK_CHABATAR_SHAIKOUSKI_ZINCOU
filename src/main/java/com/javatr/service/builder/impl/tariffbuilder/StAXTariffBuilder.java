@@ -55,11 +55,6 @@ public class StAXTariffBuilder implements Builder<Tariff> {
     Tariff tariff = new Tariff();
     String id = reader.getAttributeValue(null, TariffEnum.ID.getTagName());
     tariff.setId(id);
-    String preciousnessString = reader.getAttributeValue(null, TariffEnum.PRECIOUSNESS.getTagName());
-    if (preciousnessString!= null) {
-      boolean preciousness = Boolean.parseBoolean(preciousnessString);
-      tariff.setPreciousness(preciousness);
-    }
     String name;
     while (reader.hasNext()) {
       int type = reader.next();
@@ -69,18 +64,23 @@ public class StAXTariffBuilder implements Builder<Tariff> {
           name = reader.getLocalName();
           switch (TariffEnum.valueOf(name.toUpperCase())) {
             case NAME:
-              tariff.setName(getXMLText(reader));
+              tariff.setName(getXMLText(reader).trim());
               break;
             case OPERATORNAME:
-              tariff.setOperatorName(getXMLText(reader));
+              tariff.setOperatorName(getXMLText(reader).trim());
               break;
             case PAYROLL:
-              name = getXMLText(reader);
+              name = getXMLText(reader).trim();
               int payroll = Integer.parseInt(name);
               tariff.setPayroll(payroll);
               break;
+            case SMSPRICE:
+              name = getXMLText(reader).trim();
+              int smsprice = Integer.parseInt(name);
+              tariff.setSmsPrice(smsprice);
+              break;
             case BILLING:
-              name = getXMLText(reader);
+              name = getXMLText(reader).trim();
               Billing billing = Billing.valueOf(name);
               tariff.setBilling(billing);
               break;
