@@ -50,7 +50,7 @@ public class DOMGemBuilderTest {
         List<Gem> gems = domGemBuilder.build(validator,pathToXML[2]);
         assertEquals(gems.get(1).getName(),"Onyx");
     }
-    @Test
+    @Test(expected = XMLParserServiceException.class)
     public void buildFourthXML() throws IOServiceException, XMLParserServiceException {
         domGemBuilder.build(validator,pathToXML[3]);
     }

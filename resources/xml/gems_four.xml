@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
-<gems  xmlns="http://www.javatr.com/entity/gem">
+<gems>
     <gem id="id1">
         <visual_parameters>
             <color>red</color>
             <transparency>50</transparency>
             <cutting_method>8</cutting_method>
         </visual_parameters>
-        <preciousness>semiprecious</preciousness>
-        <origin>Europe</origin>
-        <value>33</value>
         <name>Topaz</name>
     </gem>
-    <gem id="id2">
+    <gem id="id1">
         <visual_parameters>
             <color>green</color>
             <transparency>64</transparency>
@@ -24,7 +21,7 @@
         <value>22</value>
         <name>Onyx</name>
     </gem>
-    <gem id="id3">
+    <gem id= >
         <visual_parameters>
             <color>Cwfehms</color>
             <transparency>64</transparency>

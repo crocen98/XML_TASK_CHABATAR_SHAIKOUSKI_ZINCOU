@@ -50,7 +50,7 @@ public class SAXGemBuilderTest {
         List<Gem> gems = sAXGemBuilder.build(validator,pathToXML[2]);
         assertEquals(gems.get(1).getName(),"Onyx");
     }
-    @Test
+    @Test(expected = XMLParserServiceException.class)
     public void buildFourthXML() throws IOServiceException, XMLParserServiceException {
         sAXGemBuilder.build(validator,pathToXML[3]);
     }
