@@ -2,7 +2,7 @@
 <!--not valid file-->
 <flowers xmlns="http://xml.zinkov.com/schema/flowers">
     <flower  photophilous="true" id="id1">
-        <name>dandelion</name>
+        <name>           dandelion                    </name>
         <soil>sod_podzol</soil>
         <origin>Europ</origin>
         <origin>Asia</origin>
@@ -26,8 +26,6 @@
         <origin>Europ</origin>
         <origin>Asia</origin>
         <origin>South America</origin>
-        <origin>Australia</origin>
-        <origin>North America</origin>
         <generation>cuttings</generation>
         <visualparametrs>
             <stemcolor>light green</stemcolor>

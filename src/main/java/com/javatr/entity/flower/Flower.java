@@ -20,6 +20,31 @@ public class Flower implements Serializable {
     private boolean photophilous;
     private int watering;
 
+    public Flower(){}
+
+    public Flower(String id, String name, Set<String> origins,
+        Generation generation, Soil soil, String stemColor, String colorLeaves, int averageSize,
+        double temperature, boolean photophilous, int watering) {
+        this.id = id;
+        this.name = name;
+        this.origins = origins;
+        this.generation = generation;
+        this.soil = soil;
+        this.stemColor = stemColor;
+        this.colorLeaves = colorLeaves;
+        this.averageSize = averageSize;
+        this.temperature = temperature;
+        this.photophilous = photophilous;
+        this.watering = watering;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
 
     public void setId(String id) {
         this.id = id;

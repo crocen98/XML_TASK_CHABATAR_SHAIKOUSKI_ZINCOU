@@ -81,7 +81,7 @@ public class StAXTariffBuilder implements Builder<Tariff> {
               break;
             case BILLING:
               name = getXMLText(reader).trim();
-              Billing billing = Billing.valueOf(name);
+              Billing billing = Billing.valueOf(name.toUpperCase());
               tariff.setBilling(billing);
               break;
             default:

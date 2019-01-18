@@ -19,7 +19,7 @@ public class DOMTariffBuilderTest {
   @Test
   public void shouldReturnValidInformation() throws IOServiceException, XMLParserServiceException {
     List<Tariff> tariffList = domTariffBuilder.build(new XMLValidatorByXSD(pathToXSD),"resources/xml/tariffs_one.xml");
-    Assert.assertEquals(tariffList.size(),17);
+    Assert.assertEquals(17,tariffList.size());
   }
 
   @Test
@@ -50,9 +50,7 @@ public class DOMTariffBuilderTest {
   public void shouldTrimAllStrings() throws IOServiceException, XMLParserServiceException {
     List<Tariff> tariffListFromFile = domTariffBuilder.build(new XMLValidatorByXSD(pathToXSD),"resources/xml/tariffs_two.xml");
     Tariff tariffFromFile = tariffListFromFile.get(0);
-    boolean flag = tariffFromFile.getName().equals("der");
-    flag = tariffFromFile.getOperatorName().equals("mts");
-    Assert.assertTrue(flag);
+    Assert.assertTrue(tariffFromFile.getName().equals("der"));
   }
 
 

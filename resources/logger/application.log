@@ -1,0 +1,1 @@
+2019-01-18 04:20:52.125 [main] WARN  com.javatr.service.validation.XMLErrorHandler - org.xml.sax.SAXParseException; systemId: file:///C:/java_projects/Courses/XML_TASK_CHABATAR_SHAIKOUSKI_ZINCOU/resources/xml/tariffs_four.xml; lineNumber: 2; columnNumber: 171; SchemaLocation: schemaLocation value = 'http://xml.chebotar.com/schema/tariffs' must have even number of URI's.
