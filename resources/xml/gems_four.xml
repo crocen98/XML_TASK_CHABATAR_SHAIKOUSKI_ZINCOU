@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
-<gems>
+<gems xmlns="http://www.javatr.com/entity/gem">
     <gem id="id1">
         <visual_parameters>
             <color>red</color>
