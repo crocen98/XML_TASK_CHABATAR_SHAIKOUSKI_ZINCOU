@@ -55,7 +55,7 @@ public class StAXGemBuilder implements Builder<Gem> {
     private Gem buildGem(XMLStreamReader reader) throws XMLStreamException {
         Gem gem = new Gem();
         String id = reader.getAttributeValue(null, GemEnum.ID.getValue());
-        gem.setName(id);
+        gem.setId(id);
 
         String name;
         while (reader.hasNext()) {

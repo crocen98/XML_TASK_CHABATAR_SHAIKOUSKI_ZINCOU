@@ -11,9 +11,6 @@ import com.javatr.service.factory.ParserType;
 
 public final class FlowerBuilderFactory implements BuilderTypeFactory<Flower> {
 
-
-
-
     private final Builder<Flower> domBuilder = new DOMFlowerBuilder();
     private final Builder<Flower> saxBuilder = new SAXFlowerBuilder();
     private final Builder<Flower> stAXBuilder = new StAxFlowerBuilder();

@@ -49,7 +49,7 @@ public class GemHandler extends DefaultHandler {
     public void endElement(String uri, String localName, String qName){
         if ("gem".equals(qName)) {
             gems.add(current);
-        }else if ("visualParameters".equals(qName)){
+        }else if ("visual_parameters".equals(qName)){
             current.setVisualParameters(visualParameters);
         }
         currentEnum = null;

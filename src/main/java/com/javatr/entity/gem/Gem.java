@@ -13,6 +13,7 @@ import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 
 /**
@@ -66,7 +67,16 @@ public class Gem {
     private String id;
 
     public Gem() {
-        origin = new ArrayList<String>();
+        origin = new ArrayList<>();
+    }
+
+    public Gem(VisualParameters visualParameters, Preciousness preciousness, List<String> origin, double value, String name, String id) {
+        this.visualParameters = visualParameters;
+        this.preciousness = preciousness;
+        this.origin = origin;
+        this.value = value;
+        this.name = name;
+        this.id = id;
     }
 
     /**
@@ -215,5 +225,33 @@ public class Gem {
         this.origin.add(origin);
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Gem gem = (Gem) o;
+        return Double.compare(gem.value, value) == 0 &&
+                Objects.equals(visualParameters, gem.visualParameters) &&
+                preciousness == gem.preciousness &&
+                Objects.equals(origin, gem.origin) &&
+                Objects.equals(name, gem.name) &&
+                Objects.equals(id, gem.id);
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(visualParameters, preciousness, origin, value, name, id);
+    }
+
+    @Override
+    public String toString() {
+        return "Gem{" +
+                "visualParameters=" + visualParameters +
+                ", preciousness=" + preciousness +
+                ", origin=" + origin +
+                ", value=" + value +
+                ", name='" + name + '\'' +
+                ", id='" + id + '\'' +
+                '}';
+    }
 }

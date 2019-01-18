@@ -14,7 +14,7 @@ public class TariffHandler extends DefaultHandler {
   private List<Tariff> tariffs = new ArrayList<>();
   private Tariff currentTariff;
   private TariffEnum tariffEnum;
-  private EnumSet<TariffEnum>  tariffEnumSet = EnumSet.range(TariffEnum.NAME,TariffEnum.BILLING);
+  private EnumSet<TariffEnum>  tariffEnumSet = EnumSet.range(TariffEnum.NAME,TariffEnum.SMSPRICE);
 
   public List<Tariff> getTariffs(){
     return  tariffs;
@@ -52,7 +52,7 @@ public class TariffHandler extends DefaultHandler {
     String tagContent = new String(ch,start,length);
     tagContent = tagContent.trim();
 
-    if(tariffEnum !=null){
+    if(tariffEnum != null){
       switch (tariffEnum){
         case NAME:
           currentTariff.setName(tagContent.trim());
