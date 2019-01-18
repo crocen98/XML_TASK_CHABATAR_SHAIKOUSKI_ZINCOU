@@ -16,10 +16,10 @@
         <visual_parameters>
             <color>green</color>
             <transparency>64</transparency>
-            <cutting_method>2</cutting_method>
+            <cutting_method>5</cutting_method>
         </visual_parameters>
         <preciousness>precious</preciousness>
-        <origin>Min sk</origin>
+        <origin>Minsk</origin>
         <origin>Europe</origin>
         <value>22</value>
         <name>Onyx</name>
@@ -39,7 +39,7 @@
     <gem id="id4">
         <visual_parameters>
             <color>Efy</color>
-            <transparency>111</transparency>
+            <transparency>41</transparency>
             <cutting_method>9</cutting_method>
         </visual_parameters>
         <preciousness>precious</preciousness>
@@ -57,7 +57,7 @@
         <preciousness>semiprecious</preciousness>
         <origin>FlMD</origin>
         <origin>Gpd</origin>
-        <value>-2</value>
+        <value>2</value>
         <name>MP1N3ix6m957YU754XpJ</name>
     </gem>
     <gem id="id6">

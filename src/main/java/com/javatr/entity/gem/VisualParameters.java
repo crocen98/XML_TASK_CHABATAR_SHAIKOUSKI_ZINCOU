@@ -12,6 +12,7 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
+import java.util.Objects;
 
 
 /**
@@ -69,6 +70,15 @@ public class VisualParameters {
     @XmlElement(name = "cutting_method")
     private int cuttingMethod;
 
+    public VisualParameters() {
+    }
+
+    public VisualParameters(String color, double transparency, int cuttingMethod) {
+        this.color = color;
+        this.transparency = transparency;
+        this.cuttingMethod = cuttingMethod;
+    }
+
     /**
      * Gets the value of the color property.
      * 
@@ -125,4 +135,27 @@ public class VisualParameters {
         this.cuttingMethod = value;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        VisualParameters that = (VisualParameters) o;
+        return Double.compare(that.transparency, transparency) == 0 &&
+                cuttingMethod == that.cuttingMethod &&
+                Objects.equals(color, that.color);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(color, transparency, cuttingMethod);
+    }
+
+    @Override
+    public String toString() {
+        return "VisualParameters{" +
+                "color='" + color + '\'' +
+                ", transparency=" + transparency +
+                ", cuttingMethod=" + cuttingMethod +
+                '}';
+    }
 }
