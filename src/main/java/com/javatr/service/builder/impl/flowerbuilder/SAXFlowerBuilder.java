@@ -30,13 +30,4 @@ public List<Flower> build(XMLValidator validator, String pathToFile) throws XMLP
         }
         return flowerHandler.getFlowers();
         }
-
-
-        public static void main(String ... args) throws XMLParserServiceException, IOServiceException {
-                SAXFlowerBuilder builder = new SAXFlowerBuilder();
-                System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/flowers_five.xml").size());
-                System.out.println(builder.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/flowers_one.xml").size());
-
-        }
-
 }

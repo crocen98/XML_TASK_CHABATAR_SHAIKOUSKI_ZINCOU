@@ -19,19 +19,19 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 public class StAXGemBuilderTest {
-    private final String[] pathToXML = new String[]{
+    private static final String[] pathToXML = new String[]{
             "resources/xml/gems_one.xml",
             "resources/xml/gems_two.xml",
             "resources/xml/gems_three.xml",
             "resources/xml/gems_four.xml",
             "resources/xml/gems_five.xml"};
-    private final String pathToXSD = "resources/xsd/gems.xsd";
+    private static final  String PATH_TO_XSD = "resources/xsd/gems.xsd";
     private XMLValidator validator;
     private StAXGemBuilder stAXGemBuilder;
     @Before
     public void setUp() {
         stAXGemBuilder = new StAXGemBuilder();
-        validator = new XMLValidatorByXSD(pathToXSD);
+        validator = new XMLValidatorByXSD(PATH_TO_XSD);
     }
 
     @Test

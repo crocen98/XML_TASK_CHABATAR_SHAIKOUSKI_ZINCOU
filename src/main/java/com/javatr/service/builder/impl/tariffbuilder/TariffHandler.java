@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
 import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 public class TariffHandler extends DefaultHandler {
@@ -21,7 +20,7 @@ public class TariffHandler extends DefaultHandler {
   }
 
   @Override
-  public void startDocument() throws SAXException {
+  public void startDocument()  {
     tariffs = new ArrayList<>();
     currentTariff = null;
     tariffEnum = null;
@@ -41,14 +40,14 @@ public class TariffHandler extends DefaultHandler {
   }
 
   @Override
-  public void endElement(String uri, String localName, String qName) throws SAXException {
+  public void endElement(String uri, String localName, String qName)  {
     if(TariffEnum.TARIFF.tagName.equals(localName)){
       tariffs.add(currentTariff);
     }
   }
 
   @Override
-  public void characters(char[] ch, int start, int length) throws SAXException {
+  public void characters(char[] ch, int start, int length)  {
     String tagContent = new String(ch,start,length);
     tagContent = tagContent.trim();
 

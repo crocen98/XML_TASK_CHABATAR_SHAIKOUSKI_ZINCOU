@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<flowers xmlns="http://xml.zinkov.com/schema/flowers" xsi:schemaLocation="http://xml.zinkov.com/schema/flowers" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <flower id="AAAAA" photophilous="true">
+        <name>string</name>
+        <soil>groundwater</soil>
+        <origin>string</origin>
+        <generation>cuttings</generation>
+        <visualparametrs>
+            <stemcolor>string</stemcolor>
+            <colorLeaves>string</colorLeaves>
+            <averageSize>927727968</averageSize>
+        </visualparametrs>
+        <growingtips>
+            <temperature>41.9839058039</temperature>
+            <watering>1045562543</watering>
+        </growingtips>
+    </flower>
+    <flower id="AAAAB" photophilous="false">
+        <name>string</name>
+        <soil>groundwater</soil>
+        <origin>string</origin>
+        <generation>cuttings</generation>
+        <visualparametrs>
+            <stemcolor>string</stemcolor>
+            <colorLeaves>string</colorLeaves>
+            <averageSize>204255760</averageSize>
+        </visualparametrs>
+        <growingtips>
+            <temperature>22.4101058039</temperature>
+            <watering>111707804</watering>
+        </growingtips>
+    </flower>
+    <flower id="AAAAC" photophilous="true">
+        <name>string</name>
+        <soil>groundwater</soil>
+        <origin>string</origin>
+        <generation>cuttings</generation>
+        <visualparametrs>
+            <stemcolor>string</stemcolor>
+            <colorLeaves>string</colorLeaves>
+            <averageSize>1026263108</averageSize>
+        </visualparametrs>
+        <growingtips>
+            <temperature>117.1185058039</temperature>
+            <watering>1011050333</watering>
+        </growingtips>
+    </flower>
+    <flower id="AAAAD" photophilous="true">
+        <name>string</name>
+        <soil>groundwater</soil>
+        <origin>string</origin>
+        <origin>anotherString</origin>
+        <generation>seeds</generation>
+        <visualparametrs>
+            <stemcolor>string</stemcolor>
+            <colorLeaves>string</colorLeaves>
+            <averageSize>1041443669</averageSize>
+        </visualparametrs>
+        <growingtips>
+            <temperature>76.8965058039</temperature>
+            <watering>1475946183</watering>
+        </growingtips>
+    </flower>
+</flowers>

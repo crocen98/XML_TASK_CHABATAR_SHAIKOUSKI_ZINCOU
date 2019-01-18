@@ -20,43 +20,43 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 public class SAXGemBuilderTest {
-    private final String[] pathToXML = new String[]{"" +
+    private static final String[] PATH_TO_XML = new String[]{"" +
             "resources/xml/gems_one.xml",
             "resources/xml/gems_two.xml",
             "resources/xml/gems_three.xml",
             "resources/xml/gems_four.xml",
             "resources/xml/gems_five.xml"};
-    private final String pathToXSD = "resources/xsd/gems.xsd";
+    private static final String PATH_TO_XSD = "resources/xsd/gems.xsd";
     private XMLValidator validator;
     private Builder sAXGemBuilder;
     @Before
     public void setUp() {
         sAXGemBuilder = new SAXGemBuilder();
-        validator = new XMLValidatorByXSD(pathToXSD);
+        validator = new XMLValidatorByXSD(PATH_TO_XSD);
     }
 
     @Test
     public void buildFirstXML() throws IOServiceException, XMLParserServiceException {
-        List<Gem> gems = sAXGemBuilder.build(validator,pathToXML[0]);
+        List<Gem> gems = sAXGemBuilder.build(validator, PATH_TO_XML[0]);
         assertEquals(gems.size(),16);
     }
     @Test
     public void buildSecondXML() throws IOServiceException, XMLParserServiceException {
-        List<Gem> gems = sAXGemBuilder.build(validator,pathToXML[1]);
+        List<Gem> gems = sAXGemBuilder.build(validator, PATH_TO_XML[1]);
         assertEquals(gems,new ArrayList<>(Collections.emptyList()));
     }
     @Test
     public void buildThirdXML() throws IOServiceException, XMLParserServiceException {
-        List<Gem> gems = sAXGemBuilder.build(validator,pathToXML[2]);
+        List<Gem> gems = sAXGemBuilder.build(validator, PATH_TO_XML[2]);
         assertEquals(gems.get(1).getName(),"Onyx");
     }
     @Test(expected = XMLParserServiceException.class)
     public void buildFourthXML() throws IOServiceException, XMLParserServiceException {
-        sAXGemBuilder.build(validator,pathToXML[3]);
+        sAXGemBuilder.build(validator, PATH_TO_XML[3]);
     }
     @Test
     public void buildFifthXML() throws IOServiceException, XMLParserServiceException {
-        List<Gem> gems = sAXGemBuilder.build(validator,pathToXML[4]);
+        List<Gem> gems = sAXGemBuilder.build(validator, PATH_TO_XML[4]);
 
         Gem gem1 = new Gem(new VisualParameters("vsmi",50.0,8),
                 Preciousness.SEMIPRECIOUS, Arrays.asList("Ty"),14590.4349058039,"I16","AAAAA");

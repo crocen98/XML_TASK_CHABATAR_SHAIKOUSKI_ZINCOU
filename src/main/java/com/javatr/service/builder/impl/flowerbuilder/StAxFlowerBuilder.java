@@ -196,22 +196,4 @@ public class StAxFlowerBuilder implements Builder<Flower> {
         return text;
     }
 
-
-    public static void main(String ... args) throws IOException, XMLParserServiceException {
-        StAxFlowerBuilder builder1 = new StAxFlowerBuilder();
-        List<Flower> l1 = builder1.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/flowers_five.xml");
-
-        DOMFlowerBuilder builder2 = new DOMFlowerBuilder();
-        List<Flower> l2 = builder2.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/flowers_five.xml");
-
-        SAXFlowerBuilder builder3 = new SAXFlowerBuilder();
-        List<Flower> l3 = builder3.build(new XMLValidatorByXSD("resources/xsd/Flowers.xsd"),"resources/xml/flowers_five.xml");
-
-
-        System.out.println(l3.equals(l2));
-        System.out.println(l1.equals(l3));
-        System.out.println(l1.equals(l2));
-
-    }
-
 }

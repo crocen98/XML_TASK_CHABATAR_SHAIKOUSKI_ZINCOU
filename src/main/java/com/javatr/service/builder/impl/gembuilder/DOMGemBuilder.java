@@ -24,7 +24,7 @@ public class DOMGemBuilder implements Builder<Gem> {
     private final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
     @Override
     public List<Gem> build(XMLValidator validator, String pathToFile) throws IOServiceException, XMLParserServiceException{
-        List<Gem> gems = new ArrayList<Gem>();
+        List<Gem> gems = new ArrayList<>();
         Document document;
         DocumentBuilder docBuilder;
         validator.validate(pathToFile);

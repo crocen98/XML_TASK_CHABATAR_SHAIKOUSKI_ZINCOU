@@ -1,7 +1,5 @@
 package com.javatr.service.builder.impl.flowerbuilder;
 
-import static org.junit.Assert.*;
-
 import com.javatr.entity.flower.Flower;
 import com.javatr.entity.flower.Generation;
 import com.javatr.entity.flower.Soil;
@@ -19,11 +17,11 @@ import org.junit.Test;
 
 public class StAxFlowerBuilderTest {
   private static final StAxFlowerBuilder stAxFlowerBuilder = new StAxFlowerBuilder();
-  private static final String pathToXSD = "resources/xsd/Flowers.xsd";
+  private static final String PATH_TO_XSD = "resources/xsd/Flowers.xsd";
 
   @Test
   public void shouldReturnValidInformation() throws IOServiceException, XMLParserServiceException {
-    List<Flower> tariffList = stAxFlowerBuilder.build(new XMLValidatorByXSD(pathToXSD),"resources/xml/flowers_one.xml");
+    List<Flower> tariffList = stAxFlowerBuilder.build(new XMLValidatorByXSD(PATH_TO_XSD),"resources/xml/flowers_one.xml");
     Assert.assertEquals(16,tariffList.size());
   }
 
@@ -45,7 +43,7 @@ public class StAxFlowerBuilderTest {
 
     List<Flower> flowers = new ArrayList<>(
         Arrays.asList(firstFlower,secondFlower,thirdFlower,foursFlower));
-    List<Flower> flowersListFromFile = stAxFlowerBuilder.build(new XMLValidatorByXSD(pathToXSD),"resources/xml/flowers_five.xml");
+    List<Flower> flowersListFromFile = stAxFlowerBuilder.build(new XMLValidatorByXSD(PATH_TO_XSD),"resources/xml/flowers_five.xml");
 
     Assert.assertEquals(flowersListFromFile,flowers);
   }
@@ -53,19 +51,19 @@ public class StAxFlowerBuilderTest {
   @Test(expected = XMLParserServiceException.class)
   public void shouldThrowExceptionIfFileNotValid()
       throws IOServiceException, XMLParserServiceException {
-    List<Flower> flowerListFromFile = stAxFlowerBuilder.build(new XMLValidatorByXSD(pathToXSD),"resources/xml/flowers_two.xml");
+    stAxFlowerBuilder.build(new XMLValidatorByXSD(PATH_TO_XSD),"resources/xml/flowers_two.xml");
   }
 
   @Test
   public void shouldReturnEmptyCollection() throws IOServiceException, XMLParserServiceException {
-    List<Flower> flowerListFromFile = stAxFlowerBuilder.build(new XMLValidatorByXSD(pathToXSD),"resources/xml/flowers_four.xml");
+    List<Flower> flowerListFromFile = stAxFlowerBuilder.build(new XMLValidatorByXSD(PATH_TO_XSD),"resources/xml/flowers_four.xml");
     Assert.assertEquals(flowerListFromFile,new ArrayList<>(Collections.emptyList()));
   }
 
   @Test
   public void shouldTrimAllStrings() throws IOServiceException, XMLParserServiceException {
-    List<Flower> flowerListFromFile = stAxFlowerBuilder.build(new XMLValidatorByXSD(pathToXSD),"resources/xml/flowers_three.xml");
+    List<Flower> flowerListFromFile = stAxFlowerBuilder.build(new XMLValidatorByXSD(PATH_TO_XSD),"resources/xml/flowers_three.xml");
     Flower flowerFromFile = flowerListFromFile.get(0);
-    Assert.assertTrue(flowerFromFile.getName().equals("dandelion"));
+    Assert.assertEquals("dandelion", flowerFromFile.getName());
   }
 }

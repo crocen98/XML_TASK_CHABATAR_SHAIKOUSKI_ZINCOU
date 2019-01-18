@@ -22,7 +22,7 @@ public class StAXGemBuilder implements Builder<Gem> {
     private XMLInputFactory inputFactory = XMLInputFactory.newInstance();
     @Override
     public List<Gem> build(XMLValidator validator, String pathToFile)  throws IOServiceException, XMLParserServiceException {
-        List<Gem> gems = new ArrayList<Gem>();
+        List<Gem> gems = new ArrayList<>();
         validator.validate(pathToFile);
 
         try (FileInputStream inputStream = new FileInputStream(new File(pathToFile))) {
