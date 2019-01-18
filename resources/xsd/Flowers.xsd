@@ -18,7 +18,7 @@
         <element type="tns:growingTipsType" name="growingtips"/>
     </sequence>
     <attribute type="ID" name="id" use="required"/>
-    <attribute type="boolean" name="photophilous"/>
+    <attribute type="tns:Photophilous" name="photophilous"/>
 </complexType>
 
 <complexType name="visualParametrsType">
@@ -29,6 +29,13 @@
     </sequence>
 </complexType>
 
+
+    <simpleType name="Photophilous">
+        <restriction base="string">
+            <enumeration value="true"/>
+            <enumeration value="false"/>
+        </restriction>
+    </simpleType>
 
 
 <simpleType name="AverageSize">
