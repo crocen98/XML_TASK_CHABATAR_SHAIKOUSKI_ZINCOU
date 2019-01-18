@@ -25,9 +25,7 @@
         <origin>Europ</origin>
         <origin>Europ</origin>
         <origin>Asia</origin>
-        <origin>South America</origin>
-        <origin>Australia</origin>
-        <origin>North America</origin>
+        <origin>SouthAmerica</origin>
         <generation>cuttings</generation>
         <visualparametrs>
             <stemcolor>light green</stemcolor>
