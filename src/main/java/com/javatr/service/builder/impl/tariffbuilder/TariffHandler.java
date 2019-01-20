@@ -5,17 +5,19 @@ import com.javatr.entity.tariff.Tariff;
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
-import org.xml.sax.Attributes;
-import org.xml.sax.helpers.DefaultHandler;
 
-public class TariffHandler extends DefaultHandler {
+import com.javatr.service.builder.AbstractSAXHandler;
+import org.xml.sax.Attributes;
+
+public class TariffHandler extends AbstractSAXHandler<Tariff> {
 
   private List<Tariff> tariffs = new ArrayList<>();
   private Tariff currentTariff;
   private TariffEnum tariffEnum;
   private EnumSet<TariffEnum>  tariffEnumSet = EnumSet.range(TariffEnum.NAME,TariffEnum.SMSPRICE);
 
-  public List<Tariff> getTariffs(){
+  @Override
+  public List<Tariff> getEntityList(){
     return  tariffs;
   }
 

@@ -96,7 +96,7 @@ public class Flower implements Serializable {
         if (o == null || getClass() != o.getClass()) return false;
         Flower flower = (Flower) o;
         return averageSize == flower.averageSize &&
-                Double.compare(flower.temperature, temperature) == 0 &&
+                Objects.equals(flower.temperature, temperature) &&
                 photophilous == flower.photophilous &&
                 watering == flower.watering &&
                 Objects.equals(id, flower.id) &&

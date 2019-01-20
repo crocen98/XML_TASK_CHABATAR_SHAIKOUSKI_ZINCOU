@@ -7,7 +7,6 @@ import com.javatr.service.builder.Builder;
 import com.javatr.service.exception.IOServiceException;
 import com.javatr.service.exception.XMLParserServiceException;
 import com.javatr.service.validation.XMLValidator;
-import com.javatr.service.validation.impl.XMLValidatorByXSD;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;

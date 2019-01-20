@@ -1,33 +1,14 @@
 package com.javatr.service.builder.impl.flowerbuilder;
 import com.javatr.entity.flower.Flower;
-import com.javatr.service.builder.Builder;
-import com.javatr.service.exception.IOServiceException;
-import com.javatr.service.exception.XMLParserServiceException;
-import com.javatr.service.validation.XMLValidator;
-import com.javatr.service.validation.impl.XMLValidatorByXSD;
-import org.xml.sax.XMLReader;
-import org.xml.sax.SAXException;
-import org.xml.sax.helpers.XMLReaderFactory;
+import com.javatr.service.builder.AbstractSAXBuilder;
+import com.javatr.service.builder.AbstractSAXHandler;
 
-import java.io.IOException;
-import java.util.List;
 
-public class SAXFlowerBuilder implements Builder<Flower> {
-        private final FlowerHandler flowerHandler = new FlowerHandler();
+public class SAXFlowerBuilder extends AbstractSAXBuilder<Flower> {
+       private AbstractSAXHandler<Flower> handler = new FlowerHandler();
 
-@Override
-public List<Flower> build(XMLValidator validator, String pathToFile) throws XMLParserServiceException, IOServiceException {
-                validator.validate(pathToFile);
-        try {
-                XMLReader reader ;
-                reader = XMLReaderFactory.createXMLReader();
-                reader.setContentHandler(flowerHandler);
-                reader.parse(pathToFile);
-        } catch (SAXException e ){
-                throw  new XMLParserServiceException(e);
-        }catch (IOException e){
-                throw  new IOServiceException(e);
-        }
-        return flowerHandler.getFlowers();
+        @Override
+        public AbstractSAXHandler<Flower> getEntityHandler() {
+                return handler;
         }
 }

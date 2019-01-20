@@ -4,7 +4,7 @@
     <gem id="id1">
         <visual_parameters>
             <color>red</color>
-            <transparency>50</transparency>
+            <transparency>  50 </transparency>
             <cutting_method>8</cutting_method>
         </visual_parameters>
         <preciousness>semiprecious</preciousness>

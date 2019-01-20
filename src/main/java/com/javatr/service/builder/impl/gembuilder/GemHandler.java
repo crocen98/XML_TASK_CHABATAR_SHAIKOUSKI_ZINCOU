@@ -3,21 +3,22 @@ package com.javatr.service.builder.impl.gembuilder;
 import com.javatr.entity.gem.Gem;
 import com.javatr.entity.gem.Preciousness;
 import com.javatr.entity.gem.VisualParameters;
+import com.javatr.service.builder.AbstractSAXHandler;
 import org.xml.sax.Attributes;
-import org.xml.sax.helpers.DefaultHandler;
 
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
 
-public class GemHandler extends DefaultHandler {
+public class GemHandler extends AbstractSAXHandler<Gem> {
     private List<Gem> gems;
     private Gem current;
     private VisualParameters visualParameters;
     private GemEnum currentEnum;
     private EnumSet<GemEnum> withText;
 
-    public List<Gem> getGems() {
+    @Override
+    public List<Gem> getEntityList() {
         return gems;
     }
 

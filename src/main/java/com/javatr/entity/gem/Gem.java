@@ -230,7 +230,7 @@ public class Gem {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Gem gem = (Gem) o;
-        return Double.compare(gem.value, value) == 0 &&
+        return Objects.equals(gem.value, value)&&
                 Objects.equals(visualParameters, gem.visualParameters) &&
                 preciousness == gem.preciousness &&
                 Objects.equals(origin, gem.origin) &&

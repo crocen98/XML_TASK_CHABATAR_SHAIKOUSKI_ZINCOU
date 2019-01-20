@@ -37,7 +37,7 @@ public class StAXGemBuilderTest {
     @Test
     public void buildFirstXML() throws IOServiceException, XMLParserServiceException {
         List<Gem> gems = stAXGemBuilder.build(validator,pathToXML[0]);
-        assertEquals(gems.size(),16);
+        assertEquals(16,gems.size());
     }
     @Test
     public void buildSecondXML() throws IOServiceException, XMLParserServiceException {
@@ -47,7 +47,7 @@ public class StAXGemBuilderTest {
     @Test
     public void buildThirdXML() throws IOServiceException, XMLParserServiceException {
         List<Gem> gems = stAXGemBuilder.build(validator,pathToXML[2]);
-        assertEquals(gems.get(1).getName(),"Onyx");
+        assertEquals("Onyx",gems.get(1).getName());
     }
     @Test(expected = XMLParserServiceException.class)
     public void buildFourthXML() throws IOServiceException, XMLParserServiceException {

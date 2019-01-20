@@ -7,7 +7,6 @@ import com.javatr.service.builder.Builder;
 import com.javatr.service.exception.IOServiceException;
 import com.javatr.service.exception.XMLParserServiceException;
 import com.javatr.service.validation.XMLValidator;
-import com.javatr.service.validation.impl.XMLValidatorByXSD;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;

@@ -15,7 +15,7 @@ public class CommandProvider {
     public CommandProvider() {
         repository.put(CommandName.PARSE_FLOWER, new ParseFlower());
         repository.put(CommandName.PARSE_GEM, new ParseGem());
-        repository.put(CommandName.PARSE_TARIF, new ParseTariff());
+        repository.put(CommandName.PARSE_TARIFF, new ParseTariff());
         repository.put(CommandName.WRONG_REQUEST, new WrongRequest());
     }
 

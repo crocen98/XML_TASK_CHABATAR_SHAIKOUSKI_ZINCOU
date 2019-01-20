@@ -3,20 +3,21 @@ package com.javatr.service.builder.impl.flowerbuilder;
 import com.javatr.entity.flower.Flower;
 import com.javatr.entity.flower.Generation;
 import com.javatr.entity.flower.Soil;
+import com.javatr.service.builder.AbstractSAXHandler;
 import org.xml.sax.Attributes;
-import org.xml.sax.helpers.DefaultHandler;
 
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
 
-public class FlowerHandler  extends DefaultHandler {
+public class FlowerHandler  extends AbstractSAXHandler<Flower> {
     private List<Flower> flowers;
     private Flower current;
     private FlowerEnum currentEnum;
     private EnumSet<FlowerEnum> flowerEnumEnumSet = EnumSet.range(FlowerEnum.NAME,FlowerEnum.WATERING);
 
-    public List<Flower> getFlowers(){
+    @Override
+    public List<Flower> getEntityList(){
         return flowers;
     }
 
