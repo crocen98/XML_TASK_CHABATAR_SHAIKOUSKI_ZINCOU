@@ -18,7 +18,7 @@ public class ConsoleControllerTest {
 @Test
     public void shouldGetValidRequestAndThrowErrorMessageBecauseNotValidXMLFile(){
         String request = "resources/xml/tariffs_five.xml DOM PARSE_TARIFF";
-        String errorTestMessage = "org.xml.sax.SAXParseException; systemId: file:///D:/java/projects/XML_TASK_ZINCOU_CHABATAR_SHAIKOUSKI/resources/xml/tariffs_five.xml; lineNumber: 8; columnNumber: 29; cvc-maxInclusive-valid: Value '654' is not facet-valid with respect to maxInclusive '200' for type 'smsprice'.";
+        String errorTestMessage = "org.xml.sax.SAXParseException; systemId: file:///C:/java_projects/Courses/%D1%82%D0%B5%D1%81%D1%82/XML_TASK_CHABATAR_SHAIKOUSKI_ZINCOU/resources/xml/tariffs_five.xml; lineNumber: 8; columnNumber: 29; cvc-maxInclusive-valid: Value '654' is not facet-valid with respect to maxInclusive '200' for type 'smsprice'.";
 
         Assert.assertEquals(errorTestMessage,controller.parseEntity(request));
     }
